@@ -1,0 +1,488 @@
+﻿to ExcelData Language
+
+	set myexceldb to {type: "excel",file:ResourcePath("ExcelData.xlsx"),writable:"yes"}
+	set data to the records of myexceldb  where language is Language
+	put "a" into data's LowRate
+	if data's LowRate contains "a" 
+	put "b" into data's LowRate
+end if
+set Global waittext to data's waittext	
+set Global Currency to data's Currency
+set Global Category to data's Category
+set Global Browser to data's Browser
+set Global URL to data's URL
+set Global Browser to data's Browser
+set Global URL to data's URL
+set Global Message to data's Message
+set Global Email to data's Email
+set Global Username to data's username
+set Global Password to data's Password
+set Global User to data's User
+set Global Logout to data's Logout
+set Global Popuptext to data's popuptext
+set Global ProductName to data's productname
+end ExcelData
+
+
+
+To launch
+	
+	typetext windowsKey,"r"
+	waitfor 100,text:"Cancel",SearchRectangle:Screen.ScreenPart("BottomLeftQuadrant")
+	typetext Global Browser&&Global URL,return
+	If ImageFound(text:"Yes, I am", waitFor:15,SearchRectangle:Screen.ScreenPart("TopRightQuadrant"))
+		click FoundImageLocation()
+	else
+		log "Changing to Global site popup is not displaying"
+	End If
+End launch
+
+
+
+
+To handle globalpopup
+	If ImageFound(text:"Do you want to change to Dentsply Sirona global site", waitFor:15,SearchRectangle:Screen.ScreenPart("HorizontalMiddle"))
+		click text:"No, stay here",waitfor:10
+	else
+		log "Changing to Global site popup is not displaying"
+	End If
+	
+End globalpopup
+
+
+
+to signin 
+	click imagename:"UserIcon",waitfor:25
+	waitfor 60, text:Global Message
+	wait 3
+	click imagelocation(text:Global Email,waitfor:10,SearchRectangle:Screen.ScreenPart("Center"))
+	typetext Global Username,tabkey
+	wait 1
+	typetext Global Password,return
+	set the SearchRectangle to Screen.ScreenPart("TopRightQuadrant")
+	
+	if ImageFound(text:"Never", waitFor:15)
+		click FoundImageLocation()
+	end if
+	waitfor 60,text:Global User
+	set the SearchRectangle to empty
+	
+end signin
+
+
+
+
+to ScrollandCheck 
+	
+	set the SearchRectangle to Screen.ScreenPart("TopHalf")
+	MoveTo text:"Shop by Category", waitFor:10
+	click text:Global Category
+	waitfor 100,text:"results for"&&Global Category
+	Repeat until ImageFound(text:"View all"&&Global Category&&"Products", waitFor:5,SearchRectangle:Screen.ScreenPart("HorizontalMiddle"))
+		ScrollWheelDown 3
+		wait 1
+	End repeat
+	click FoundImageLocation()
+	waitfor 100,text:Global waittext  ,SearchRectangle:Screen.ScreenPart("TopRightQuadrant")
+	moveto FoundImageLocation()
+	
+	Repeat until ImageFound(text:"Back to previous page", waitFor:7,SearchRectangle:Screen.ScreenPart("TopLeftQuadrant"))
+		
+		repeat until ImageFound(text:Global ProductName, waitFor:5,SearchRectangle:Screen.ScreenPart("HorizontalMiddle"))
+			ScrollWheelDown 4
+			wait 2
+			(*if repeatIndex() > 2
+				click image:"NextPage", waitFor:10,SearchRectangle:Screen.ScreenPart("VerticalMiddle")
+				exit repeat*)
+			if ImageFound(imageName:"NextPage", waitFor:10,SearchRectangle:Screen.ScreenPart("HorizontalMiddle"))
+				click FoundImageLocation()
+				Repeat until ImageFound(text:Global waittext , waitFor:5,SearchRectangle:Screen.ScreenPart("TopRightQuadrant"))
+					ScrollWheelUp 5
+					wait 1
+				End repeat
+				moveto FoundImageLocation()
+				exit repeat
+			end if
+		end repeat
+		wait 1
+		if (FoundImageInfo()'s text = Global ProductName )
+			put FoundImageInfo()'s imagerectangle into rect
+			if ImageFound(text:Global Currency, waitFor:5,SearchRectangle:[rect.x-70,rect.y-50,rect.x+300,rect.y+220])
+				
+				click FoundImageLocation()+[50,-60]	
+			end if
+			
+		else
+			Next repeat
+		end if
+	End repeat
+	
+end ScrollandCheck
+
+
+
+
+to SkuCheck ShapeValue,SizeValue1,SizeValue2,LengthValue,FrictionGripValue,InstrumentValue,TypeValue,PackageSizeValue,ShankValue,PackagingTypeValue,TaperValue,ColorValue,Quantityvalue
+
+	set the SearchRectangle to Screen.ScreenPart("RightHalf")
+	ScrollWheelDown 2
+	wait 7
+	
+	put ImageLocation(text:"YOUR CUSTOM PRICE") into rect
+	put [[rect.x-80,rect.y+30],[rect.x+400,rect.y+800]] into area
+	
+	
+	if ImageFound(text:"Shape", waitFor:5)
+		put FoundImageInfo()'s ImageRectangle into var
+		if ImageFound(imageName:"collapse", waitFor:3,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]])
+			
+			click text:ShapeValue,waitfor:10
+			
+		else
+			click topleft() of var
+			click text:ShapeValue,waitfor:10
+			
+		end if
+		wait 2
+		click imageName:"collapse", waitFor:5,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]]
+		
+		wait 3
+	else
+		log "Shape variable is not avalable"
+	end if
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	if ImageFound(text:"Instrument", waitFor:5)
+		put FoundImageInfo()'s ImageRectangle into var
+		
+		if ImageFound(imageName:"collapse", waitFor:3,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]])
+			
+			click text:InstrumentValue,waitfor:10
+			
+		else
+			click topleft() of var
+			click text:InstrumentValue,waitfor:10
+			
+		end if
+		wait 2
+		click imageName:"collapse", waitFor:5,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]]
+		
+		wait 3
+	else
+		log "instrument variable is not avalable"
+	end if
+	
+	
+	
+	
+	
+	if ImageFound(text:"Size", waitFor:5)
+		put FoundImageInfo()'s ImageRectangle into var
+		if ImageFound(imageName:"collapse", waitFor:3,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]])
+			
+			if ImageFound(text:"Select a Size", waitFor:5)
+				click FoundImageLocation()
+				click text:SizeValue1,waitfor:10
+				
+			else
+				click text:SizeValue2,waitfor:10
+				
+				
+			end if
+			wait 3
+			click imageName:"collapse", waitFor:5,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]]
+			
+			wait 3
+		else
+			click topleft() of var
+			if ImageFound(text:"Select a Size", waitFor:5)
+				click FoundImageLocation()
+				click text:SizeValue1,waitfor:10
+				
+			else
+				click text:SizeValue2,waitfor:10
+				
+				
+			end if
+			wait 3
+			click imageName:"collapse", waitFor:5,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]]
+			
+			wait 3
+			
+		end if
+	else
+		log "Size variable is not available"
+	end if
+	
+	
+	
+	
+	
+	if ImageFound(text:"Length", waitFor:5)
+		
+		put FoundImageInfo()'s ImageRectangle into var
+		if ImageFound(imageName:"collapse", waitFor:3,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]])
+			
+			click text:LengthValue,waitfor:10,SearchRectangle:[[var.x+0,var.y+15],[var.x+550,var.y+90]]
+			
+		else
+			click topleft() of var
+			click text:LengthValue,waitfor:10,SearchRectangle:[[var.x+0,var.y+15],[var.x+550,var.y+90]]
+			
+			
+		end if
+		
+		wait 3
+		click imageName:"collapse", waitFor:7,SearchRectangle:[[var.x+0,var.y-12],[var.x+550,var.y+30]]
+		wait 3
+		
+	else
+		log "Length variable is not available "
+		
+	end if
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	if ImageFound(text:"Friction grip", waitFor:5)
+		put FoundImageInfo()'s ImageRectangle into var
+		if ImageFound(imageName:"collapse", waitFor:3,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]])
+			
+			click text:FrictionGripValue,waitfor:10,SearchRectangle:[[var.x-100,var.y+50],[var.x+500,var.y+160]]
+			
+			
+		else if ImageFound(text:"+", waitFor:3)
+			click topleft() of var
+			click text:FrictionGripValue,waitfor:10,SearchRectangle:[[var.x-100,var.y+50],[var.x+500,var.y+160]]
+			
+		end if
+		wait 2
+		click imageName:"collapse", waitFor:5,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]]
+		
+		
+		wait 3
+	else
+		log "friction grip variable is not avalable"
+	end if
+	
+	
+	
+	
+	
+	if ImageFound(text:"Type", waitFor:5)
+		put FoundImageInfo()'s ImageRectangle into var
+		if ImageFound(imageName:"collapse", waitFor:3,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]])
+			
+			click text:TypeValue,waitfor:10
+			
+		else
+			click topleft() of var
+			click text:TypeValue,waitfor:10
+			
+		end if
+		
+		wait 2
+		click imageName:"collapse", waitFor:5,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]]
+		
+		wait 3
+	else
+		log "Type variable is not avaiable"
+	end if
+	
+	
+	
+	
+	
+	
+	if ImageFound(text:"Package Size", waitFor:5)
+		put FoundImageInfo()'s ImageRectangle into var
+		if ImageFound(imageName:"collapse", waitFor:3,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]])
+			
+			click text:PackageSizeValue,waitfor:10
+			
+		else
+			click topleft() of var
+			click text:PackageSizeValue,waitfor:10
+		end if
+		wait 2
+		click imageName:"collapse", waitFor:5,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]]
+		
+		wait 3
+	else
+		log " Package size variable is not avaiable"
+	end if
+	
+	
+	
+	
+	
+	if ImageFound(text:"Shank", waitFor:5)
+		put FoundImageInfo()'s ImageRectangle into var
+		if ImageFound(imageName:"collapse", waitFor:3,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]])
+			
+			click text:ShankValue,waitfor:10
+			
+		else
+			click topleft() of var
+			click text:ShankValue,waitfor:10
+			
+		end if
+		wait 2
+		click imageName:"collapse", waitFor:5,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]]
+		
+		wait 3
+	else
+		log " Shank variable is not avaiable"
+	end if
+	
+	
+	
+	
+	if ImageFound(text:"Packaging Type", waitFor:5)
+		put FoundImageInfo()'s ImageRectangle into var
+		if ImageFound(imageName:"collapse", waitFor:3,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]])
+			
+			click text:PackageTypeValue,waitfor:10
+			
+		else
+			click topleft() of var
+			click text:PackageTypeValue,waitfor:10
+		end if
+		wait 2
+		click imageName:"collapse", waitFor:5,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]]
+		
+		wait 3
+	else
+		log " Package size variable is not avaiable"
+	end if
+	
+	
+	
+	
+	
+	if ImageFound(text:"Taper", waitFor:5)
+		put FoundImageInfo()'s ImageRectangle into var
+		if ImageFound(imageName:"collapse", waitFor:3,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]])
+			
+			click text:TaperValue,waitfor:10
+			
+		else
+			click topleft() of var
+			click text:TaperValue,waitfor:10
+			
+		end if
+		wait 2
+		click imageName:"collapse", waitFor:5,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]]
+		
+		wait 3
+	else
+		log " Taper variable is not avaiable"
+	end if
+	
+	
+	
+	
+	
+	if ImageFound(text:"Color", waitFor:5)
+		put FoundImageInfo()'s ImageRectangle into var
+		if ImageFound(imageName:"collapse", waitFor:3,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]])
+			
+			click text:ColorValue,waitfor:10
+			
+		else
+			click topleft() of var
+			click text:ColorValue,waitfor:10
+			
+		end if
+		wait 2
+		click imageName:"collapse", waitFor:5,SearchRectangle:[[var.x+0,var.y-5],[var.x+550,var.y+30]]
+		
+		wait 3
+		else
+		log " Color variable is not avaiable"
+	end if
+	
+	
+	
+	
+	if ImageFound(text:"Quantity", waitFor:5)
+		put FoundImageInfo()'s imagelocation() into var
+		
+		doubleclick var+[20,40]
+		typetext Quantityvalue
+		
+	else
+		log "Quantity variable is not available"
+	end if
+	
+	
+	
+	
+	ScrollWheelUp 10
+	wait 2
+	
+	
+	
+	
+	if ImageFound(text:"$", waitFor:10)
+		log "Price of the product is available"
+		put Imagerectangle(text:"Back to Previous page", waitFor:10,SearchRectangle:Screen.ScreenPart("TopLeftQuadrant")) into rect
+		put bottomleft() of rect into loc
+		doubleclick loc+[0,30]
+		typetext controlKey,c
+		put RemoteClipboard() into sku
+		log "SKV of the product is"&&sku
+	else if ImageFound(text:"Price Not Available", waitFor:10)
+		log "Price and SKU of the product is not available"
+	end if
+	
+end SkuCheck
+
+
+
+
+//params TestDataFile,SheetName,TC_Name --provide a xlsx file, sheetname and testcase name
+set MyExcelFile to Workbook(ResourcePath("ExcelData.xlsx"))
+set Sheet to worksheet(MyExcelFile,1)
+put Sheet's cellRange("A") into Cols
+log Cols
+repeat the number of items of Cols times
+	put Sheet's cellRange(repeatIndex()+1) into data
+	put item 1 of data into data2
+	put repeatIndex()+1 into outerLoopCount
+	repeat the number of items of data2 times
+		put empty into Sheet's cell(outerLoopCount,repeatIndex())
+	end repeat
+	if repeatIndex() is equal to the number of items of Cols then exit repeat
+end repeat
+
+
+
+
+
+
+
+
+set myexceldb to {type: "excel",file:ResourcePath("ExcelData.xlsx"),writable:"yes",name:"Sheet1"}
+
+set val to the record of myexceldb where Sno is 2
+
+put "d" into val's check
+
+
+//log value's LowRate where sno is 2
+

@@ -1,0 +1,86 @@
+{
+	"entries": [
+		{
+				"message": "Running master.script",
+				"identifier": "START",
+				"timestamp": "2022-01-31 18:11:16.187 +0530"
+			},
+		{
+				"handlerName": "on_exceldata",
+				"timestamp": "2022-01-31 18:11:16.316 +0530",
+				"message": "E-Mail-Adresse",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 11,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_exceldata",
+				"timestamp": "2022-01-31 18:11:16.322 +0530",
+				"message": "dent.ecom.user+stg.admin_valid@gmail.com",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 13,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-31 18:11:17.715 +0530",
+				"message": "https://staging.dentsplysirona.com/de-de[return]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-31 18:11:20.774 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (406, 92)",
+				"image": "Shop",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-31 18:11:23.806 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 7,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-31 18:11:32.694 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "Unable to Find Image (TEXT:\"Google Translate\"). Text not found.",
+				"image": "(TEXT:\"Google Translate\")",
+				"handlerLine": 8,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-31 18:11:32.714 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 15,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-01-31 18:11:51.335 +0530",
+				"message": "Searching For Image: OCR Error: Operation was aborted",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"35.341\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2022-01-31 18:11:16 +0530\", Successes:\"0\", TestCase:\"master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-01-31 18:11:51.536 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:35 master.script",
+				"identifier": "ABORTED",
+				"timestamp": "2022-01-31 18:11:51.587 +0530"
+			}
+	],
+	"createdTimestamp": "2022-01-31 18:11:16.194 +0530"
+}

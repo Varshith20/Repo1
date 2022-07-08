@@ -1,0 +1,126 @@
+﻿to ExcelData 
+
+	set myexceldb to {type: "excel",file:ResourcePath("ExcelData.xlsx")}
+	//set mysheet to worksheet(myexceldb,"1")
+	set data to the records of myexceldb where Language is Global Language
+	
+	set Global Browser to data's Browser
+	set Global URL to data's URL
+	set Global Message to data's Message
+	set Global Email to data's Email
+	set Global Username to data's username
+	set Global Password to data's Password
+	set Global User to data's User
+	set Global Logout to data's Logout
+	set Global Popuptext to data's popuptext
+	
+	
+end ExcelData
+
+
+
+To launch 
+
+	put WebDriver (host:"192.168.1.171", browser:Global Browser, url:Global URL) into launch
+	set the webdriver's windowsize to max
+	wait 3
+	(*typetext windowsKey,"r"
+	waitfor 100,text:"Cancel",SearchRectangle:Screen.ScreenPart("BottomLeftQuadrant")
+	typetext Global Browser&&Global URL,return*)
+	If ImageFound(text:"Yes, I am", waitFor:15,SearchRectangle:Screen.ScreenPart("TopRightQuadrant"))
+		click FoundImageLocation()
+	else
+		log "Changing to Global site popup is not displaying"
+	End If
+	//waitfor 60, Imagename:"Shop", Searchrectangle:Screen.ScreenPart("TopLeftQuadrant")
+	set the SearchRectangle to Screen.ScreenPart("TopRightQuadrant")
+	if ImageFound(text:"Google Translate", waitFor:7)
+		put ImageRectangle(text:"Google Translate", waitFor:10) into rect
+		click text:"English",hotspot:[120,0],waitfor:10,SearchRectangle:[[rect.x+0,rect.y-70],[rect.x+160,rect.y+0]]
+		
+		click text:"Never translate this site",waitfor:10
+		
+	end if
+	set the SearchRectangle to empty
+End launch
+
+
+
+To handle globalpopup
+	If ImageFound(text:Global Popuptext, waitFor:20,SearchRectangle:Screen.ScreenPart("Center"))
+		click FoundImageLocation()
+	else
+		log "Changing to Global site popup is not displaying"
+	End If
+	
+End globalpopup
+
+
+
+to signin 
+	//click imagename:"UserIcon",waitfor:45
+	
+	put findelement(webCssSelector: "body > header > div > div > div:nth-child(1) > div > div.ds-navbar-nav > div:nth-child(2) > div > div:nth-child(2) > div > a > span") into signin
+	click signin
+	
+	waitfor 60, text:Global Message
+	wait 3
+	
+	put findelement(webXPath:"//input[@id='signInName']") into emailfield
+	click emailfield
+	
+	//div[contains(@class,'ds-navbar-section-right-item')]/div[@data-react-component]
+	
+	//div[contains(@class,'ds-navbar-section-right-item')]/div[@data-react-component='global-nav-account-menu']
+	
+	click text:"",language:LanguageName
+	
+	click imagelocation(text:Global Email,waitfor:10,SearchRectangle:Screen.ScreenPart("Center"))
+	typetext Global Username,tabkey
+	wait 1
+	typetext Global Password,return
+	if ImageFound(text:"Never", waitFor:10,SearchRectangle:Screen.ScreenPart("TopRightQuadrant"))
+		click FoundImageLocation()
+		
+	end if
+	set the SearchRectangle to Screen.ScreenPart("TopRightQuadrant")
+	if ImageFound(text:"Google Translate", waitFor:7)
+		put ImageRectangle(text:"Google Translate", waitFor:10) into rect
+		
+		click text:"English",hotspot:[120,0],waitfor:10,SearchRectangle:[[rect.x+0,rect.y-70],[rect.x+160,rect.y+0]]
+		click text:"Never translate this site",waitfor:10
+		
+	end if
+	waitfor 60,text:Global User
+	set the SearchRectangle to empty
+	
+end signin
+
+
+to logout
+	set the SearchRectangle to Screen.ScreenPart("TopRightQuadrant")
+	//MoveTo imageName:"UserIcon", waitFor:25
+	MoveTo text:Global User, waitFor:25
+	waitfor 60, text:Global Logout
+	click FoundImageLocation()
+	wait 2
+	set the SearchRectangle to []
+end logout
+
+
+to CleanUpBrowser
+	typetext controlKey,"h"
+	click text:"Clear browsing data",SearchRectangle:Screen.ScreenPart("TopLeftQuadrant"),waitfor:20
+	set the SearchRectangle to Screen.ScreenPart("VerticalMiddle")
+	waitfor 60,text:"Clear Browsing Data"
+	click text:"Advanced"
+	click text:"Clear data",waitfor:20,caseSensitive:yes,textDifference:"1"
+	wait 3
+	typetext altKey,f4
+	WebDisconnect "192.168.1.171"
+	wait 7
+end CleanUpBrowser
+
+
+
+

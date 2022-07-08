@@ -1,0 +1,1 @@
+2022-03-01 14:54:44.742 +0530,Failure,0:00:07,1,0,0,20220301_145444.742/LogFile.txt,"","SetUrlError -- com.appium.selenium code=-2 description=Response code 404 received from Selenium Server. {""error"": ""invalid session id"",""message"": ""No active session with ID baf3d6bce5d9c4d32df5e829ea7c1931""}.",0

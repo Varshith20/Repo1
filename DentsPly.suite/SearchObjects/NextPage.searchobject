@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1164,
+		520,
+		26,
+		24
+	],
+	"lastmodifieddate": 1646035869.9429998,
+	"createddate": 1646035829.698,
+	"name": "NextPage",
+	"lastfounddate": 1646730008.865,
+	"ocrcapturestring": ">",
+	"lastfoundlocation": [
+		1121,
+		787,
+		8,
+		13
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[13,12]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "NextPage.png",
+				"connectionname": "171",
+				"type": 1,
+				"connectionserverid": "192.168.1.171",
+				"capturerect": [
+					1164,
+					520,
+					26,
+					24
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": ">"
+			}
+	]
+}

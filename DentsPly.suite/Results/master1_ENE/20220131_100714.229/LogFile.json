@@ -1,0 +1,44 @@
+{
+	"entries": [
+		{
+				"message": "Running master.script",
+				"identifier": "START",
+				"timestamp": "2022-01-31 10:07:14.241 +0530"
+			},
+		{
+				"handlerName": "on_exceldata",
+				"timestamp": "2022-01-31 10:07:14.636 +0530",
+				"message": "E-Mail-Adresse",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 11,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_exceldata",
+				"timestamp": "2022-01-31 10:07:14.648 +0530",
+				"message": "dent.ecom.user+stg.admin_valid@gmail.com",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 13,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-31 10:07:14.691 +0530",
+				"message": "Remote Connection Unavailable",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"0.777\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2022-01-31 10:07:14 +0530\", Successes:\"0\", TestCase:\"master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-01-31 10:07:15.045 +0530"
+			},
+		{
+				"message": "No Remote Connection: typetext Error - Remote Connection Unavailable -- Execution Time 0:00:00 master.script",
+				"identifier": "FAILURE",
+				"timestamp": "2022-01-31 10:07:15.276 +0530"
+			}
+	],
+	"createdTimestamp": "2022-01-31 10:07:14.247 +0530"
+}

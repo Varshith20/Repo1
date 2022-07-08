@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="HongKong_Scenario_script" package="DentsPly.suite" timestamp="2022-03-04 18:46:29.193 +0530"
+ tests="1"  failures="0" errors="0" time="0.033000">
+  <properties>
+   <property name="RunDate" value="2022-03-04 18:46:29.193 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="HongKong_Scenario.script" assertions="1" status="success"  time="0.001">
+  </testcase>
+ </testsuite>
+</testsuites>

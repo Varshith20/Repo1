@@ -1,0 +1,857 @@
+{
+	"entries": [
+		{
+				"message": "Running Master3_Login.script",
+				"identifier": "START",
+				"timestamp": "2022-03-02 19:41:11.962 +0530"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:41:14.782 +0530",
+				"message": "{browser:\"Chrome\", host:\"192.168.1.171\", url:\"https://staging.dentsplysirona.com/de-de\"}",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 3,
+				"identifier": "WebConnect"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:41:28.887 +0530",
+				"message": "https://staging.dentsplysirona.com/de-de on {Browser:\"Chrome\", host:\"192.168.1.171\", Name:\"\", port:4444, temporary:\"True\", type:\"WebDriver\", url:\"https://staging.dentsplysirona.com/de-de\"}",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 3,
+				"identifier": "Set URL"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:41:50.077 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Yes, I am\"). Text not found.",
+				"image": "(TEXT:\"Yes, I am\")",
+				"handlerLine": 9,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:41:50.112 +0530",
+				"message": "Changing to Global site popup is not displaying",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 12,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:41:50.137 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 15,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:41:59.847 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Google Translate\"). Text not found.",
+				"image": "(TEXT:\"Google Translate\")",
+				"handlerLine": 16,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:41:59.867 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 23,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:42:23.187 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1574, 43)",
+				"image": "<WebElement with TagName:\"span\", ID:\"\", Name:\"\", Text:\"Anmelden/Registrieren\", Class:\"ds-navbar-link-text\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[1496.859375,36,1653.859375,51]>",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:42:28.937 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (685, 366)",
+				"image": "(TEXT:\"Willkommen\")",
+				"handlerLine": 7,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:42:32.917 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1008, 517)",
+				"image": "(TEXT:\"E-Mail-Adresse\")",
+				"handlerLine": 12,
+				"identifier": "imagelocation"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:42:33.066 +0530",
+				"message": "at (1008, 517)",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 12,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:42:35.252 +0530",
+				"message": "dent.ecom.user+stg_de_admin.auto@gmail.com[tab]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 13,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:42:36.627 +0530",
+				"message": "Password@01[return]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 15,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:42:47.806 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Never\"). Text not found.",
+				"image": "(TEXT:\"Never\")",
+				"handlerLine": 16,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:42:47.837 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 20,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:42:57.282 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Google Translate\"). Text not found.",
+				"image": "(TEXT:\"Google Translate\")",
+				"handlerLine": 21,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:42:57.976 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (1583, 140)",
+				"image": "(TEXT:\"Hallo\")",
+				"handlerLine": 28,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:42:57.987 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 29,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-03-02 19:42:58.722 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (776, 608)",
+				"image": "(TEXT:\"blelben\")",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-03-02 19:42:59.077 +0530",
+				"message": "at (776, 608)",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-02 19:42:59.117 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-02 19:43:00.597 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1583, 158)",
+				"image": "(TEXT:\"Hallo\")",
+				"handlerLine": 4,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-02 19:43:04.436 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (1558, 376)",
+				"image": "(TEXT:\"Abmelden\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-02 19:43:04.557 +0530",
+				"message": "at (1558, 376)",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-02 19:43:06.567 +0530",
+				"message": "SEARCHRECTANGLE = []",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 8,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:43:06.907 +0530",
+				"message": "[controlKey]h",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:43:10.192 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (81, 304)",
+				"image": "(TEXT:\"Clear browsing data\")",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:43:10.222 +0530",
+				"message": "SEARCHRECTANGLE = [[480,0],[1440,1080]]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 4,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:43:13.252 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (789, 366)",
+				"image": "(TEXT:\"Clear Browsing Data\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:43:14.747 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1080, 399)",
+				"image": "(TEXT:\"Advanced\")",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:43:17.046 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1153, 784)",
+				"image": "(TEXT:\"Clear data\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:43:20.102 +0530",
+				"message": "[windowsAltKey][F4]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 9,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:43:20.127 +0530",
+				"message": "{Browser:\"Chrome\", host:\"192.168.1.171\", Name:\"\", port:4444, temporary:\"True\", type:\"WebDriver\", url:\"https://staging.dentsplysirona.com/de-de\"}",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 10,
+				"identifier": "WebDisconnect"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:43:36.847 +0530",
+				"message": "{browser:\"Chrome\", host:\"192.168.1.171\", url:\"https://staging.dentsplysirona.com/en-us\"}",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 3,
+				"identifier": "WebConnect"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:43:46.417 +0530",
+				"message": "https://staging.dentsplysirona.com/en-us on {Browser:\"Chrome\", host:\"192.168.1.171\", Name:\"\", port:4444, temporary:\"True\", type:\"WebDriver\", url:\"https://staging.dentsplysirona.com/en-us\"}",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 3,
+				"identifier": "Set URL"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:44:09.647 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Yes, I am\"). Text not found.",
+				"image": "(TEXT:\"Yes, I am\")",
+				"handlerLine": 9,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:44:09.687 +0530",
+				"message": "Changing to Global site popup is not displaying",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 12,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:44:09.767 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 15,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:44:17.916 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Google Translate\"). Text not found.",
+				"image": "(TEXT:\"Google Translate\")",
+				"handlerLine": 16,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:44:17.931 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 23,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:44:31.206 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1598, 43)",
+				"image": "<WebElement with TagName:\"span\", ID:\"\", Name:\"\", Text:\"Sign In/Register\", Class:\"ds-navbar-link-text\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[1544.640625,36,1653.640625,51]>",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:44:36.506 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (652, 366)",
+				"image": "(TEXT:\"Welcome\")",
+				"handlerLine": 7,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:44:40.026 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1006, 517)",
+				"image": "(TEXT:\"Email Address\")",
+				"handlerLine": 12,
+				"identifier": "imagelocation"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:44:40.146 +0530",
+				"message": "at (1006, 517)",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 12,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:44:42.166 +0530",
+				"message": "dent.ecom.user+stg.admin_valid@gmail.com[tab]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 13,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:44:43.527 +0530",
+				"message": "Password01[return]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 15,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:44:55.582 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Never\"). Text not found.",
+				"image": "(TEXT:\"Never\")",
+				"handlerLine": 16,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:44:55.626 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 20,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:45:04.206 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Google Translate\"). Text not found.",
+				"image": "(TEXT:\"Google Translate\")",
+				"handlerLine": 21,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:45:04.826 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (1485, 158)",
+				"image": "(TEXT:\"Default\")",
+				"handlerLine": 28,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:45:04.826 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 29,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-03-02 19:45:05.424 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (817, 609)",
+				"image": "(TEXT:\"No, stay here\")",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-03-02 19:45:05.657 +0530",
+				"message": "at (817, 609)",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-02 19:45:05.727 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-02 19:45:07.196 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1485, 158)",
+				"image": "(TEXT:\"Default\")",
+				"handlerLine": 4,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-02 19:45:09.334 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (1554, 407)",
+				"image": "(TEXT:\"Sign Out\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-02 19:45:09.476 +0530",
+				"message": "at (1554, 407)",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-02 19:45:11.481 +0530",
+				"message": "SEARCHRECTANGLE = []",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 8,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:45:11.866 +0530",
+				"message": "[controlKey]h",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:45:14.967 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (81, 304)",
+				"image": "(TEXT:\"Clear browsing data\")",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:45:15.007 +0530",
+				"message": "SEARCHRECTANGLE = [[480,0],[1440,1080]]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 4,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:45:18.344 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (789, 366)",
+				"image": "(TEXT:\"Clear Browsing Data\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:45:19.631 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1080, 399)",
+				"image": "(TEXT:\"Advanced\")",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:45:21.992 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1153, 784)",
+				"image": "(TEXT:\"Clear data\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:45:25.057 +0530",
+				"message": "[windowsAltKey][F4]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 9,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:45:25.057 +0530",
+				"message": "{Browser:\"Chrome\", host:\"192.168.1.171\", Name:\"\", port:4444, temporary:\"True\", type:\"WebDriver\", url:\"https://staging.dentsplysirona.com/en-us\"}",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 10,
+				"identifier": "WebDisconnect"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:45:37.066 +0530",
+				"message": "{browser:\"Chrome\", host:\"192.168.1.171\", url:\"https://staging.dentsplysirona.com/en-hk/shop\"}",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 3,
+				"identifier": "WebConnect"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:45:44.126 +0530",
+				"message": "https://staging.dentsplysirona.com/en-hk/shop on {Browser:\"Chrome\", host:\"192.168.1.171\", Name:\"\", port:4444, temporary:\"True\", type:\"WebDriver\", url:\"https://staging.dentsplysirona.com/en-hk/shop\"}",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 3,
+				"identifier": "Set URL"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:45:49.642 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (1517, 241)",
+				"image": "(TEXT:\"Yes, I am\")",
+				"handlerLine": 9,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:45:49.766 +0530",
+				"message": "at (1517, 241)",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 10,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:45:49.797 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 15,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:46:00.631 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Google Translate\"). Text not found.",
+				"image": "(TEXT:\"Google Translate\")",
+				"handlerLine": 16,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-02 19:46:00.646 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 23,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:46:17.386 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1598, 21)",
+				"image": "<WebElement with TagName:\"span\", ID:\"\", Name:\"\", Text:\"Sign In/Register\", Class:\"ds-navbar-link-text\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[1544.640625,14,1653.640625,29]>",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:46:27.336 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (670, 366)",
+				"image": "(TEXT:\"Welcome\")",
+				"handlerLine": 7,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:46:30.976 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1006, 517)",
+				"image": "(TEXT:\"Email Address\")",
+				"handlerLine": 12,
+				"identifier": "imagelocation"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:46:31.196 +0530",
+				"message": "at (1006, 517)",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 12,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:46:32.727 +0530",
+				"message": "dthk-ep1@sharklasers.com[tab]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 13,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:46:34.126 +0530",
+				"message": "TestUser9#[return]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 15,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:46:47.976 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Never\"). Text not found.",
+				"image": "(TEXT:\"Never\")",
+				"handlerLine": 16,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:46:48.021 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 20,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:46:56.796 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Google Translate\"). Text not found.",
+				"image": "(TEXT:\"Google Translate\")",
+				"handlerLine": 21,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:46:57.426 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (1476, 136)",
+				"image": "(TEXT:\"Hi\")",
+				"handlerLine": 28,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-02 19:46:57.436 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 29,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-03-02 19:46:58.231 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (817, 609)",
+				"image": "(TEXT:\"No, stay here\")",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-03-02 19:46:58.356 +0530",
+				"message": "at (817, 609)",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-02 19:46:58.377 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-02 19:47:00.286 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1477, 136)",
+				"image": "(TEXT:\"Hi\")",
+				"handlerLine": 4,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-02 19:47:05.246 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (1554, 363)",
+				"image": "(TEXT:\"Sign Out\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-02 19:47:05.351 +0530",
+				"message": "at (1554, 363)",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-02 19:47:07.356 +0530",
+				"message": "SEARCHRECTANGLE = []",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 8,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:47:07.626 +0530",
+				"message": "[controlKey]h",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:47:09.346 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (81, 304)",
+				"image": "(TEXT:\"Clear browsing data\")",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:47:09.411 +0530",
+				"message": "SEARCHRECTANGLE = [[480,0],[1440,1080]]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 4,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:47:12.916 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (789, 366)",
+				"image": "(TEXT:\"Clear Browsing Data\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:47:14.366 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1080, 399)",
+				"image": "(TEXT:\"Advanced\")",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:47:16.566 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1153, 784)",
+				"image": "(TEXT:\"Clear data\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:47:19.626 +0530",
+				"message": "[windowsAltKey][F4]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 9,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_cleanupbrowser",
+				"timestamp": "2022-03-02 19:47:19.651 +0530",
+				"message": "{Browser:\"Chrome\", host:\"192.168.1.171\", Name:\"\", port:4444, temporary:\"True\", type:\"WebDriver\", url:\"https://staging.dentsplysirona.com/en-hk/shop\"}",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 10,
+				"identifier": "WebDisconnect"
+			},
+		{
+				"message": "(Duration:\"375.654\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2022-03-02 19:41:11 +0530\", Successes:\"1\", TestCase:\"Master3_Login.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-03-02 19:47:27.626 +0530"
+			},
+		{
+				"message": "Execution Time 0:06:15 Master3_Login.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2022-03-02 19:47:27.846 +0530"
+			}
+	],
+	"createdTimestamp": "2022-03-02 19:41:11.972 +0530"
+}

@@ -1,0 +1,312 @@
+﻿to ExcelData Language
+
+	set myexceldb to {type: "excel",file:ResourcePath("ExcelData.xlsx")}
+	set data to the records of myexceldb where Language is Language
+	
+	
+	set Global Browser to data's Browser
+	set Global URL to data's URL
+	set Global Message to data's Message
+	set Global Email to data's Email
+	set Global Username to data's username
+	set Global Password to data's Password
+	set Global User to data's User
+	set Global Searcharea to data's searcharea
+	set Global Searchvalue to data's searchvalue
+	set Global waittext to data's waittext
+	set Global Currency to data's Currency
+	set Global AddToCart to data's Addtocart
+	set Global InStock to data's Instock
+	//set Global AddedtoCart to data's Addedtocart
+	set Global ProceedToCheckout to data's Proceed
+	set Global PlaceOrder to data's Placeorder
+	set Global ShippingAddress to data's ShippingAddress
+	set Global Deliveytext to data's Deliverytext
+	set Global DeliveryOptions to data's DeliveryOptions
+	set Global OrderTotal to data's Ordertotal
+	set Global PaymentMethod to data's Paymentmethod
+	set Global Edit to data's edit
+	set Global PayType to data's paytype
+	set Global SaveContinue to data's SaveContinue
+	set Global ReviewProducts to data's Reviewproducts
+	set Global DSPoints to data's Dspoints
+	set Global Promotion to data's promotion
+	set Global Pay to data's pay
+	set Global OrderConfirmation to data's orderconfirmation
+	set Global EmailConfirmation to data's emailconfirmation
+	set Global PasswordSvaing to data's passwordsaving
+	set Global Distributor to data's distributor
+	set Global ScheduleDelivery to data's DeliverySchedule
+	set Global SelectDate to data's SelectDatetext
+	set Global Date to data's Date
+end ExcelData 
+
+
+
+
+To launch 
+
+	put WebDriver (host:"192.168.1.171", browser:Global Browser, url:Global URL) into launch
+	set the webdriver's windowsize to max
+	wait 2
+	//TypeText windowsKey,"r"
+	//typetext Global Browser&&Global URL,return
+	//waitfor 50,text:"New tab",SearchRectangle:Screen.ScreenPart("TopLeftQuadrant")
+	waitfor 60, Imagename:"Shop", Searchrectangle:Screen.ScreenPart("TopLeftQuadrant")
+	wait 1
+	set the SearchRectangle to Screen.ScreenPart("TopRightQuadrant")
+	if ImageFound(text:"Google Translate", waitFor:4)
+		put ImageRectangle(text:"Google Translate", waitFor:10) into rect
+		click text:"English",hotspot:[120,0],waitfor:10,SearchRectangle:[[rect.x+0,rect.y-70],[rect.x+160,rect.y+0]]
+		
+		click text:"Never translate this site",waitfor:10
+		
+	end if
+	set the SearchRectangle to empty
+End launch
+
+
+
+To handle globalpopup
+	If ImageFound(text:"Do you want to change to Dentsply Sirona global site", waitFor:30,SearchRectangle:Screen.ScreenPart("HorizontalMiddle"))
+		click text:"No, stay here",waitfor:10
+	else
+		log "Changing to Global site popup is not displaying"
+	End If
+	
+End globalpopup
+
+
+
+to signin 
+	click imagename:"UserIcon",waitfor:15
+	waitfor 60, text:Global Message
+	wait 3
+	click imagelocation(text:Global Email,waitfor:10,SearchRectangle:Screen.ScreenPart("Center"))
+	typetext Global Username,tabkey
+	wait 1
+	typetext Global Password,return
+	if ImageFound(text:"Never", waitFor:15,SearchRectangle:Screen.ScreenPart("TopRightQuadrant"))
+		click FoundImageLocation()
+		
+	end if
+	set the SearchRectangle to Screen.ScreenPart("TopRightQuadrant")
+	if ImageFound(text:"Google Translate", waitFor:7)
+		put ImageRectangle(text:"Google Translate", waitFor:10) into rect
+		
+		click text:"English",hotspot:[120,0],waitfor:10,SearchRectangle:[[rect.x+0,rect.y-70],[rect.x+160,rect.y+0]]
+		click text:"Never translate this site",waitfor:10
+		
+	end if
+	waitfor 60,text:Global User
+	set the SearchRectangle to empty
+	
+end signin
+
+
+
+to search 
+
+	click image:"Shop",waitfor:10
+	if ImageFound(text:Global Distributor, waitFor:20)
+		wait 3
+		click text:Global Distributor,hotspot:[115,-15],waitfor:10
+	end if
+	click text:Global Searcharea,waitfor:10
+	typetext Global Searchvalue,return
+	wait until ImageFound(text:Global waittext,SearchRectangle:Screen.ScreenPart("TopRightQuadrant"))
+end search
+
+
+
+to selectproduct 
+	repeat until ImageFound(text:Global Currency, waitFor:7,SearchRectangle:Screen.ScreenPart("HorizontalMiddle"))
+		ScrollWheelDown 3
+	end repeat
+	wait 1
+	click FoundImageLocation()+[50,-60]
+end selectproduct
+
+
+
+
+to ProductVerifications 
+	waitfor 100,text:Global AddToCart,SearchRectangle:Screen.ScreenPart("RightHalf")
+	set the SearchRectangle to Screen.ScreenPart("TopRightQuadrant")
+	if ImageFound(text:Global Currency, waitFor:10)
+		log "Price of product is Visible"
+	else
+		log "Price of product is not visible"
+	end if
+	if ImageFound(text:Global InStock, waitFor:10)
+		log "Product is in stock"
+	else
+		log "product is not in stock"
+	end if
+	set the SearchRectangle to empty
+end ProductVerifications
+
+
+
+
+
+to AddingtoCart 
+	put findElement(webXPath: "/html/body/main/div[1]/div/div/div/div[2]/div[2]/div[2]/button") into rect 
+	click rect
+	click text:Global AddToCart,waitfor:10,SearchRectangle:Screen.ScreenPart("RightHalf")
+	set the SearchRectangle to Screen.ScreenPart("TopRightQuadrant")
+	wait 1
+	if ImageFound(text:Global ProceedToCheckout, waitFor:25)
+		click FoundImageLocation()
+		log "Product is added to cart"
+	else
+		
+		log "product is not added to cart"
+	end if
+	set the SearchRectangle to empty
+end AddingtoCart
+
+
+
+
+to Checkout 
+
+	waitfor 50,text:Global PlaceOrder,SearchRectangle:Screen.ScreenPart("TopRightQuadrant")
+	log "User Landed on the checkout page"
+	set the SearchRectangle to Screen.ScreenPart("LeftHalf")
+	if ImageFound(text:Global ShippingAddress, waitFor:20)
+		log "Correct Address is prepopulated"
+	else
+		log "Address is not prepopulated"
+	end if
+	
+	//put Imagelocation(text:Global Deliveytext, waitFor:10) into rect
+	
+	(*put findElement(webXPath:"//div[@class=' ds-loader-wrap'][1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]") into deliveryoptions
+	put FoundWebLocation()	
+	
+	*)
+	put findElement(webXPath: "//div[@class='panel__header d-flex justify-content-between bg-grey10 font-weight-normal p-3 ds-delivery-options-header']") into shipping
+	
+	put FoundWebLocation() into rect
+	click text:Global Edit,waitfor:10,SearchRectangle:[[rect.x+50,rect.y+20],[rect.x+640,rect.y+150]]
+
+
+	waitfor 30, text:Global DeliveryOptions
+	click FoundImageLocation()
+	Repeat until ImageFound(text:Global SaveContinue, waitFor:5,SearchRectangle:Screen.ScreenPart("HorizontalMiddle"))
+		ScrollWheelDown 3
+		wait 1
+	End repeat
+	wait 2
+	click text:Global ScheduleDelivery,waitfor:10
+	click text:Global SelectDate,waitfor:15
+	wait 1
+	typetext Global Date,return
+	wait 2
+	click text:Global SaveContinue,waitfor:10,SearchRectangle:Screen.ScreenPart("RightHalf")
+	wait 3
+	if ImageFound(text:Global DeliveryOptions, waitFor:10)
+		log "Delivery options is verified"
+	else
+		log "delivery options is not verified"
+	end if
+	Repeat until ImageFound(text:Global OrderTotal, waitFor:10)
+		ScrollWheelDown 3
+		wait 2
+	End repeat
+	put Imagelocation(text:Global OrderTotal, waitFor:10) into rect3
+	put readtext([rect3.x+70,rect3.y-7],[rect3.x+170,rect3.y+7]) into Global OrderValue
+	log Global OrderValue
+	put Imagelocation(text:Global PaymentMethod, waitFor:10) into rect
+	
+	click text:Global Edit,waitfor:10,SearchRectangle:[[rect.x+1,rect.y-10],[rect.x+820,rect.y+10]]
+	wait 2
+	Repeat until ImageFound(text:Global PayType, waitFor:5)
+		ScrollWheelDown 3
+		wait 1		
+	End repeat
+	click FoundImageLocation()
+	put Imagelocation(imageName:"PayButton", waitFor:10) into rect1
+	put readtext([[rect1.x+700,rect1.y-10],[rect1.x+850,rect1.y+20]]) into Global ExpiryDate
+	replace "/"  with "-" in Global ExpiryDate
+	set the SearchRectangle to Screen.ScreenPart("HorizontalMiddle")
+	Repeat until ImageFound(text:Global SaveContinue, waitFor:4)
+		ScrollWheelDown 4
+		wait 1
+	End repeat
+	click FoundImageLocation()
+	wait 3
+	Repeat until ImageFound(text:Global ReviewProducts, waitFor:5)
+		ScrollWheelUp 3
+		wait 2
+	End repeat
+	if ImageFound(text:Global DSPoints, waitFor:5)
+		log "Loyalty points are available"
+	else
+		log "Loyalty points are not Available"
+	end if
+	if ImageFound(text:Global Promotion, waitFor:7)
+		put imagelocation(text:Global Promotion, waitFor:10) into rect2
+		log "Promotional discount is"&&readtext([[rect2.x+100,rect2.y-6],[rect2.x+250,rect2.y+6]])
+	else
+		log "Promotion discount is not available for the product"
+	end if
+	click text:Global PlaceOrder,waitfor:10,SearchRectangle:Screen.ScreenPart("TopRightQuadrant")
+	set the SearchRectangle to empty
+end Checkout
+
+
+
+to PaymentCheck 
+	set the SearchRectangle to Screen.ScreenPart("BottomHalf")
+	if ImageFound(text:Global ExpiryDate, waitFor:25)
+		log "payment method matches previously selected method"
+	else
+		log "payment method does not matches previously selected method "
+	end if
+	click text:"Pay",Dpi:"144",waitfor:15,SearchRectangle:Screen.ScreenPart("BottomRightQuadrant")
+	set the SearchRectangle to empty
+end PaymentCheck
+
+
+
+
+to OrderConfirm
+	//	waitfor 100,text:Global OrderConfirmation,SearchRectangle:Screen.ScreenPart("TopHalf")
+	set the SearchRectangle to Screen.ScreenPart("HorizontalMiddle")
+	if ImageFound(text:Global OrderConfirmation, waitFor:25)
+		log "Order number is visible"
+		put ImageRectangle(text:Global OrderConfirmation, waitFor:10) into rect
+		
+		log readtext([[rect.x-130,rect.y-20],[rect.x+500,rect.y+20]])		
+	else
+		log "Order number is not visible"
+	end if
+	
+	if ImageFound(text:Global Username, waitFor:10,textDifference:"2")
+		log "Email confirmation is verified"
+		
+	else
+		log "Email confirmation is not verified"
+	end if
+	
+	repeat until ImageFound(text:Global OrderTotal, waitFor:5)
+		ScrollWheelDown 3
+		wait 1
+		If repeatIndex() is greater than  4 then 
+			exit repeat
+		End If
+		
+	end repeat
+	if ImageFound(text:Global OrderValue, textDifference:"1",waitFor:10)
+		log "Total Product price is equal with checkout price"
+	else
+		log "Total Product price is not equal with checkout price"
+	end if
+	set the SearchRectangle to empty
+end OrderConfirm
+
+
+
+

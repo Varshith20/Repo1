@@ -1,0 +1,17 @@
+﻿2022-01-28 17:53:23.346 +0530	START		Running master.script
+2022-01-28 17:53:23.533 +0530	Log		Email Address	11	on_exceldata	ReusableHandlers.script
+2022-01-28 17:53:23.533 +0530	Log		dent.ecom.user+stg.admin_valid@gmail.com 	13	on_exceldata	ReusableHandlers.script
+2022-01-28 17:53:23.611 +0530	typetext		[windowsKey]r	2	on_launch	ReusableHandlers.script
+2022-01-28 17:53:25.955 +0530	typetext		Chrome https://staging.dentsplysirona.com/en-us [return]	3	on_launch	ReusableHandlers.script
+2022-01-28 17:53:30.325 +0530	waitfor	Shop	found at (393, 92)	4	on_launch	ReusableHandlers.script
+2022-01-28 17:54:06.090 +0530	imagefound	(TEXT:"Do you want to change to Dentsply Sirona global site")	Unable to Find Image (TEXT:"Do you want to change to Dentsply Sirona global site"). Text not found.	2	on_globalpopup	ReusableHandlers.script
+2022-01-28 17:54:06.121 +0530	Log		Changing to Global site popup is not displaying	5	on_globalpopup	ReusableHandlers.script
+2022-01-28 17:54:06.437 +0530	click	UserIcon	at (1526, 115)	2	on_signin	ReusableHandlers.script
+2022-01-28 17:54:22.994 +0530	waitfor	(TEXT:"Welcome")	found at (670, 321)	3	on_signin	ReusableHandlers.script
+2022-01-28 17:54:28.820 +0530	imagelocation	(TEXT:"Email Address")	at (1006, 472)	5	on_signin	ReusableHandlers.script
+2022-01-28 17:54:29.020 +0530	click		at (1026, 512)	5	on_signin	ReusableHandlers.script
+2022-01-28 17:54:31.074 +0530	typetext		dent.ecom.user+stg.admin_valid@gmail.com [tab]	6	on_signin	ReusableHandlers.script
+2022-01-28 17:54:32.467 +0530	typetext		Password01@	9	on_signin	ReusableHandlers.script
+2022-01-28 17:54:33.212 +0530	typetext		[return]	10	on_signin	ReusableHandlers.script
+2022-01-28 17:54:48.307 +0530	EndTestCase		(Duration:"84.953", Errors:"1", Exceptions:"0", StartTime:"2022-01-28 17:53:23 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-01-28 17:54:48.408 +0530	ABORTED		Execution Time 0:01:24 master.script

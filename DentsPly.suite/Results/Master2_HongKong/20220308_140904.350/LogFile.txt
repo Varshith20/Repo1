@@ -1,0 +1,87 @@
+﻿2022-03-08 14:09:04.364 +0530	START		Running Master2_HongKong.script
+2022-03-08 14:09:04.811 +0530	typetext		[windowsKey]r	3	on_launch	HongKong_Scenario.script
+2022-03-08 14:09:14.905 +0530	waitfor	(TEXT:"Cancel")	found at (262, 996)	4	on_launch	HongKong_Scenario.script
+2022-03-08 14:09:16.599 +0530	typetext		Chrome https://staging.dentsplysirona.com/en-hk/shop[return]	5	on_launch	HongKong_Scenario.script
+2022-03-08 14:09:35.437 +0530	imagefound	(TEXT:"Yes, I am")	Unable to Find Image (TEXT:"Yes, I am"). Text not found.	6	on_launch	HongKong_Scenario.script
+2022-03-08 14:09:35.469 +0530	Log		Changing to Global site popup is not displaying	9	on_launch	HongKong_Scenario.script
+2022-03-08 14:09:36.351 +0530	click	UserIcon	at (1467, 124)	2	on_signin	HongKong_Scenario.script
+2022-03-08 14:09:54.297 +0530	waitfor	(TEXT:"Welcome")	found at (670, 353)	3	on_signin	HongKong_Scenario.script
+2022-03-08 14:09:57.717 +0530	imagelocation	(TEXT:"Email Address")	at (1006, 504)	5	on_signin	HongKong_Scenario.script
+2022-03-08 14:09:57.824 +0530	click		at (1006, 504)	5	on_signin	HongKong_Scenario.script
+2022-03-08 14:09:59.357 +0530	typetext		dthk-ep1@sharklasers.com[tab]	6	on_signin	HongKong_Scenario.script
+2022-03-08 14:10:00.757 +0530	typetext		TestUser9#[return]	8	on_signin	HongKong_Scenario.script
+2022-03-08 14:10:00.777 +0530	set		SEARCHRECTANGLE = [[960,0],[1920,540]]	9	on_signin	HongKong_Scenario.script
+2022-03-08 14:10:18.404 +0530	imagefound	(TEXT:"Never")	Unable to Find Image (TEXT:"Never"). Text not found.	11	on_signin	HongKong_Scenario.script
+2022-03-08 14:10:19.734 +0530	waitfor	(TEXT:"Hi")	found at (1398, 120)	14	on_signin	HongKong_Scenario.script
+2022-03-08 14:10:19.740 +0530	set		SEARCHRECTANGLE = 	15	on_signin	HongKong_Scenario.script
+2022-03-08 14:10:38.636 +0530	imagefound	(TEXT:"Do you want to change to Dentsply Sirona global site")	Unable to Find Image (TEXT:"Do you want to change to Dentsply Sirona global site"). Text not found.	2	on_globalpopup	HongKong_Scenario.script
+2022-03-08 14:10:38.683 +0530	Log		Changing to Global site popup is not displaying	5	on_globalpopup	HongKong_Scenario.script
+2022-03-08 14:10:38.740 +0530	set		SEARCHRECTANGLE = [[0,0],[1920,540]]	3	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:10:41.241 +0530	moveto	(TEXT:"Shop by Category")	at (402, 266)	4	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:10:49.446 +0530	click	(TEXT:"Endodontics")	at (429, 356)	5	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:11:06.409 +0530	waitfor	(TEXT:"results for Endodontics")	found at (490, 470)	6	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:11:13.418 +0530	imagefound	(TEXT:"View all Endodontics Products")	Unable to Find Image (TEXT:"View all Endodontics Products"). Text not found.	7	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:11:13.511 +0530	scrollwheeldown		moved 3	8	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:11:15.304 +0530	imagefound	(TEXT:"View all Endodontics Products")	found at (646, 560)	10	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:11:15.417 +0530	click		at (646, 560)	11	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:11:17.857 +0530	waitfor	(TEXT:"Sort by")	found at (1467, 171)	12	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:11:17.889 +0530	moveto		at (1467, 171)	13	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:11:30.226 +0530	imagefound	(TEXT:"Back to previous page")	Unable to Find Image (TEXT:"Back to previous page"). Text not found.	15	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:11:43.093 +0530	imagefound	(TEXT:"Crown Remover")	Unable to Find Image (TEXT:"Crown Remover"). Text not found.	17	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:11:43.193 +0530	scrollwheeldown		moved 4	18	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:11:55.363 +0530	imagefound	NextPage	Unable to Find Image NextPage	23	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:12:06.178 +0530	imagefound	(TEXT:"Crown Remover")	Unable to Find Image (TEXT:"Crown Remover"). Text not found.	32	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:12:06.285 +0530	scrollwheeldown		moved 4	18	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:12:08.433 +0530	imagefound	NextPage	found at (1108, 493)	23	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:12:08.577 +0530	click		at (1108, 493)	24	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:12:16.799 +0530	imagefound	(TEXT:"Sort by")	Unable to Find Image (TEXT:"Sort by"). Text not found.	25	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:12:16.897 +0530	scrollwheelup		moved 5	26	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:12:19.334 +0530	imagefound	(TEXT:"Sort by")	found at (1467, 471)	28	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:12:19.371 +0530	moveto		at (1467, 471)	29	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:12:31.032 +0530	imagefound	(TEXT:"Back to previous page")	Unable to Find Image (TEXT:"Back to previous page"). Text not found.	42	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:12:40.026 +0530	imagefound	(TEXT:"Crown Remover")	Unable to Find Image (TEXT:"Crown Remover"). Text not found.	17	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:12:40.162 +0530	scrollwheeldown		moved 4	18	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:12:52.379 +0530	imagefound	NextPage	Unable to Find Image NextPage	23	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:13:01.505 +0530	imagefound	(TEXT:"Crown Remover")	Unable to Find Image (TEXT:"Crown Remover"). Text not found.	32	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:13:01.599 +0530	scrollwheeldown		moved 4	18	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:13:13.799 +0530	imagefound	NextPage	Unable to Find Image NextPage	23	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:13:21.400 +0530	imagefound	(TEXT:"Crown Remover")	Unable to Find Image (TEXT:"Crown Remover"). Text not found.	32	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:13:21.497 +0530	scrollwheeldown		moved 4	18	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:13:23.659 +0530	imagefound	NextPage	found at (1125, 594)	23	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:13:23.816 +0530	click		at (1125, 594)	24	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:13:30.222 +0530	imagefound	(TEXT:"Sort by")	Unable to Find Image (TEXT:"Sort by"). Text not found.	25	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:13:30.308 +0530	scrollwheelup		moved 5	26	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:13:32.450 +0530	imagefound	(TEXT:"Sort by")	found at (1467, 471)	28	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:13:32.569 +0530	moveto		at (1467, 471)	29	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:13:43.392 +0530	imagefound	(TEXT:"Back to previous page")	Unable to Find Image (TEXT:"Back to previous page"). Text not found.	42	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:13:50.890 +0530	imagefound	(TEXT:"Crown Remover")	Unable to Find Image (TEXT:"Crown Remover"). Text not found.	17	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:13:50.981 +0530	scrollwheeldown		moved 4	18	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:14:03.172 +0530	imagefound	NextPage	Unable to Find Image NextPage	23	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:14:10.944 +0530	imagefound	(TEXT:"Crown Remover")	Unable to Find Image (TEXT:"Crown Remover"). Text not found.	32	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:14:11.053 +0530	scrollwheeldown		moved 4	18	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:14:13.240 +0530	imagefound	NextPage	found at (1125, 693)	23	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:14:13.410 +0530	click		at (1125, 693)	24	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:14:20.451 +0530	imagefound	(TEXT:"Sort by")	Unable to Find Image (TEXT:"Sort by"). Text not found.	25	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:14:20.562 +0530	scrollwheelup		moved 5	26	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:14:22.976 +0530	imagefound	(TEXT:"Sort by")	found at (1467, 471)	28	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:14:23.119 +0530	moveto		at (1467, 471)	29	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:14:35.638 +0530	imagefound	(TEXT:"Back to previous page")	Unable to Find Image (TEXT:"Back to previous page"). Text not found.	42	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:14:43.317 +0530	imagefound	(TEXT:"Crown Remover")	Unable to Find Image (TEXT:"Crown Remover"). Text not found.	17	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:14:43.425 +0530	scrollwheeldown		moved 4	18	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:14:55.650 +0530	imagefound	NextPage	Unable to Find Image NextPage	23	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:14:56.646 +0530	imagefound	(TEXT:"Crown Remover")	found at (1401, 607)	32	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:14:57.877 +0530	imagefound	(TEXT:"$")	found at (1348, 660)	36	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:14:58.000 +0530	click		at (1398, 600)	38	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:15:02.944 +0530	imagefound	(TEXT:"Back to previous page")	found at (432, 328)	44	on_scrollandcheck	HongKong_Scenario.script
+2022-03-08 14:15:03.200 +0530	set		SEARCHRECTANGLE = [[960,0],[1920,1080]]	3	on_skucheck	HongKong_Scenario.script
+2022-03-08 14:15:03.776 +0530	scrollwheeldown		moved 2	4	on_skucheck	HongKong_Scenario.script
+2022-03-08 14:15:06.566 +0530	imagelocation	(TEXT:"YOUR CUSTOM PRICE")	at (1217, 212)	7	on_skucheck	HongKong_Scenario.script
+2022-03-08 14:15:07.710 +0530	imagefound	(TEXT:"Shape")	found at (1192, 306)	11	on_skucheck	HongKong_Scenario.script
+2022-03-08 14:15:07.800 +0530	imagefound	collapse	found at (1195, 300)	13	on_skucheck	HongKong_Scenario.script
+2022-03-08 14:15:09.112 +0530	click	(TEXT:"DC Cone")	at (1481, 361)	15	on_skucheck	HongKong_Scenario.script
+2022-03-08 14:15:11.311 +0530	click	collapse	at (1195, 300)	23	on_skucheck	HongKong_Scenario.script
+2022-03-08 14:15:15.495 +0530	imagefound	(TEXT:"Friction")	found at (1270, 411)	33	on_skucheck	HongKong_Scenario.script
+2022-03-08 14:15:15.594 +0530	imagefound	collapse	found at (1285, 407)	35	on_skucheck	HongKong_Scenario.script
+2022-03-08 14:15:31.573 +0530	Exception	(TEXT:"Friction Grip")	No Text Found On Screen: "(TEXT:"Friction Grip")". Text not found.	37	on_skucheck	HongKong_Scenario.script
+2022-03-08 14:15:32.014 +0530	EndTestCase		(Duration:"387.637", Errors:"1", Exceptions:"1", StartTime:"2022-03-08 14:09:04 +0530", Successes:"0", TestCase:"Master2_HongKong.script", Warnings:"0")
+2022-03-08 14:15:32.147 +0530	ABORTED		Execution Time 0:06:27 Master2_HongKong.script

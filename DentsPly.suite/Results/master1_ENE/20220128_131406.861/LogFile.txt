@@ -1,0 +1,5 @@
+﻿2022-01-28 13:14:06.872 +0530	START		Running master.script
+2022-01-28 13:14:07.001 +0530	Log			14	on_exceldata	ReusableHandlers.script
+2022-01-28 13:14:07.008 +0530	Log			14	on_exceldata	ReusableHandlers.script
+2022-01-28 13:14:07.305 +0530	EndTestCase		(Duration:"0.426", Errors:"0", Exceptions:"0", StartTime:"2022-01-28 13:14:06 +0530", Successes:"1", TestCase:"master.script", Warnings:"0")
+2022-01-28 13:14:07.473 +0530	SUCCESS		Execution Time 0:00:00 master.script

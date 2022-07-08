@@ -1,0 +1,331 @@
+{
+	"entries": [
+		{
+				"message": "Running Master2_HongKong.script",
+				"identifier": "START",
+				"timestamp": "2022-03-01 16:46:39.988 +0530"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 16:46:40.216 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "HongKong_Scenario.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 16:46:51.060 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "found at (262, 996)",
+				"image": "(TEXT:\"Cancel\")",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 16:46:53.127 +0530",
+				"message": "Chrome https://staging.dentsplysirona.com/en-hk/shop[return]",
+				"scriptName": "HongKong_Scenario.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 16:47:14.077 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "Unable to Find Image (TEXT:\"Yes, I am\"). Text not found.",
+				"image": "(TEXT:\"Yes, I am\")",
+				"handlerLine": 6,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 16:47:14.108 +0530",
+				"message": "Changing to Global site popup is not displaying",
+				"scriptName": "HongKong_Scenario.script",
+				"handlerLine": 9,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-03-01 16:47:48.232 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "Unable to Find Image (TEXT:\"Do you want to change to Dentsply Sirona global site\"). Text not found.",
+				"image": "(TEXT:\"Do you want to change to Dentsply Sirona global site\")",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-03-01 16:47:48.278 +0530",
+				"message": "Changing to Global site popup is not displaying",
+				"scriptName": "HongKong_Scenario.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 16:47:48.818 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "at (1525, 126)",
+				"image": "UserIcon",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 16:48:16.321 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "found at (670, 353)",
+				"image": "(TEXT:\"Welcome\")",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 16:48:19.780 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "at (1006, 504)",
+				"image": "(TEXT:\"Email Address\")",
+				"handlerLine": 5,
+				"identifier": "imagelocation"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 16:48:19.912 +0530",
+				"message": "at (1006, 504)",
+				"scriptName": "HongKong_Scenario.script",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 16:48:21.563 +0530",
+				"message": "dthk-ep1@sharklasers.com[tab]",
+				"scriptName": "HongKong_Scenario.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 16:48:22.981 +0530",
+				"message": "TestUser9#[return]",
+				"scriptName": "HongKong_Scenario.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 16:48:22.988 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "HongKong_Scenario.script",
+				"handlerLine": 9,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 16:48:40.963 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "Unable to Find Image (TEXT:\"Never\"). Text not found.",
+				"image": "(TEXT:\"Never\")",
+				"handlerLine": 11,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 16:48:41.588 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "found at (1504, 123)",
+				"image": "(TEXT:\"Hi\")",
+				"handlerLine": 14,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 16:48:41.594 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "HongKong_Scenario.script",
+				"handlerLine": 15,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_scrollandcheck",
+				"timestamp": "2022-03-01 16:48:41.826 +0530",
+				"message": "SEARCHRECTANGLE = [[0,0],[1920,540]]",
+				"scriptName": "HongKong_Scenario.script",
+				"handlerLine": 3,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_scrollandcheck",
+				"timestamp": "2022-03-01 16:48:43.662 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "at (341, 285)",
+				"image": "(TEXT:\"Shop by Category\")",
+				"handlerLine": 4,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_scrollandcheck",
+				"timestamp": "2022-03-01 16:48:50.531 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "at (372, 385)",
+				"image": "(TEXT:\"Endodontics\")",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_scrollandcheck",
+				"timestamp": "2022-03-01 16:49:09.176 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "found at (438, 512)",
+				"image": "(TEXT:\"results for Endodontics\")",
+				"handlerLine": 6,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_scrollandcheck",
+				"timestamp": "2022-03-01 16:49:16.339 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "Unable to Find Image (TEXT:\"View all Endodontics Products\"). Text not found.",
+				"image": "(TEXT:\"View all Endodontics Products\")",
+				"handlerLine": 7,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_scrollandcheck",
+				"timestamp": "2022-03-01 16:49:16.424 +0530",
+				"message": "moved 3",
+				"scriptName": "HongKong_Scenario.script",
+				"handlerLine": 8,
+				"identifier": "scrollwheeldown"
+			},
+		{
+				"handlerName": "on_scrollandcheck",
+				"timestamp": "2022-03-01 16:49:18.198 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "found at (612, 746)",
+				"image": "(TEXT:\"View all Endodontics Products\")",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_scrollandcheck",
+				"timestamp": "2022-03-01 16:49:18.329 +0530",
+				"message": "at (612, 746)",
+				"scriptName": "HongKong_Scenario.script",
+				"handlerLine": 11,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_scrollandcheck",
+				"timestamp": "2022-03-01 16:49:20.374 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "found at (1525, 312)",
+				"image": "(TEXT:\"Sort by\")",
+				"handlerLine": 12,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_scrollandcheck",
+				"timestamp": "2022-03-01 16:49:30.814 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "Unable to Find Image (TEXT:\"Add to Cart\"). Text not found.",
+				"image": "(TEXT:\"Add to Cart\")",
+				"handlerLine": 13,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_scrollandcheck",
+				"timestamp": "2022-03-01 16:49:33.374 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "found at (1415, 448)",
+				"image": "(TEXT:\"$\")",
+				"handlerLine": 15,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_scrollandcheck",
+				"timestamp": "2022-03-01 16:49:46.929 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "Unable to Find Image (TEXT:\"Crown Remover\"). Text not found.",
+				"image": "(TEXT:\"Crown Remover\")",
+				"handlerLine": 23,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_scrollandcheck",
+				"timestamp": "2022-03-01 16:49:57.345 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "Unable to Find Image (TEXT:\"Add to Cart\"). Text not found.",
+				"image": "(TEXT:\"Add to Cart\")",
+				"handlerLine": 28,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_scrollandcheck",
+				"timestamp": "2022-03-01 16:49:59.897 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "found at (1415, 448)",
+				"image": "(TEXT:\"$\")",
+				"handlerLine": 15,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_scrollandcheck",
+				"timestamp": "2022-03-01 16:50:14.622 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "Unable to Find Image (TEXT:\"Crown Remover\"). Text not found.",
+				"image": "(TEXT:\"Crown Remover\")",
+				"handlerLine": 23,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_scrollandcheck",
+				"timestamp": "2022-03-01 16:50:26.308 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "Unable to Find Image (TEXT:\"Add to Cart\"). Text not found.",
+				"image": "(TEXT:\"Add to Cart\")",
+				"handlerLine": 28,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_scrollandcheck",
+				"timestamp": "2022-03-01 16:50:29.458 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "found at (1415, 448)",
+				"image": "(TEXT:\"$\")",
+				"handlerLine": 15,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_scrollandcheck",
+				"timestamp": "2022-03-01 16:50:40.066 +0530",
+				"scriptName": "HongKong_Scenario.script",
+				"message": "Unable to Find Image (TEXT:\"Crown Remover\"). Text not found.",
+				"image": "(TEXT:\"Crown Remover\")",
+				"handlerLine": 23,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_scrollandcheck",
+				"timestamp": "2022-03-01 16:50:48.001 +0530",
+				"message": "Searching For Image: OCR Error: Operation was aborted",
+				"scriptName": "HongKong_Scenario.script",
+				"handlerLine": 28,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"248.282\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2022-03-01 16:46:39 +0530\", Successes:\"0\", TestCase:\"Master2_HongKong.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-03-01 16:50:48.270 +0530"
+			},
+		{
+				"message": "Execution Time 0:04:08 Master2_HongKong.script",
+				"identifier": "ABORTED",
+				"timestamp": "2022-03-01 16:50:48.333 +0530"
+			}
+	],
+	"createdTimestamp": "2022-03-01 16:46:39.988 +0530"
+}

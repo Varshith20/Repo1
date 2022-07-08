@@ -1,0 +1,34 @@
+{
+	"entries": [
+		{
+				"message": "Running master.script",
+				"identifier": "START",
+				"timestamp": "2022-01-28 13:14:06.872 +0530"
+			},
+		{
+				"handlerName": "on_exceldata",
+				"timestamp": "2022-01-28 13:14:07.001 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"identifier": "Log",
+				"handlerLine": 14
+			},
+		{
+				"handlerName": "on_exceldata",
+				"timestamp": "2022-01-28 13:14:07.008 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"identifier": "Log",
+				"handlerLine": 14
+			},
+		{
+				"message": "(Duration:\"0.426\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2022-01-28 13:14:06 +0530\", Successes:\"1\", TestCase:\"master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-01-28 13:14:07.305 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 master.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2022-01-28 13:14:07.473 +0530"
+			}
+	],
+	"createdTimestamp": "2022-01-28 13:14:06.877 +0530"
+}

@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1518,
+		104,
+		17,
+		22
+	],
+	"lastmodifieddate": 1646028506.5580001,
+	"createddate": 1643367918.4320002,
+	"name": "UserIcon",
+	"lastfounddate": 1646723615.5640001,
+	"ocrcapturestring": "p",
+	"lastfoundlocation": [
+		812,
+		972,
+		6,
+		10
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[8,11]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "UserIcon/UserIcon.png",
+				"connectionname": "81",
+				"type": 1,
+				"connectionserverid": "192.168.1.81",
+				"capturerect": [
+					1518,
+					104,
+					17,
+					22
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "o"
+			}
+	]
+}

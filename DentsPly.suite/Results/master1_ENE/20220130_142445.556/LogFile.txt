@@ -1,0 +1,21 @@
+﻿2022-01-30 14:24:45.571 +0530	START		Running master.script
+2022-01-30 14:24:45.731 +0530	Log		E-Mail-Adresse	11	on_exceldata	ReusableHandlers.script
+2022-01-30 14:24:45.747 +0530	Log		dent.ecom.user+stg.admin_valid@gmail.com	13	on_exceldata	ReusableHandlers.script
+2022-01-30 14:24:45.825 +0530	typetext		[windowsKey]r	2	on_launch	ReusableHandlers.script
+2022-01-30 14:24:47.253 +0530	typetext		microsoft-edge://[return]	3	on_launch	ReusableHandlers.script
+2022-01-30 14:24:48.070 +0530	waitfor	(TEXT:"New tab")	found at (105, 14)	4	on_launch	ReusableHandlers.script
+2022-01-30 14:24:51.178 +0530	typetext		https://staging.dentsplysirona.com/de-de[return]	5	on_launch	ReusableHandlers.script
+2022-01-30 14:24:55.470 +0530	waitfor	Shop	found at (406, 92)	6	on_launch	ReusableHandlers.script
+2022-01-30 14:25:15.400 +0530	imagefound	(TEXT:"Do you want to change to Dentsply Sirona global site")	found at (632, 450)	2	on_globalpopup	ReusableHandlers.script
+2022-01-30 14:25:18.253 +0530	click	(TEXT:"No, stay here")	at (817, 578)	3	on_globalpopup	ReusableHandlers.script
+2022-01-30 14:25:19.725 +0530	click	UserIcon	at (1478, 97)	2	on_signin	ReusableHandlers.script
+2022-01-30 14:25:34.305 +0530	waitfor	(TEXT:"Willkommen")	found at (685, 321)	3	on_signin	ReusableHandlers.script
+2022-01-30 14:25:39.986 +0530	imagelocation	(TEXT:"E-Mail-Adresse")	at (1008, 472)	5	on_signin	ReusableHandlers.script
+2022-01-30 14:25:40.137 +0530	click		at (1008, 472)	5	on_signin	ReusableHandlers.script
+2022-01-30 14:25:42.460 +0530	typetext		dent.ecom.user+stg.admin_valid@gmail.com[tab]	6	on_signin	ReusableHandlers.script
+2022-01-30 14:25:43.894 +0530	typetext		Password01@[return]	9	on_signin	ReusableHandlers.script
+2022-01-30 14:25:54.646 +0530	imagefound	(TEXT:"Never")	found at (1565, 309)	11	on_signin	ReusableHandlers.script
+2022-01-30 14:25:54.900 +0530	click		at (1565, 309)	12	on_signin	ReusableHandlers.script
+2022-01-30 14:26:09.467 +0530	Exception		Searching For Image: OCR Error: Operation was aborted	15	on_signin	ReusableHandlers.script
+2022-01-30 14:26:09.762 +0530	EndTestCase		(Duration:"84.191", Errors:"1", Exceptions:"1", StartTime:"2022-01-30 14:24:45 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-01-30 14:26:09.872 +0530	ABORTED		Execution Time 0:01:24 master.script

@@ -1,0 +1,60 @@
+{
+	"entries": [
+		{
+				"message": "Running master.script",
+				"identifier": "START",
+				"timestamp": "2022-01-30 14:23:16.797 +0530"
+			},
+		{
+				"handlerName": "on_exceldata",
+				"timestamp": "2022-01-30 14:23:16.941 +0530",
+				"message": "E-Mail-Adresse",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 11,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_exceldata",
+				"timestamp": "2022-01-30 14:23:16.951 +0530",
+				"message": "dent.ecom.user+stg.admin_valid@gmail.com",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 13,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-30 14:23:17.013 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-30 14:23:18.332 +0530",
+				"message": "microsoft-edge://[return]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-30 14:23:35.976 +0530",
+				"message": "Searching For Image: OCR Error: Operation was aborted",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 4,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"19.34\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2022-01-30 14:23:16 +0530\", Successes:\"0\", TestCase:\"master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-01-30 14:23:36.145 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:19 master.script",
+				"identifier": "ABORTED",
+				"timestamp": "2022-01-30 14:23:36.214 +0530"
+			}
+	],
+	"createdTimestamp": "2022-01-30 14:23:16.805 +0530"
+}

@@ -1,0 +1,38 @@
+﻿to launchapp
+	typetext windowskey,r
+	waitfor 60,text:"Run",SearchRectangle:screen.ScreenPart("BottomLeftQuadrant")
+	typetext "chrome"&&"https://staging.dentsplysirona.com/en-hk/shop",return
+	
+end launchapp
+
+
+to handle Login
+	waitfor 100,text:"Sign In",SearchRectangle:Screen.ScreenPart("TopRightQuadrant") // waiting for text after open application 
+	wait 2
+	click FoundImageLocation()
+	set the SearchRectangle to Screen.ScreenPart("Horizontalmiddle")
+	waitfor 100,text:"Welcome"
+	wait 2
+	click text:"Email Address",waitfor:10
+	typetext "dthk-ep1@sharklasers.com",tabkey // entering username and moving to next field
+	typetext "TestUser9#",return // enter password and hitting enter
+	set the SearchRectangle to empty
+	
+end Login
+
+
+to handle Logout
+	set the SearchRectangle to Screen.ScreenPart("TopRightQuadrant")
+	
+	waitfor 60, text:"Hi"
+	wait 2
+	moveto FoundImageLocation()
+	if ImageFound(text:"Sign Out", waitFor:10)
+		click FoundImageLocation()
+		set the SearchRectangle to empty
+	end if
+end Logout
+
+
+
+

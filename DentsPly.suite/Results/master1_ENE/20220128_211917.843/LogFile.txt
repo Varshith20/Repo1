@@ -1,0 +1,7 @@
+﻿2022-01-28 21:19:17.847 +0530	START		Running master.script
+2022-01-28 21:19:18.007 +0530	Log			11	on_exceldata	ReusableHandlers.script
+2022-01-28 21:19:18.020 +0530	Log			13	on_exceldata	ReusableHandlers.script
+2022-01-28 21:19:18.198 +0530	set		SEARCHRECTANGLE = [[0,270],[1920,810]]	3	function_orderconfirmation	ReusableHandlers.script
+2022-01-28 21:19:18.214 +0530	Exception		Image Property List did not contain "ImageName" property	4	function_orderconfirmation	ReusableHandlers.script
+2022-01-28 21:19:18.699 +0530	EndTestCase		(Duration:"0.852", Errors:"1", Exceptions:"1", StartTime:"2022-01-28 21:19:17 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-01-28 21:19:19.348 +0530	FAILURE	Screen_Error.png	Image Not Found: imagefound Error - Image Property List did not contain "ImageName" property  Restricted Search Rectangle ((0,270),(1920,810))\n -- Execution Time 0:00:00 master.script

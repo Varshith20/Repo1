@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Master3_Login_script" package="DentsPly.suite" timestamp="2022-03-01 15:01:23.127 +0530"
+ tests="1"  failures="0" errors="0" time="115.543000">
+  <properties>
+   <property name="RunDate" value="2022-03-01 15:01:23.127 +0530"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Master3_Login.script" assertions="1" status="error"  time="115.532">
+    <error type="Exception" message="Searching For Image: OCR Error: Operation was aborted" />
+  </testcase>
+ </testsuite>
+</testsuites>

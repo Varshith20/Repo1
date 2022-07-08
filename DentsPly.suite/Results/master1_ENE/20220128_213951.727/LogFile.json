@@ -1,0 +1,138 @@
+{
+	"entries": [
+		{
+				"message": "Running master.script",
+				"identifier": "START",
+				"timestamp": "2022-01-28 21:39:51.733 +0530"
+			},
+		{
+				"handlerName": "on_exceldata",
+				"timestamp": "2022-01-28 21:39:51.853 +0530",
+				"message": "E-Mail-Adresse",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 11,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_exceldata",
+				"timestamp": "2022-01-28 21:39:51.853 +0530",
+				"message": "dent.ecom.user+stg.admin_valid@gmail.com",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 13,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-28 21:39:51.937 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-28 21:39:54.233 +0530",
+				"message": "Chrome https://staging.dentsplysirona.com/de-de[return]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-28 21:40:00.100 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (406, 92)",
+				"image": "Shop",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-01-28 21:40:40.629 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "Unable to Find Image (TEXT:\"Do you want to change to Dentsply Sirona global site\"). Text not found.",
+				"image": "(TEXT:\"Do you want to change to Dentsply Sirona global site\")",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-01-28 21:40:40.676 +0530",
+				"message": "Changing to Global site popup is not displaying",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-01-28 21:40:41.092 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "at (1478, 115)",
+				"image": "UserIcon",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-01-28 21:41:16.515 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (702, 321)",
+				"image": "(TEXT:\"Willkommen\")",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-01-28 21:41:22.324 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "at (1008, 472)",
+				"image": "(TEXT:\"E-Mail-Adresse\")",
+				"handlerLine": 5,
+				"identifier": "imagelocation"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-01-28 21:41:22.471 +0530",
+				"message": "at (1008, 472)",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-01-28 21:41:24.775 +0530",
+				"message": "dent.ecom.user+stg.admin_valid@gmail.com[tab]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-01-28 21:41:26.230 +0530",
+				"message": "Password01@[return]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 9,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-01-28 21:41:43.231 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "Unable to Find Image (TEXT:\"Never\"). Text not found.",
+				"image": "(TEXT:\"Never\")",
+				"handlerLine": 11,
+				"identifier": "imagefound"
+			},
+		{
+				"message": "(Duration:\"124.597\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2022-01-28 21:39:51 +0530\", Successes:\"0\", TestCase:\"master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-01-28 21:41:56.332 +0530"
+			},
+		{
+				"message": "Execution Time 0:02:04 master.script",
+				"identifier": "ABORTED",
+				"timestamp": "2022-01-28 21:41:56.417 +0530"
+			}
+	],
+	"createdTimestamp": "2022-01-28 21:39:51.735 +0530"
+}

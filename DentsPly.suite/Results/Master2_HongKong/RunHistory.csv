@@ -1,0 +1,16 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2022-03-01 16:21:32.292 +0530,"Failure",0:02:59,1,0,1,"20220301_162132.292/LogFile.txt","","Error Running Script Command -- imagefound Error - Too Few Parameters, please use imagefound([TIME], image1[, ...])",0
+2022-03-01 16:35:40.213 +0530,"Failure",0:02:15,1,0,0,"20220301_163540.213/LogFile.txt","","NoWebDriver -- FindElement function must be called with (or on) a WebDriver (or WebElement) object.",0
+2022-03-01 16:38:27.459 +0530,"Failure",0:03:04,1,0,1,"20220301_163827.459/LogFile.txt","","Image Not Found -- imagefound Error - Image Property List did not contain ""ImageName"" property  Restricted Search Rectangle ((0,0),(1920,540))\n",0
+2022-03-01 16:46:39.982 +0530,"Aborted",0:04:08,1,0,1,"20220301_164639.982/LogFile.txt","","",0
+2022-03-01 16:52:15.811 +0530,"Aborted",0:04:04,1,0,1,"20220301_165215.811/LogFile.txt","","",0
+2022-03-02 11:26:39.621 +0530,"Aborted",0:05:36,1,0,1,"20220302_112639.621/LogFile.txt","","",0
+2022-03-02 11:33:45.168 +0530,"Aborted",0:05:40,1,0,1,"20220302_113345.168/LogFile.txt","","",0
+2022-03-02 11:45:08.236 +0530,"Success",0:05:14,0,0,0,"20220302_114508.236/LogFile.txt","","",1
+2022-03-02 19:00:15.815 +0530,"Success",0:04:58,0,0,0,"20220302_190015.815/LogFile.txt","","",1
+2022-03-02 19:14:07.883 +0530,"Success",0:06:41,0,0,0,"20220302_191407.883/LogFile.txt","","",1
+2022-03-02 20:06:50.646 +0530,"Success",0:05:40,0,0,0,"20220302_200650.646/LogFile.txt","","",1
+2022-03-08 12:42:03.739 +0530,"Aborted",0:01:14,1,0,1,"20220308_124203.739/LogFile.txt","","",0
+2022-03-08 12:46:33.502 +0530,"Aborted",0:03:36,1,0,0,"20220308_124633.502/LogFile.txt","","",0
+2022-03-08 14:09:04.350 +0530,"Aborted",0:06:27,1,0,1,"20220308_140904.350/LogFile.txt","","",0
+2022-03-08 14:25:02.155 +0530,"Success",0:07:56,0,0,0,"20220308_142502.155/LogFile.txt","","",1

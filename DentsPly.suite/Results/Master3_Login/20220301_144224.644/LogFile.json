@@ -1,0 +1,36 @@
+{
+	"entries": [
+		{
+				"message": "Running Master3_Login.script",
+				"identifier": "START",
+				"timestamp": "2022-03-01 14:42:24.649 +0530"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 14:42:24.841 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 14:44:11.096 +0530",
+				"message": "Searching For Image: OCR Error: Operation was aborted",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 7,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"106.779\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2022-03-01 14:42:24 +0530\", Successes:\"0\", TestCase:\"Master3_Login.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-03-01 14:44:11.428 +0530"
+			},
+		{
+				"message": "Execution Time 0:01:46 Master3_Login.script",
+				"identifier": "ABORTED",
+				"timestamp": "2022-03-01 14:44:11.513 +0530"
+			}
+	],
+	"createdTimestamp": "2022-03-01 14:42:24.649 +0530"
+}

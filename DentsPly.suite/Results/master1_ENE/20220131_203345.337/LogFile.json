@@ -1,0 +1,718 @@
+{
+	"entries": [
+		{
+				"message": "Running master.script",
+				"identifier": "START",
+				"timestamp": "2022-01-31 20:33:45.343 +0530"
+			},
+		{
+				"handlerName": "on_exceldata",
+				"timestamp": "2022-01-31 20:33:45.523 +0530",
+				"message": "E-Mail-Adresse",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 11,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_exceldata",
+				"timestamp": "2022-01-31 20:33:45.527 +0530",
+				"message": "dent.ecom.user+stg_de_admin.auto@gmail.com",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 13,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-31 20:33:45.596 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-31 20:33:47.970 +0530",
+				"message": "Chrome https://staging.dentsplysirona.com/de-de[return]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-31 20:34:04.535 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (406, 92)",
+				"image": "Shop",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-31 20:34:07.597 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 7,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-31 20:34:08.174 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (1577, 137)",
+				"image": "(TEXT:\"Google Translate\")",
+				"handlerLine": 8,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-31 20:34:08.729 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "at [1533,131,1622,144]",
+				"image": "(TEXT:\"Google Translate\")",
+				"handlerLine": 9,
+				"identifier": "imagerectangle"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-31 20:34:09.174 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "at (1759, 84)",
+				"image": "(TEXT:\"English\")",
+				"handlerLine": 10,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-31 20:34:10.382 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "at (1668, 193)",
+				"image": "(TEXT:\"Never translate this site\")",
+				"handlerLine": 12,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-31 20:34:10.389 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 15,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-01-31 20:34:17.022 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (632, 450)",
+				"image": "(TEXT:\"Do you want to change to Dentsply Sirona global site\")",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-01-31 20:34:19.235 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "at (817, 578)",
+				"image": "(TEXT:\"No, stay here\")",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-01-31 20:34:21.495 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "at (1478, 97)",
+				"image": "UserIcon",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-01-31 20:34:32.580 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (685, 321)",
+				"image": "(TEXT:\"Willkommen\")",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-01-31 20:34:38.234 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "at (1008, 472)",
+				"image": "(TEXT:\"E-Mail-Adresse\")",
+				"handlerLine": 5,
+				"identifier": "imagelocation"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-01-31 20:34:38.360 +0530",
+				"message": "at (1008, 472)",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-01-31 20:34:40.478 +0530",
+				"message": "dent.ecom.user+stg_de_admin.auto@gmail.com[tab]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-01-31 20:34:41.893 +0530",
+				"message": "Password@01[return]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-01-31 20:34:48.356 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (1762, 333)",
+				"image": "(TEXT:\"Never\")",
+				"handlerLine": 9,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-01-31 20:34:48.574 +0530",
+				"message": "at (1762, 333)",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 10,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-01-31 20:34:48.591 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 13,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-01-31 20:34:57.236 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "Unable to Find Image (TEXT:\"Google Translate\"). Text not found.",
+				"image": "(TEXT:\"Google Translate\")",
+				"handlerLine": 14,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-01-31 20:34:57.862 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (1583, 95)",
+				"image": "(TEXT:\"Hallo\")",
+				"handlerLine": 21,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-01-31 20:34:57.872 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 22,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_search",
+				"timestamp": "2022-01-31 20:34:58.260 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "at (398, 96)",
+				"image": "Shop",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_search",
+				"timestamp": "2022-01-31 20:35:24.702 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "Unable to Find Image (TEXT:\"Distributors\"). Text not found.",
+				"image": "(TEXT:\"Distributors\")",
+				"handlerLine": 5,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_search",
+				"timestamp": "2022-01-31 20:35:27.517 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "at (559, 186)",
+				"image": "(TEXT:\"Shop durchsuchen\")",
+				"handlerLine": 8,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_search",
+				"timestamp": "2022-01-31 20:35:28.374 +0530",
+				"message": "endo[return]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 9,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_search",
+				"timestamp": "2022-01-31 20:35:37.268 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (1507, 306)",
+				"image": "(TEXT:\"Sortieren nach\")",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_selectproduct",
+				"timestamp": "2022-01-31 20:35:40.371 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (539, 620)",
+				"image": "(TEXT:\"€\")",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_selectproduct",
+				"timestamp": "2022-01-31 20:35:41.486 +0530",
+				"message": "at (589, 560)",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_productverifications",
+				"timestamp": "2022-01-31 20:35:47.095 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (1349, 620)",
+				"image": "(TEXT:\"Zum Warenkorb\")",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_productverifications",
+				"timestamp": "2022-01-31 20:35:47.213 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 3,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_productverifications",
+				"timestamp": "2022-01-31 20:35:48.349 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (1186, 447)",
+				"image": "(TEXT:\"€\")",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_productverifications",
+				"timestamp": "2022-01-31 20:35:48.355 +0530",
+				"message": "Price of product is Visible",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_productverifications",
+				"timestamp": "2022-01-31 20:35:49.374 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (1213, 481)",
+				"image": "(TEXT:\"Auf Lager\")",
+				"handlerLine": 9,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_productverifications",
+				"timestamp": "2022-01-31 20:35:49.383 +0530",
+				"message": "Product is in stock",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 10,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_productverifications",
+				"timestamp": "2022-01-31 20:35:49.391 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 14,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_addingtocart",
+				"timestamp": "2022-01-31 20:35:51.418 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "at (1349, 620)",
+				"image": "(TEXT:\"Zum Warenkorb\")",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_addingtocart",
+				"timestamp": "2022-01-31 20:35:51.438 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 3,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_addingtocart",
+				"timestamp": "2022-01-31 20:35:55.422 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (1522, 181)",
+				"image": "(TEXT:\"Welter zur Kasse\")",
+				"handlerLine": 5,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_addingtocart",
+				"timestamp": "2022-01-31 20:35:55.533 +0530",
+				"message": "at (1522, 181)",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_addingtocart",
+				"timestamp": "2022-01-31 20:35:55.538 +0530",
+				"message": "Product is added to cart",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 7,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_addingtocart",
+				"timestamp": "2022-01-31 20:35:55.543 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 11,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:35:59.767 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (1507, 303)",
+				"image": "(TEXT:\"Bestellung aufgeben\")",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:35:59.789 +0530",
+				"message": "User Landed on the checkout page",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:35:59.888 +0530",
+				"message": "SEARCHRECTANGLE = [[0,0],[960,1080]]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 5,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:01.018 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (591, 385)",
+				"image": "(TEXT:\"Deutschland\")",
+				"handlerLine": 6,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:01.024 +0530",
+				"message": "Correct Address is prepopulated",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 7,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:02.225 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (454, 587)",
+				"image": "(TEXT:\"Lieferung\")",
+				"handlerLine": 11,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:02.230 +0530",
+				"message": "Delivery options is verified",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 12,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:16.879 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "Unable to Find Image (TEXT:\"Bestellsumme\"). Text not found.",
+				"image": "(TEXT:\"Bestellsumme\")",
+				"handlerLine": 16,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:17.082 +0530",
+				"message": "moved 3",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 17,
+				"identifier": "scrollwheeldown"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:33.302 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "Unable to Find Image (TEXT:\"Bestellsumme\"). Text not found.",
+				"image": "(TEXT:\"Bestellsumme\")",
+				"handlerLine": 19,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:33.490 +0530",
+				"message": "moved 3",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 17,
+				"identifier": "scrollwheeldown"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:36.862 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (699, 747)",
+				"image": "(TEXT:\"Bestellsumme\")",
+				"handlerLine": 19,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:38.330 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "at (699, 747)",
+				"image": "(TEXT:\"Bestellsumme\")",
+				"handlerLine": 20,
+				"identifier": "imagelocation"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:38.482 +0530",
+				"message": "(789,740,869,754)",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 21,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:39.634 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "at (435, 299)",
+				"image": "(TEXT:\"Zahlart\")",
+				"handlerLine": 22,
+				"identifier": "imagelocation"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:39.827 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "at (1199, 299)",
+				"image": "(TEXT:\"Bearbeiten\")",
+				"handlerLine": 24,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:43.258 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (528, 460)",
+				"image": "(TEXT:\"1111\")",
+				"handlerLine": 26,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:43.394 +0530",
+				"message": "at (528, 460)",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 30,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:44.117 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "at (431, 457)",
+				"image": "PayButton",
+				"handlerLine": 31,
+				"identifier": "imagelocation"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:44.248 +0530",
+				"message": "(1131,447,1281,477)",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 32,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:44.351 +0530",
+				"message": "SEARCHRECTANGLE = [[0,270],[1920,810]]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 34,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:53.904 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "Unable to Find Image (TEXT:\"Spelchern und welter\"). Text not found.",
+				"image": "(TEXT:\"Spelchern und welter\")",
+				"handlerLine": 35,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:54.010 +0530",
+				"message": "moved 4",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 36,
+				"identifier": "scrollwheeldown"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:56.318 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (1157, 538)",
+				"image": "(TEXT:\"Spelchern und welter\")",
+				"handlerLine": 38,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:36:56.456 +0530",
+				"message": "at (1157, 538)",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 39,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:37:06.764 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "Unable to Find Image (TEXT:\"Produkte\"). Text not found.",
+				"image": "(TEXT:\"Produkte\")",
+				"handlerLine": 41,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:37:07.023 +0530",
+				"message": "moved 3",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 42,
+				"identifier": "scrollwheelup"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:37:09.630 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (457, 357)",
+				"image": "(TEXT:\"Produkte\")",
+				"handlerLine": 44,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:37:23.285 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "Unable to Find Image (TEXT:\"DS Points\"). Text not found.",
+				"image": "(TEXT:\"DS Points\")",
+				"handlerLine": 45,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:37:23.474 +0530",
+				"message": "Loyalty points are not Available",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 48,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:37:37.729 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "Unable to Find Image (TEXT:\"Promotion\"). Text not found.",
+				"image": "(TEXT:\"Promotion\")",
+				"handlerLine": 50,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:37:37.923 +0530",
+				"message": "Promotion discount is not available for the product",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 54,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:37:38.769 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "at (1507, 207)",
+				"image": "(TEXT:\"Bestellung aufgeben\")",
+				"handlerLine": 56,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_checkout",
+				"timestamp": "2022-01-31 20:37:38.780 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 57,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_paymentcheck",
+				"timestamp": "2022-01-31 20:37:38.909 +0530",
+				"message": "SEARCHRECTANGLE = [[0,540],[1920,1080]]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_paymentcheck",
+				"timestamp": "2022-01-31 20:37:47.419 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (836, 585)",
+				"image": "(TEXT:\"09-2028\")",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_paymentcheck",
+				"timestamp": "2022-01-31 20:37:47.492 +0530",
+				"message": "payment method matches previously selected method",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"266.438\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2022-01-31 20:33:45 +0530\", Successes:\"0\", TestCase:\"master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-01-31 20:38:11.792 +0530"
+			},
+		{
+				"message": "Execution Time 0:04:26 master.script",
+				"identifier": "ABORTED",
+				"timestamp": "2022-01-31 20:38:11.836 +0530"
+			}
+	],
+	"createdTimestamp": "2022-01-31 20:33:45.352 +0530"
+}

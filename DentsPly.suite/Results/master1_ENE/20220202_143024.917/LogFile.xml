@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="master_script" package="DentsPly.suite" timestamp="2022-02-02 14:30:24.917 +0530"
+ tests="1"  failures="0" errors="0" time="130.136000">
+  <properties>
+   <property name="RunDate" value="2022-02-02 14:30:24.917 +0530"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="master.script" assertions="1" status="error"  time="130.125">
+    <error type="Exception" message="No Text Found On Screen: &quot;(TEXT:&quot;SearchShop&quot;)&quot;. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

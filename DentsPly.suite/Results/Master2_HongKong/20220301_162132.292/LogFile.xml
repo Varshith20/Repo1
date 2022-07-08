@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Master2_HongKong_script" package="DentsPly.suite" timestamp="2022-03-01 16:21:32.292 +0530"
+ tests="1"  failures="1" errors="1" time="179.542000">
+  <properties>
+   <property name="RunDate" value="2022-03-01 16:21:32.292 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Master2_HongKong.script" assertions="1" status="error"  time="179.526">
+    <failure type="FAILURE" message="Error Running Script Command: imagefound Error - Too Few Parameters, please use imagefound([TIME], image1[, ...]) -- Execution Time 0:02:59 Master2_HongKong.script" />
+    <error type="Exception" message="Too Few Parameters, please use imagefound([TIME], image1[, ...])" />
+  </testcase>
+ </testsuite>
+</testsuites>

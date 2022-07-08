@@ -1,0 +1,6 @@
+﻿2022-01-28 21:04:55.921 +0530	START		Running master.script
+2022-01-28 21:04:56.078 +0530	Log			11	on_exceldata	ReusableHandlers.script
+2022-01-28 21:04:56.078 +0530	Log			13	on_exceldata	ReusableHandlers.script
+2022-01-28 21:04:56.163 +0530	Exception		Image Property List did not contain "ImageName" property	2	function_addtocart	ReusableHandlers.script
+2022-01-28 21:04:56.548 +0530	EndTestCase		(Duration:"0.627", Errors:"1", Exceptions:"1", StartTime:"2022-01-28 21:04:55 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-01-28 21:04:57.149 +0530	FAILURE	Screen_Error.png	Error Running Script Command: click Error - Image Property List did not contain "ImageName" property -- Execution Time 0:00:00 master.script

@@ -1,0 +1,76 @@
+{
+	"entries": [
+		{
+				"message": "Running master.script",
+				"identifier": "START",
+				"timestamp": "2022-01-28 21:34:18.226 +0530"
+			},
+		{
+				"handlerName": "on_exceldata",
+				"timestamp": "2022-01-28 21:34:18.391 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"identifier": "Log",
+				"handlerLine": 11
+			},
+		{
+				"handlerName": "on_exceldata",
+				"timestamp": "2022-01-28 21:34:18.407 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"identifier": "Log",
+				"handlerLine": 13
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-28 21:34:18.678 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-28 21:34:19.425 +0530",
+				"message": "[return]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-28 21:34:35.964 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "found at (105, 14)",
+				"image": "(TEXT:\"New tab\")",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-28 21:35:01.013 +0530",
+				"message": "[return]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-28 21:37:34.737 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "Unable To Find Any Image On Screen \"Shop\" within 60.00 seconds",
+				"image": "Shop",
+				"handlerLine": 7,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"196.981\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2022-01-28 21:34:18 +0530\", Successes:\"0\", TestCase:\"master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-01-28 21:37:35.207 +0530"
+			},
+		{
+				"message": "Execution Time 0:03:16 master.script",
+				"identifier": "ABORTED",
+				"timestamp": "2022-01-28 21:37:35.292 +0530"
+			}
+	],
+	"createdTimestamp": "2022-01-28 21:34:18.226 +0530"
+}

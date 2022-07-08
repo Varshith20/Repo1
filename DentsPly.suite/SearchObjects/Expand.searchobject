@@ -1,0 +1,49 @@
+{
+	"originalcapturelocation": [
+		1599,
+		605,
+		20,
+		20
+	],
+	"lastmodifieddate": 1646725465.049,
+	"createddate": 1646398290.9630001,
+	"name": "Expand",
+	"lastfounddate": 1646398291.517,
+	"ocrcapturestring": "+",
+	"lastfoundlocation": [
+		1599,
+		605,
+		20,
+		20
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"deleted": true,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[8,10]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Expand.png",
+				"connectionname": "171",
+				"type": 1,
+				"connectionserverid": "192.168.1.171",
+				"capturerect": [
+					1599,
+					605,
+					20,
+					20
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "+"
+			}
+	]
+}

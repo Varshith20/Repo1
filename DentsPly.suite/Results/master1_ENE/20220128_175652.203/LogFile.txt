@@ -1,0 +1,18 @@
+﻿2022-01-28 17:56:52.211 +0530	START		Running master.script
+2022-01-28 17:56:52.336 +0530	Log		Email Address	11	on_exceldata	ReusableHandlers.script
+2022-01-28 17:56:52.352 +0530	Log		dent.ecom.user+stg.admin_valid@gmail.com 	13	on_exceldata	ReusableHandlers.script
+2022-01-28 17:56:52.417 +0530	typetext		[windowsKey]r	2	on_launch	ReusableHandlers.script
+2022-01-28 17:56:54.778 +0530	typetext		Chrome https://staging.dentsplysirona.com/en-us [return]	3	on_launch	ReusableHandlers.script
+2022-01-28 17:56:58.438 +0530	waitfor	Shop	found at (388, 92)	4	on_launch	ReusableHandlers.script
+2022-01-28 17:57:34.691 +0530	imagefound	(TEXT:"Do you want to change to Dentsply Sirona global site")	Unable to Find Image (TEXT:"Do you want to change to Dentsply Sirona global site"). Text not found.	2	on_globalpopup	ReusableHandlers.script
+2022-01-28 17:57:34.715 +0530	Log		Changing to Global site popup is not displaying	5	on_globalpopup	ReusableHandlers.script
+2022-01-28 17:57:34.981 +0530	click	UserIcon	at (1526, 115)	2	on_signin	ReusableHandlers.script
+2022-01-28 17:57:54.325 +0530	waitfor	(TEXT:"Welcome")	found at (670, 321)	3	on_signin	ReusableHandlers.script
+2022-01-28 17:58:00.199 +0530	imagelocation	(TEXT:"Email Address")	at (1006, 472)	5	on_signin	ReusableHandlers.script
+2022-01-28 17:58:00.335 +0530	click		at (1006, 472)	5	on_signin	ReusableHandlers.script
+2022-01-28 17:58:02.340 +0530	typetext		dent.ecom.user+stg.admin_valid@gmail.com [tab]	6	on_signin	ReusableHandlers.script
+2022-01-28 17:58:03.672 +0530	typetext		Password01@	9	on_signin	ReusableHandlers.script
+2022-01-28 17:58:04.400 +0530	typetext		[return]	10	on_signin	ReusableHandlers.script
+2022-01-28 17:59:07.235 +0530	Exception	(TEXT:"Default")	Unable To Find Any Image On Screen "(TEXT:"Default")" within 60.00 seconds. Text not found.	12	on_signin	ReusableHandlers.script
+2022-01-28 17:59:08.305 +0530	EndTestCase		(Duration:"136.094", Errors:"1", Exceptions:"1", StartTime:"2022-01-28 17:56:52 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-01-28 17:59:08.703 +0530	FAILURE	Screen_Error.png	Image Not Found: waitfor Error - Unable To Find Any Image On Screen "(TEXT:"Default")" within 60.00 seconds. Text not found.  Restricted Search Rectangle ((960,0),(1920,540))\n -- Execution Time 0:02:16 master.script

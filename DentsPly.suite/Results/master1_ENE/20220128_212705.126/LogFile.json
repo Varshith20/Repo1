@@ -1,0 +1,59 @@
+{
+	"entries": [
+		{
+				"message": "Running master.script",
+				"identifier": "START",
+				"timestamp": "2022-01-28 21:27:05.130 +0530"
+			},
+		{
+				"handlerName": "on_exceldata",
+				"timestamp": "2022-01-28 21:27:05.442 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"identifier": "Log",
+				"handlerLine": 11
+			},
+		{
+				"handlerName": "on_exceldata",
+				"timestamp": "2022-01-28 21:27:05.474 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"identifier": "Log",
+				"handlerLine": 13
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-28 21:27:05.775 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-28 21:27:06.559 +0530",
+				"message": " [return]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-28 21:29:00.306 +0530",
+				"scriptName": "ReusableHandlers.script",
+				"message": "Unable To Find Any Image On Screen \"Shop\" within 60.00 seconds",
+				"image": "Shop",
+				"handlerLine": 4,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"115.73\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2022-01-28 21:27:05 +0530\", Successes:\"0\", TestCase:\"master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-01-28 21:29:00.860 +0530"
+			},
+		{
+				"message": "Execution Time 0:01:55 master.script",
+				"identifier": "ABORTED",
+				"timestamp": "2022-01-28 21:29:00.920 +0530"
+			}
+	],
+	"createdTimestamp": "2022-01-28 21:27:05.130 +0530"
+}

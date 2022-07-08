@@ -1,0 +1,9 @@
+﻿2022-01-28 21:50:20.651 +0530	START		Running master.script
+2022-01-28 21:50:20.795 +0530	Log		E-Mail-Adresse	11	on_exceldata	ReusableHandlers.script
+2022-01-28 21:50:20.795 +0530	Log		dent.ecom.user+stg.admin_valid@gmail.com	13	on_exceldata	ReusableHandlers.script
+2022-01-28 21:50:20.873 +0530	typetext		[windowsKey]r	2	on_launch	ReusableHandlers.script
+2022-01-28 21:50:23.168 +0530	typetext		Chrome https://staging.dentsplysirona.com/de-de[return]	3	on_launch	ReusableHandlers.script
+2022-01-28 21:50:26.364 +0530	waitfor	Shop	found at (406, 92)	4	on_launch	ReusableHandlers.script
+2022-01-28 21:50:38.840 +0530	Exception		Searching For Image: OCR Error: Operation was aborted	2	on_globalpopup	ReusableHandlers.script
+2022-01-28 21:50:39.279 +0530	EndTestCase		(Duration:"18.628", Errors:"1", Exceptions:"1", StartTime:"2022-01-28 21:50:20 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-01-28 21:50:39.357 +0530	ABORTED		Execution Time 0:00:18 master.script

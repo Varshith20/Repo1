@@ -1,0 +1,5 @@
+﻿2022-01-28 13:17:17.554 +0530	START		Running master.script
+2022-01-28 13:17:17.691 +0530	Log		https://staging.dentsplysirona.com/en-us 	14	on_exceldata	ReusableHandlers.script
+2022-01-28 13:17:17.698 +0530	Log		Register	14	on_exceldata	ReusableHandlers.script
+2022-01-28 13:17:17.786 +0530	EndTestCase		(Duration:"0.22", Errors:"0", Exceptions:"0", StartTime:"2022-01-28 13:17:17 +0530", Successes:"1", TestCase:"master.script", Warnings:"0")
+2022-01-28 13:17:17.979 +0530	SUCCESS		Execution Time 0:00:00 master.script

@@ -1,0 +1,17 @@
+﻿2022-01-28 18:15:33.806 +0530	START		Running master.script
+2022-01-28 18:15:33.964 +0530	Log		Email Address	11	on_exceldata	ReusableHandlers.script
+2022-01-28 18:15:33.966 +0530	Log		dent.ecom.user+stg.admin_valid@gmail.com	13	on_exceldata	ReusableHandlers.script
+2022-01-28 18:15:34.046 +0530	typetext		[windowsKey]r	2	on_launch	ReusableHandlers.script
+2022-01-28 18:15:36.592 +0530	typetext		Chrome https://staging.dentsplysirona.com/en-us[return]	3	on_launch	ReusableHandlers.script
+2022-01-28 18:15:50.134 +0530	waitfor	Shop	found at (393, 92)	4	on_launch	ReusableHandlers.script
+2022-01-28 18:15:57.217 +0530	imagefound	(TEXT:"Do you want to change to Dentsply Sirona global site")	found at (632, 450)	2	on_globalpopup	ReusableHandlers.script
+2022-01-28 18:15:59.384 +0530	click	(TEXT:"No, stay here")	at (817, 578)	3	on_globalpopup	ReusableHandlers.script
+2022-01-28 18:16:02.422 +0530	click	UserIcon	at (1526, 97)	2	on_signin	ReusableHandlers.script
+2022-01-28 18:16:16.169 +0530	waitfor	(TEXT:"Welcome")	found at (652, 321)	3	on_signin	ReusableHandlers.script
+2022-01-28 18:16:21.625 +0530	imagelocation	(TEXT:"Email Address")	at (1006, 472)	5	on_signin	ReusableHandlers.script
+2022-01-28 18:16:21.763 +0530	click		at (1006, 472)	5	on_signin	ReusableHandlers.script
+2022-01-28 18:16:23.997 +0530	typetext		dent.ecom.user+stg.admin_valid@gmail.com[tab]	6	on_signin	ReusableHandlers.script
+2022-01-28 18:16:25.432 +0530	typetext		Password01@[return]	9	on_signin	ReusableHandlers.script
+2022-01-28 18:17:34.787 +0530	Exception	(TEXT:"Default")	Unable To Find Any Image On Screen "(TEXT:"Default")" within 60.00 seconds. Text not found.	11	on_signin	ReusableHandlers.script
+2022-01-28 18:17:35.342 +0530	EndTestCase		(Duration:"121.519", Errors:"1", Exceptions:"1", StartTime:"2022-01-28 18:15:33 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-01-28 18:17:35.399 +0530	ABORTED		Execution Time 0:02:01 master.script

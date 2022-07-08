@@ -1,0 +1,12 @@
+﻿2022-03-01 16:35:40.219 +0530	START		Running Master2_HongKong.script
+2022-03-01 16:35:40.456 +0530	typetext		[windowsKey]r	3	on_launch	HongKong_Scenario.script
+2022-03-01 16:35:51.650 +0530	waitfor	(TEXT:"Cancel")	found at (262, 996)	4	on_launch	HongKong_Scenario.script
+2022-03-01 16:35:53.530 +0530	typetext		Chrome https://staging.dentsplysirona.com/en-hk/shop[return]	5	on_launch	HongKong_Scenario.script
+2022-03-01 16:36:44.885 +0530	imagefound	(TEXT:"Yes, I am")	Unable to Find Image (TEXT:"Yes, I am"). Text not found.	6	on_launch	HongKong_Scenario.script
+2022-03-01 16:36:44.916 +0530	Log		Changing to Global site popup is not displaying	9	on_launch	HongKong_Scenario.script
+2022-03-01 16:37:18.276 +0530	imagefound	(TEXT:"Do you want to change to Dentsply Sirona global site")	Unable to Find Image (TEXT:"Do you want to change to Dentsply Sirona global site"). Text not found.	2	on_globalpopup	HongKong_Scenario.script
+2022-03-01 16:37:18.346 +0530	Log		Changing to Global site popup is not displaying	5	on_globalpopup	HongKong_Scenario.script
+2022-03-01 16:37:18.976 +0530	click	UserIcon	at (1525, 126)	2	on_signin	HongKong_Scenario.script
+2022-03-01 16:37:52.056 +0530	waitfor	(TEXT:"Welcome")	found at (670, 353)	3	on_signin	HongKong_Scenario.script
+2022-03-01 16:37:55.378 +0530	EndTestCase		(Duration:"135.159", Errors:"1", Exceptions:"0", StartTime:"2022-03-01 16:35:40 +0530", Successes:"0", TestCase:"Master2_HongKong.script", Warnings:"0")
+2022-03-01 16:37:55.718 +0530	FAILURE	Screen_Error.png	NoWebDriver: FindElement function must be called with (or on) a WebDriver (or WebElement) object. -- Execution Time 0:02:15 Master2_HongKong.script

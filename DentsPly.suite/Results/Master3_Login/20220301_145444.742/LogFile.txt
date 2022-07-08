@@ -1,0 +1,5 @@
+﻿2022-03-01 14:54:44.748 +0530	START		Running Master3_Login.script
+2022-03-01 14:54:44.902 +0530	WebConnect		{browser:"Chrome", host:"192.168.1.171", url:"https://staging.dentsplysirona.com/en-us"}	3	on_launch	LoginCheck.script
+2022-03-01 14:54:51.755 +0530	EndTestCase		(Duration:"7.007", Errors:"1", Exceptions:"0", StartTime:"2022-03-01 14:54:44 +0530", Successes:"0", TestCase:"Master3_Login.script", Warnings:"0")
+2022-03-01 14:54:52.604 +0530	FAILURE	Screen_Error.png	SetUrlError: com.appium.selenium code=-2 description=Response code 404 received from Selenium Server. {"error": "invalid session id","message": "No active session with ID baf3d6bce5d9c4d32df5e829ea7c1931"}. -- Execution Time 0:00:07 Master3_Login.script
+2022-03-01 14:54:52.789 +0530	FAILURE		SetUrlError: com.appium.selenium code=-2 description=Response code 404 received from Selenium Server. {"error": "invalid session id","message": "No active session with ID baf3d6bce5d9c4d32df5e829ea7c1931"}. -- Screenshot unavailable -- Execution Time 0:00:07 Master3_Login.script

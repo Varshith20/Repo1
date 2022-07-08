@@ -1,0 +1,215 @@
+{
+	"entries": [
+		{
+				"message": "Running Master3_Login.script",
+				"identifier": "START",
+				"timestamp": "2022-03-01 13:41:24.217 +0530"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 13:41:28.695 +0530",
+				"message": "{browser:\"Chrome\", host:\"192.168.1.171\", url:\"https://staging.dentsplysirona.com/en-us\"}",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 3,
+				"identifier": "WebConnect"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 13:41:36.305 +0530",
+				"message": "https://staging.dentsplysirona.com/en-us on {Browser:\"Chrome\", host:\"192.168.1.171\", Name:\"\", port:4444, temporary:\"True\", type:\"WebDriver\", url:\"https://staging.dentsplysirona.com/en-us\"}",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 3,
+				"identifier": "Set URL"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 13:41:59.385 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Yes, I am\"). Text not found.",
+				"image": "(TEXT:\"Yes, I am\")",
+				"handlerLine": 6,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 13:41:59.407 +0530",
+				"message": "Changing to Global site popup is not displaying",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 9,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 13:41:59.422 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 12,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 13:42:11.031 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Google Translate\"). Text not found.",
+				"image": "(TEXT:\"Google Translate\")",
+				"handlerLine": 13,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 13:42:11.062 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 20,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-03-01 13:42:36.718 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Do you want to change to Dentsply Sirona global site\"). Text not found.",
+				"image": "(TEXT:\"Do you want to change to Dentsply Sirona global site\")",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-03-01 13:42:36.774 +0530",
+				"message": "Changing to Global site popup is not displaying",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 13:42:37.090 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1526, 160)",
+				"image": "UserIcon",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 13:42:50.978 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (670, 366)",
+				"image": "(TEXT:\"Welcome\")",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 13:42:56.978 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1132, 403)",
+				"image": "<WebElement with TagName:\"input\", ID:\"signInName\", Name:\"Sign in name\", Text:\"\", Class:\"\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[940,384,1325,422]>",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 13:42:59.102 +0530",
+				"message": "dent.ecom.user+stg.admin_valid@gmail.com[tab]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 7,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 13:43:00.505 +0530",
+				"message": "Password01[return]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 9,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 13:43:16.634 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Never\"). Text not found.",
+				"image": "(TEXT:\"Never\")",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 13:43:16.671 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 14,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 13:43:24.968 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Google Translate\"). Text not found.",
+				"image": "(TEXT:\"Google Translate\")",
+				"handlerLine": 15,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 13:43:25.607 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (1485, 158)",
+				"image": "(TEXT:\"Default\")",
+				"handlerLine": 22,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 13:43:25.609 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 23,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-03-01 13:43:26.307 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (632, 481)",
+				"image": "(TEXT:\"Do you want to change to Dentsply Sirona global site\")",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-03-01 13:43:26.523 +0530",
+				"message": "at (632, 481)",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-01 13:43:26.560 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-01 13:44:29.017 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "No Image Found On Screen: \"UserIcon\"",
+				"image": "UserIcon",
+				"handlerLine": 3,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"185.084\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2022-03-01 13:41:24 +0530\", Successes:\"0\", TestCase:\"Master3_Login.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-03-01 13:44:29.304 +0530"
+			},
+		{
+				"message": "Execution Time 0:03:05 Master3_Login.script",
+				"identifier": "ABORTED",
+				"timestamp": "2022-03-01 13:44:29.386 +0530"
+			}
+	],
+	"createdTimestamp": "2022-03-01 13:41:24.217 +0530"
+}

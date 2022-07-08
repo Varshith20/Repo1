@@ -1,0 +1,29 @@
+﻿2022-02-02 14:26:05.413 +0530	START		Running master.script
+2022-02-02 14:26:05.688 +0530	typetext		[windowsKey]r	2	on_launch	ReusableHandlers.script
+2022-02-02 14:26:08.048 +0530	typetext		Chrome https://staging.dentsplysirona.com/de-de[return]	3	on_launch	ReusableHandlers.script
+2022-02-02 14:26:22.669 +0530	waitfor	Shop	found at (406, 92)	5	on_launch	ReusableHandlers.script
+2022-02-02 14:26:23.718 +0530	set		SEARCHRECTANGLE = [[960,0],[1920,540]]	7	on_launch	ReusableHandlers.script
+2022-02-02 14:26:25.292 +0530	imagefound	(TEXT:"Google Translate")	found at (1577, 137)	8	on_launch	ReusableHandlers.script
+2022-02-02 14:26:25.823 +0530	imagerectangle	(TEXT:"Google Translate")	at [1533,131,1622,144]	9	on_launch	ReusableHandlers.script
+2022-02-02 14:26:26.312 +0530	click	(TEXT:"English")	at (1759, 84)	10	on_launch	ReusableHandlers.script
+2022-02-02 14:26:27.627 +0530	click	(TEXT:"Never translate this site")	at (1668, 193)	12	on_launch	ReusableHandlers.script
+2022-02-02 14:26:27.634 +0530	set		SEARCHRECTANGLE = 	15	on_launch	ReusableHandlers.script
+2022-02-02 14:26:32.670 +0530	imagefound	(TEXT:"Do you want to change to Dentsply Sirona global site")	found at (632, 450)	2	on_globalpopup	ReusableHandlers.script
+2022-02-02 14:26:34.759 +0530	click	(TEXT:"No, stay here")	at (817, 578)	3	on_globalpopup	ReusableHandlers.script
+2022-02-02 14:26:39.307 +0530	click	UserIcon	at (1478, 97)	2	on_signin	ReusableHandlers.script
+2022-02-02 14:27:43.676 +0530	waitfor	(TEXT:"Willkommen")	found at (685, 321)	3	on_signin	ReusableHandlers.script
+2022-02-02 14:27:47.583 +0530	imagelocation	(TEXT:"E-Mail-Adresse")	at (1008, 472)	5	on_signin	ReusableHandlers.script
+2022-02-02 14:27:47.715 +0530	click		at (1008, 472)	5	on_signin	ReusableHandlers.script
+2022-02-02 14:27:49.990 +0530	typetext		dent.ecom.user+stg_de_admin.auto@gmail.com[tab]	6	on_signin	ReusableHandlers.script
+2022-02-02 14:27:51.452 +0530	typetext		Password@01[return]	8	on_signin	ReusableHandlers.script
+2022-02-02 14:27:57.708 +0530	imagefound	(TEXT:"Never")	found at (1762, 333)	9	on_signin	ReusableHandlers.script
+2022-02-02 14:27:57.940 +0530	click		at (1762, 333)	10	on_signin	ReusableHandlers.script
+2022-02-02 14:27:57.978 +0530	set		SEARCHRECTANGLE = [[960,0],[1920,540]]	13	on_signin	ReusableHandlers.script
+2022-02-02 14:28:06.946 +0530	imagefound	(TEXT:"Google Translate")	Unable to Find Image (TEXT:"Google Translate"). Text not found.	14	on_signin	ReusableHandlers.script
+2022-02-02 14:28:20.795 +0530	waitfor	(TEXT:"Hallo")	found at (1583, 95)	21	on_signin	ReusableHandlers.script
+2022-02-02 14:28:20.833 +0530	set		SEARCHRECTANGLE = 	22	on_signin	ReusableHandlers.script
+2022-02-02 14:28:21.365 +0530	click	Shop	at (398, 96)	3	on_search	ReusableHandlers.script
+2022-02-02 14:28:44.269 +0530	imagefound	(TEXT:"Distributors")	Unable to Find Image (TEXT:"Distributors"). Text not found.	4	on_search	ReusableHandlers.script
+2022-02-02 14:29:16.590 +0530	Exception	(TEXT:"Shop durchsuchen")	No Text Found On Screen: "(TEXT:"Shop durchsuchen")". Text not found.	8	on_search	ReusableHandlers.script
+2022-02-02 14:29:16.865 +0530	EndTestCase		(Duration:"191.452", Errors:"1", Exceptions:"1", StartTime:"2022-02-02 14:26:05 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-02-02 14:29:16.949 +0530	ABORTED		Execution Time 0:03:11 master.script

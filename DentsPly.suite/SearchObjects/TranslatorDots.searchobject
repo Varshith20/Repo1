@@ -1,0 +1,47 @@
+{
+	"lastmodifieddate": 1643607015.635,
+	"lastfoundlocation": [
+		1896,
+		45,
+		5,
+		14
+	],
+	"originalcapturelocation": [
+		1752,
+		83,
+		9,
+		14
+	],
+	"createddate": 1643606617.194,
+	"lastfounddate": 1643606762.631,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"deleted": true,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[4,7]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "TranslatorDots.png",
+				"connectionname": "81",
+				"type": 1,
+				"capturerect": [
+					1752,
+					83,
+					9,
+					14
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "192.168.1.81"
+			}
+	],
+	"name": "TranslatorDots"
+}

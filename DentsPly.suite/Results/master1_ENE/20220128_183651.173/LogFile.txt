@@ -1,0 +1,28 @@
+﻿2022-01-28 18:36:51.190 +0530	START		Running master.script
+2022-01-28 18:36:51.308 +0530	Log		Email Address	11	on_exceldata	ReusableHandlers.script
+2022-01-28 18:36:51.322 +0530	Log		dent.ecom.user+stg.admin_valid@gmail.com	13	on_exceldata	ReusableHandlers.script
+2022-01-28 18:36:51.384 +0530	typetext		[windowsKey]r	2	on_launch	ReusableHandlers.script
+2022-01-28 18:36:53.886 +0530	typetext		Chrome https://staging.dentsplysirona.com/en-us[return]	3	on_launch	ReusableHandlers.script
+2022-01-28 18:37:07.582 +0530	waitfor	Shop	found at (393, 92)	4	on_launch	ReusableHandlers.script
+2022-01-28 18:37:15.678 +0530	imagefound	(TEXT:"Do you want to change to Dentsply Sirona global site")	found at (632, 450)	2	on_globalpopup	ReusableHandlers.script
+2022-01-28 18:37:17.493 +0530	click	(TEXT:"No, stay here")	at (817, 578)	3	on_globalpopup	ReusableHandlers.script
+2022-01-28 18:37:20.929 +0530	click	UserIcon	at (1526, 97)	2	on_signin	ReusableHandlers.script
+2022-01-28 18:37:30.221 +0530	waitfor	(TEXT:"Welcome")	found at (652, 321)	3	on_signin	ReusableHandlers.script
+2022-01-28 18:37:35.713 +0530	imagelocation	(TEXT:"Email Address")	at (1006, 472)	5	on_signin	ReusableHandlers.script
+2022-01-28 18:37:35.860 +0530	click		at (1006, 472)	5	on_signin	ReusableHandlers.script
+2022-01-28 18:37:38.219 +0530	typetext		dent.ecom.user+stg.admin_valid@gmail.com[tab]	6	on_signin	ReusableHandlers.script
+2022-01-28 18:37:39.652 +0530	typetext		Password01@[return]	9	on_signin	ReusableHandlers.script
+2022-01-28 18:37:47.159 +0530	imagefound	(TEXT:"Never")	found at (1762, 333)	11	on_signin	ReusableHandlers.script
+2022-01-28 18:37:47.370 +0530	click		at (1762, 333)	12	on_signin	ReusableHandlers.script
+2022-01-28 18:37:51.225 +0530	waitfor	(TEXT:"Default")	found at (1487, 95)	15	on_signin	ReusableHandlers.script
+2022-01-28 18:37:51.480 +0530	click	Shop	at (385, 96)	3	on_search	ReusableHandlers.script
+2022-01-28 18:37:58.130 +0530	imagefound	(TEXT:"Manage Preferred Distributors")	found at (1473, 168)	5	on_search	ReusableHandlers.script
+2022-01-28 18:38:00.150 +0530	click	(TEXT:"Distributors")	at (1614, 147)	6	on_search	ReusableHandlers.script
+2022-01-28 18:38:05.062 +0530	click	(TEXT:"SearchShop")	at (535, 186)	8	on_search	ReusableHandlers.script
+2022-01-28 18:38:05.927 +0530	typetext		endo[return]	9	on_search	ReusableHandlers.script
+2022-01-28 18:38:19.646 +0530	imagefound	(TEXT:"Sort by")	found at (1525, 307)	10	on_search	ReusableHandlers.script
+2022-01-28 18:38:23.204 +0530	imagefound	(TEXT:"$")	found at (674, 81)	2	on_selectproduct	ReusableHandlers.script
+2022-01-28 18:38:24.337 +0530	click		at (724, 21)	6	on_selectproduct	ReusableHandlers.script
+2022-01-28 18:38:39.905 +0530	Exception		Searching For Image: OCR Error: Operation was aborted	2	on_productverifications	ReusableHandlers.script
+2022-01-28 18:38:40.359 +0530	EndTestCase		(Duration:"109.169", Errors:"1", Exceptions:"1", StartTime:"2022-01-28 18:36:51 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-01-28 18:38:40.444 +0530	ABORTED		Execution Time 0:01:49 master.script

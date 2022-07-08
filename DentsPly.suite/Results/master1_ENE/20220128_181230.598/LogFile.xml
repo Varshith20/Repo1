@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="master_script" package="DentsPly.suite" timestamp="2022-01-28 18:12:30.598 +0530"
+ tests="1"  failures="1" errors="1" time="120.887000">
+  <properties>
+   <property name="RunDate" value="2022-01-28 18:12:30.598 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="master.script" assertions="1" status="error"  time="120.873">
+    <failure type="FAILURE" message="Image Not Found: waitfor Error - Unable To Find Any Image On Screen &quot;(TEXT:&quot;Default&quot;)&quot; within 60.00 seconds. Text not found.  Restricted Search Rectangle ((960,0),(1920,540))\n -- Execution Time 0:02:00 master.script" />
+    <error type="Exception" message="Unable To Find Any Image On Screen &quot;(TEXT:&quot;Default&quot;)&quot; within 60.00 seconds. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

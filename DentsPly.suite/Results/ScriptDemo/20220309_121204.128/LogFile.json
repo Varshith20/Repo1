@@ -1,0 +1,25 @@
+{
+	"entries": [
+		{
+				"message": "Running ScriptDemo.script in Usability Mode",
+				"identifier": "START",
+				"timestamp": "2022-03-09 12:12:04.135 +0530"
+			},
+		{
+				"message": "(Duration:\"0\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2022-03-09 12:12:04 +0530\", Successes:\"1\", TestCase:\"ScriptDemo.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-03-09 12:12:04.135 +0530"
+			},
+		{
+				"message": "Usability Tests: 0, Usability Warnings: 0",
+				"identifier": "UsabilitySummary",
+				"timestamp": "2022-03-09 12:12:04.150 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 ScriptDemo.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2022-03-09 12:12:04.385 +0530"
+			}
+	],
+	"createdTimestamp": "2022-03-09 12:12:04.135 +0530"
+}

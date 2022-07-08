@@ -1,0 +1,27 @@
+﻿2022-01-28 18:34:40.022 +0530	START		Running master.script
+2022-01-28 18:34:40.184 +0530	Log		Email Address	11	on_exceldata	ReusableHandlers.script
+2022-01-28 18:34:40.200 +0530	Log		dent.ecom.user+stg.admin_valid@gmail.com	13	on_exceldata	ReusableHandlers.script
+2022-01-28 18:34:40.278 +0530	typetext		[windowsKey]r	2	on_launch	ReusableHandlers.script
+2022-01-28 18:34:42.645 +0530	typetext		Chrome https://staging.dentsplysirona.com/en-us[return]	3	on_launch	ReusableHandlers.script
+2022-01-28 18:34:56.497 +0530	waitfor	Shop	found at (393, 92)	4	on_launch	ReusableHandlers.script
+2022-01-28 18:35:02.210 +0530	imagefound	(TEXT:"Do you want to change to Dentsply Sirona global site")	found at (632, 450)	2	on_globalpopup	ReusableHandlers.script
+2022-01-28 18:35:04.030 +0530	click	(TEXT:"No, stay here")	at (817, 578)	3	on_globalpopup	ReusableHandlers.script
+2022-01-28 18:35:06.950 +0530	click	UserIcon	at (1526, 97)	2	on_signin	ReusableHandlers.script
+2022-01-28 18:35:16.321 +0530	waitfor	(TEXT:"Welcome")	found at (652, 321)	3	on_signin	ReusableHandlers.script
+2022-01-28 18:35:21.814 +0530	imagelocation	(TEXT:"Email Address")	at (1006, 472)	5	on_signin	ReusableHandlers.script
+2022-01-28 18:35:21.945 +0530	click		at (1006, 472)	5	on_signin	ReusableHandlers.script
+2022-01-28 18:35:24.186 +0530	typetext		dent.ecom.user+stg.admin_valid@gmail.com[tab]	6	on_signin	ReusableHandlers.script
+2022-01-28 18:35:25.618 +0530	typetext		Password01@[return]	9	on_signin	ReusableHandlers.script
+2022-01-28 18:35:33.121 +0530	imagefound	(TEXT:"Never")	found at (1762, 333)	11	on_signin	ReusableHandlers.script
+2022-01-28 18:35:33.336 +0530	click		at (1762, 333)	12	on_signin	ReusableHandlers.script
+2022-01-28 18:35:36.381 +0530	waitfor	(TEXT:"Default")	found at (1610, 95)	15	on_signin	ReusableHandlers.script
+2022-01-28 18:35:36.797 +0530	click	Shop	at (385, 96)	3	on_search	ReusableHandlers.script
+2022-01-28 18:35:43.300 +0530	imagefound	(TEXT:"Manage Preferred Distributors")	found at (1473, 168)	5	on_search	ReusableHandlers.script
+2022-01-28 18:35:45.364 +0530	click	(TEXT:"Distributors")	at (1614, 147)	6	on_search	ReusableHandlers.script
+2022-01-28 18:35:49.756 +0530	click	(TEXT:"SearchShop")	at (535, 186)	8	on_search	ReusableHandlers.script
+2022-01-28 18:35:50.743 +0530	typetext		endo[return]	9	on_search	ReusableHandlers.script
+2022-01-28 18:36:05.461 +0530	imagefound	(TEXT:"Sort by")	Unable to Find Image (TEXT:"Sort by"). Text not found.	10	on_search	ReusableHandlers.script
+2022-01-28 18:36:06.361 +0530	imagefound	(TEXT:"Sort by")	found at (1525, 307)	10	on_search	ReusableHandlers.script
+2022-01-28 18:36:06.499 +0530	Exception	$	Could Not Open Image: $	2	on_selectproduct	ReusableHandlers.script
+2022-01-28 18:36:06.879 +0530	EndTestCase		(Duration:"86.851", Errors:"1", Exceptions:"1", StartTime:"2022-01-28 18:34:40 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-01-28 18:36:07.217 +0530	FAILURE	Screen_Error.png	File Not Found: imagefound Error - Could Not Open Image: $ -- Execution Time 0:01:26 master.script

@@ -1,0 +1,263 @@
+{
+	"entries": [
+		{
+				"message": "Running Master3_Login.script",
+				"identifier": "START",
+				"timestamp": "2022-03-01 14:34:31.929 +0530"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 14:34:36.626 +0530",
+				"message": "{browser:\"Chrome\", host:\"192.168.1.171\", url:\"https://staging.dentsplysirona.com/en-hk/shop\"}",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 3,
+				"identifier": "WebConnect"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 14:34:47.931 +0530",
+				"message": "https://staging.dentsplysirona.com/en-hk/shop on {Browser:\"Chrome\", host:\"192.168.1.171\", Name:\"\", port:4444, temporary:\"True\", type:\"WebDriver\", url:\"https://staging.dentsplysirona.com/en-hk/shop\"}",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 3,
+				"identifier": "Set URL"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 14:34:53.927 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (1517, 241)",
+				"image": "(TEXT:\"Yes, I am\")",
+				"handlerLine": 6,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 14:34:54.074 +0530",
+				"message": "at (1517, 241)",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 14:34:54.074 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 12,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 14:35:08.174 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Google Translate\"). Text not found.",
+				"image": "(TEXT:\"Google Translate\")",
+				"handlerLine": 13,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 14:35:08.189 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 20,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-03-01 14:35:35.799 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Do you want to change to Dentsply Sirona global site\"). Text not found.",
+				"image": "(TEXT:\"Do you want to change to Dentsply Sirona global site\")",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-03-01 14:35:35.837 +0530",
+				"message": "Changing to Global site popup is not displaying",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 14:36:00.031 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1598, 21)",
+				"image": "<WebElement with TagName:\"span\", ID:\"\", Name:\"\", Text:\"Sign In/Register\", Class:\"ds-navbar-link-text\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[1544.640625,14,1653.640625,29]>",
+				"handlerLine": 4,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 14:36:05.037 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (652, 358)",
+				"image": "(TEXT:\"Welcome\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 14:36:11.462 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1132, 395)",
+				"image": "<WebElement with TagName:\"input\", ID:\"signInName\", Name:\"Sign in name\", Text:\"\", Class:\"\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[940,376.1875,1325,414.1875]>",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 14:36:13.034 +0530",
+				"message": "dthk-ep1@sharklasers.com[tab]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 9,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 14:36:14.453 +0530",
+				"message": "TestUser9#[return]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 11,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 14:36:33.703 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Never\"). Text not found.",
+				"image": "(TEXT:\"Never\")",
+				"handlerLine": 12,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 14:36:33.772 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 16,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 14:36:42.814 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Google Translate\"). Text not found.",
+				"image": "(TEXT:\"Google Translate\")",
+				"handlerLine": 17,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 14:36:43.400 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (1504, 136)",
+				"image": "(TEXT:\"Hi\")",
+				"handlerLine": 24,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_signin",
+				"timestamp": "2022-03-01 14:36:43.400 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 25,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-03-01 14:36:44.224 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (632, 481)",
+				"image": "(TEXT:\"Do you want to change to Dentsply Sirona global site\")",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-03-01 14:36:46.513 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (817, 609)",
+				"image": "(TEXT:\"No, stay here\")",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-01 14:36:46.546 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-01 14:36:47.294 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "at (1478, 139)",
+				"image": "UserIcon",
+				"handlerLine": 3,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-01 14:36:51.303 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "found at (1554, 363)",
+				"image": "(TEXT:\"Sign Out\")",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-01 14:36:51.472 +0530",
+				"message": "at (1554, 363)",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-01 14:36:52.421 +0530",
+				"message": "[controlKey]w",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-01 14:37:02.426 +0530",
+				"message": "SEARCHRECTANGLE = []",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 8,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 14:37:02.580 +0530",
+				"message": "{browser:\"Chrome\", host:\"192.168.1.171\", url:\"https://staging.dentsplysirona.com/en-us\"}",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 3,
+				"identifier": "WebConnect"
+			},
+		{
+				"message": "(Duration:\"163.253\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2022-03-01 14:34:31 +0530\", Successes:\"0\", TestCase:\"Master3_Login.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-03-01 14:37:15.190 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "SetUrlError: com.appium.selenium code=-2 description=Response code 500 received from Selenium Server. {\"error\": \"chrome not reachable\",\"message\": \"chrome not reachable\"}. -- Execution Time 0:02:43 Master3_Login.script",
+				"identifier": "FAILURE",
+				"timestamp": "2022-03-01 14:37:16.045 +0530"
+			},
+		{
+				"message": "SetUrlError: com.appium.selenium code=-2 description=Response code 500 received from Selenium Server. {\"error\": \"chrome not reachable\",\"message\": \"chrome not reachable\"}. -- Screenshot unavailable -- Execution Time 0:02:43 Master3_Login.script",
+				"identifier": "FAILURE",
+				"timestamp": "2022-03-01 14:37:28.427 +0530"
+			}
+	],
+	"createdTimestamp": "2022-03-01 14:34:31.936 +0530"
+}

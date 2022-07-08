@@ -1,0 +1,6 @@
+﻿Script,Last Status,Runs,Fails,First Run,Last Run,Avg Time(Success)
+master1_ENE,Success,37,25,2022-01-28 13:14:06 +0530,2022-02-02 15:24:36 +0530,0:02:57
+HongKong_Scenario,Success,1,0,2022-03-04 18:46:29 +0530,2022-03-04 18:46:29 +0530,0:00:00
+Master2_HongKong,Success,8,3,2022-03-01 16:21:32 +0530,2022-03-08 14:25:02 +0530,0:06:06
+ReusableHandlers,Success,3,0,2022-01-28 18:55:08 +0530,2022-02-02 12:23:32 +0530,0:00:00
+Master3_Login,Success,12,10,2022-03-01 13:24:36 +0530,2022-03-02 19:41:11 +0530,0:06:34

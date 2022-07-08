@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Master3_Login">
+ <run>
+  <RunDate>2022-03-01 13:23:54.816 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>26.450000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_132354.816/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 13:24:36.581 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>13.305000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_132436.581/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SetUrlError -- com.appium.selenium code=-2 description=Response code 500 received from Selenium Server. {&quot;error&quot;: &quot;chrome not reachable&quot;,&quot;message&quot;: &quot;chrome not reachable&quot;}.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 13:25:18.590 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>12.771000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_132518.590/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SetUrlError -- com.appium.selenium code=-2 description=Response code 500 received from Selenium Server. {&quot;error&quot;: &quot;chrome not reachable&quot;,&quot;message&quot;: &quot;chrome not reachable&quot;}.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 13:25:51.038 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>166.959000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_132551.038/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 13:28:41.340 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>127.084000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_132841.340/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 13:32:16.016 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>199.148000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_133216.016/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 13:37:58.587 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>12.776000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_133758.587/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SetUrlError -- com.appium.selenium code=-2 description=Response code 500 received from Selenium Server. {&quot;error&quot;: &quot;chrome not reachable&quot;,&quot;message&quot;: &quot;chrome not reachable&quot;}.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 13:38:50.690 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>124.447000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_133850.690/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 13:41:24.210 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>185.090000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_134124.210/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 13:45:01.104 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>72.008000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_134501.104/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 13:47:27.235 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>698.067000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_134727.235/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 14:27:41.178 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>177.212000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_142741.178/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 14:31:25.688 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>119.008000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_143125.688/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 14:34:31.921 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>163.269000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_143431.921/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SetUrlError -- com.appium.selenium code=-2 description=Response code 500 received from Selenium Server. {&quot;error&quot;: &quot;chrome not reachable&quot;,&quot;message&quot;: &quot;chrome not reachable&quot;}.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 14:42:24.644 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>106.784000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_144224.644/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 14:45:53.343 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>66.214000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_144553.343/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 14:47:53.126 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>78.635000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_144753.126/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>FailedToFindElement -- Couldn&#x27;t find element identified by {webCssSelector:&quot;body &gt; header &gt; div &gt; div &gt; div:nth-child(1) &gt; div &gt; div.ds-navbar-nav &gt; div:nth-child(2) &gt; div &gt; div:nth-child(2) &gt; div &gt; a &gt; span&quot;} -- Response code 500 received from Selenium Server. {&quot;error&quot;: &quot;chrome not reachable&quot;,&quot;message&quot;: &quot;chrome not reachable&quot;}.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 14:51:20.149 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>68.428000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_145120.149/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>FailedToFindElement -- Couldn&#x27;t find element identified by {webCssSelector:&quot;body &gt; header &gt; div &gt; div &gt; div:nth-child(1) &gt; div &gt; div.ds-navbar-nav &gt; div:nth-child(2) &gt; div &gt; div:nth-child(2) &gt; div &gt; a &gt; span&quot;} -- Response code 404 received from Selenium Server. {&quot;error&quot;: &quot;invalid session id&quot;,&quot;message&quot;: &quot;No active session with ID baf3d6bce5d9c4d32df5e829ea7c1931&quot;}.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 14:54:44.742 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>7.013000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_145444.742/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SetUrlError -- com.appium.selenium code=-2 description=Response code 404 received from Selenium Server. {&quot;error&quot;: &quot;invalid session id&quot;,&quot;message&quot;: &quot;No active session with ID baf3d6bce5d9c4d32df5e829ea7c1931&quot;}.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 14:55:14.717 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>73.539000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_145514.717/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>FailedToFindElement -- Couldn&#x27;t find element identified by {webCssSelector:&quot;body &gt; header &gt; div &gt; div &gt; div:nth-child(1) &gt; div &gt; div.ds-navbar-nav &gt; div:nth-child(2) &gt; div &gt; div:nth-child(2) &gt; div &gt; a &gt; span&quot;} -- Response code 404 received from Selenium Server. {&quot;error&quot;: &quot;no such element&quot;,&quot;message&quot;: &quot;no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;body &gt; header &gt; div &gt; div &gt; div:nth-child(1) &gt; div &gt; div.ds-navbar-nav &gt; div:nth-child(2) &gt; div &gt; div:nth-child(2) &gt; div &gt; a &gt; span&quot;}&quot;}.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 14:57:00.690 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>168.862000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_145700.690/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 15:01:23.127 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>115.543000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_150123.127/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 15:05:52.395 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>60.722000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_150552.395/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 15:26:05.891 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>132.392000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_152605.891/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 15:31:50.463 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>183.383000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_153150.463/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 11:59:47.622 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>93.159000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220302_115947.622/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 12:02:02.570 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>12.782000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220302_120202.570/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SetUrlError -- com.appium.selenium code=-2 description=Response code 500 received from Selenium Server. {&quot;error&quot;: &quot;chrome not reachable&quot;,&quot;message&quot;: &quot;chrome not reachable&quot;}.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 12:03:54.084 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>218.059000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220302_120354.084/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 12:16:47.119 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>182.465000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220302_121647.119/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 12:21:09.362 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>12.905000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220302_122109.362/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SetUrlError -- com.appium.selenium code=-2 description=Response code 500 received from Selenium Server. {&quot;error&quot;: &quot;chrome not reachable&quot;,&quot;message&quot;: &quot;chrome not reachable&quot;}.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 12:22:06.369 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>10.208000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220302_122206.369/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 12:22:44.650 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>414.271000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220302_122244.650/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 19:41:11.947 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>375.679000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220302_194111.947/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

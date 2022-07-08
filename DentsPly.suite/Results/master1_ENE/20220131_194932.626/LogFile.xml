@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="master_script" package="DentsPly.suite" timestamp="2022-01-31 19:49:32.626 +0530"
+ tests="1"  failures="1" errors="1" time="179.602000">
+  <properties>
+   <property name="RunDate" value="2022-01-31 19:49:32.626 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="master.script" assertions="1" status="error"  time="179.587">
+    <failure type="FAILURE" message="Error Running Script Command: readtext Error - Parameter Error - readtext called with absolute point (749, 840) and other parameters -- Execution Time 0:02:59 master.script" />
+    <error type="Exception" message="Parameter Error - readtext called with absolute point (749, 840) and other parameters" />
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,6 @@
+﻿2022-03-01 13:23:54.826 +0530	START		Running Master3_Login.script
+2022-03-01 13:23:57.505 +0530	WebConnect		{browser:"Chrome", host:"192.168.1.171", temporary:True, url:"https://staging.dentsplysirona.com/en-us"}	3	on_launch	LoginCheck.script
+2022-03-01 13:24:07.641 +0530	Set URL		https://staging.dentsplysirona.com/en-us on {Browser:"Chrome", Host:"192.168.1.171", Name:"", port:4444, temporary:"True", type:"WebDriver"}	3	on_launch	LoginCheck.script
+2022-03-01 13:24:21.066 +0530	Exception		Searching For Image: OCR Error: Operation was aborted	6	on_launch	LoginCheck.script
+2022-03-01 13:24:21.266 +0530	EndTestCase		(Duration:"26.435", Errors:"1", Exceptions:"1", StartTime:"2022-03-01 13:23:54 +0530", Successes:"0", TestCase:"Master3_Login.script", Warnings:"0")
+2022-03-01 13:24:21.313 +0530	ABORTED		Execution Time 0:00:26 Master3_Login.script

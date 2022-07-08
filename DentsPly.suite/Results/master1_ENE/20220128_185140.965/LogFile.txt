@@ -1,0 +1,43 @@
+﻿2022-01-28 18:51:40.972 +0530	START		Running master.script
+2022-01-28 18:51:41.115 +0530	Log		Email Address	11	on_exceldata	ReusableHandlers.script
+2022-01-28 18:51:41.115 +0530	Log		dent.ecom.user+stg.admin_valid@gmail.com	13	on_exceldata	ReusableHandlers.script
+2022-01-28 18:51:41.191 +0530	typetext		[windowsKey]r	2	on_launch	ReusableHandlers.script
+2022-01-28 18:51:43.825 +0530	typetext		Chrome https://staging.dentsplysirona.com/en-us[return]	3	on_launch	ReusableHandlers.script
+2022-01-28 18:51:52.080 +0530	waitfor	Shop	found at (393, 92)	4	on_launch	ReusableHandlers.script
+2022-01-28 18:52:03.032 +0530	imagefound	(TEXT:"Do you want to change to Dentsply Sirona global site")	found at (632, 450)	2	on_globalpopup	ReusableHandlers.script
+2022-01-28 18:52:05.607 +0530	click	(TEXT:"No, stay here")	at (817, 578)	3	on_globalpopup	ReusableHandlers.script
+2022-01-28 18:52:09.244 +0530	click	UserIcon	at (1526, 97)	2	on_signin	ReusableHandlers.script
+2022-01-28 18:52:21.489 +0530	waitfor	(TEXT:"Welcome")	found at (652, 321)	3	on_signin	ReusableHandlers.script
+2022-01-28 18:52:26.931 +0530	imagelocation	(TEXT:"Email Address")	at (1006, 472)	5	on_signin	ReusableHandlers.script
+2022-01-28 18:52:27.068 +0530	click		at (1006, 472)	5	on_signin	ReusableHandlers.script
+2022-01-28 18:52:29.317 +0530	typetext		dent.ecom.user+stg.admin_valid@gmail.com[tab]	6	on_signin	ReusableHandlers.script
+2022-01-28 18:52:30.771 +0530	typetext		Password01@[return]	9	on_signin	ReusableHandlers.script
+2022-01-28 18:52:38.742 +0530	imagefound	(TEXT:"Never")	found at (1762, 333)	11	on_signin	ReusableHandlers.script
+2022-01-28 18:52:39.005 +0530	click		at (1762, 333)	12	on_signin	ReusableHandlers.script
+2022-01-28 18:52:41.396 +0530	waitfor	(TEXT:"Default")	found at (1610, 95)	15	on_signin	ReusableHandlers.script
+2022-01-28 18:52:41.712 +0530	click	Shop	at (385, 96)	3	on_search	ReusableHandlers.script
+2022-01-28 18:52:48.324 +0530	imagefound	(TEXT:"Manage Preferred Distributors")	found at (1473, 168)	5	on_search	ReusableHandlers.script
+2022-01-28 18:52:50.382 +0530	click	(TEXT:"Distributors")	at (1614, 147)	6	on_search	ReusableHandlers.script
+2022-01-28 18:52:54.946 +0530	click	(TEXT:"SearchShop")	at (535, 186)	8	on_search	ReusableHandlers.script
+2022-01-28 18:52:55.941 +0530	typetext		endo[return]	9	on_search	ReusableHandlers.script
+2022-01-28 18:53:07.219 +0530	imagefound	(TEXT:"Sort by")	found at (1525, 307)	10	on_search	ReusableHandlers.script
+2022-01-28 18:53:21.121 +0530	imagefound	(TEXT:"$")	Unable to Find Image (TEXT:"$"). Text not found.	3	on_selectproduct	ReusableHandlers.script
+2022-01-28 18:53:21.202 +0530	scrollwheeldown		moved 3	4	on_selectproduct	ReusableHandlers.script
+2022-01-28 18:53:24.288 +0530	imagefound	(TEXT:"$")	found at (1108, 662)	5	on_selectproduct	ReusableHandlers.script
+2022-01-28 18:53:25.429 +0530	click		at (1158, 602)	7	on_selectproduct	ReusableHandlers.script
+2022-01-28 18:53:30.642 +0530	waitfor	(TEXT:"Add to Cart")	found at (1390, 649)	2	on_productverifications	ReusableHandlers.script
+2022-01-28 18:53:30.742 +0530	set		SEARCHRECTANGLE = [[960,0],[1920,540]]	3	on_productverifications	ReusableHandlers.script
+2022-01-28 18:53:31.528 +0530	imagefound	(TEXT:"$")	found at (1185, 448)	4	on_productverifications	ReusableHandlers.script
+2022-01-28 18:53:31.544 +0530	Log		Price of product is Visible	5	on_productverifications	ReusableHandlers.script
+2022-01-28 18:53:32.346 +0530	imagefound	(TEXT:"In Stock")	found at (1207, 507)	9	on_productverifications	ReusableHandlers.script
+2022-01-28 18:53:32.361 +0530	Log		Product is in stock	10	on_productverifications	ReusableHandlers.script
+2022-01-28 18:53:32.361 +0530	set		SEARCHRECTANGLE = 	14	on_productverifications	ReusableHandlers.script
+2022-01-28 18:53:33.248 +0530	click	(TEXT:"Add to Cart")	at (1390, 649)	2	on_addtocart	ReusableHandlers.script
+2022-01-28 18:53:33.264 +0530	set		SEARCHRECTANGLE = [[0,0],[1920,540]]	3	on_addtocart	ReusableHandlers.script
+2022-01-28 18:53:37.088 +0530	imagefound	(TEXT:"Added to Cart")	found at (361, 173)	4	on_addtocart	ReusableHandlers.script
+2022-01-28 18:53:37.104 +0530	Log		Product is added to cart	5	on_addtocart	ReusableHandlers.script
+2022-01-28 18:53:38.417 +0530	click	(TEXT:"Proceed to Checkout")	at (1507, 162)	6	on_addtocart	ReusableHandlers.script
+2022-01-28 18:53:38.417 +0530	set		SEARCHRECTANGLE = 	10	on_addtocart	ReusableHandlers.script
+2022-01-28 18:53:38.545 +0530	Exception		Image Property List did not contain "ImageName" property	3	on_checkout	ReusableHandlers.script
+2022-01-28 18:53:38.894 +0530	EndTestCase		(Duration:"117.919", Errors:"1", Exceptions:"1", StartTime:"2022-01-28 18:51:40 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-01-28 18:53:39.278 +0530	FAILURE	Screen_Error.png	Image Not Found: waitfor Error - Image Property List did not contain "ImageName" property -- Execution Time 0:01:57 master.script

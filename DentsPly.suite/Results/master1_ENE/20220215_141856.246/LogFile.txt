@@ -1,0 +1,5 @@
+﻿2022-02-15 14:18:56.262 +0530	START		Running master.script
+2022-02-15 14:18:56.843 +0530	typetext		[windowsKey]r	2	on_launch	ReusableHandlers.script
+2022-02-15 14:18:58.883 +0530	typetext		Chrome https://staging.dentsplysirona.com/de-de[return]	3	on_launch	ReusableHandlers.script
+2022-02-15 14:19:45.436 +0530	EndTestCase		(Duration:"49.165", Errors:"1", Exceptions:"0", StartTime:"2022-02-15 14:18:56 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-02-15 14:19:45.549 +0530	ABORTED		Execution Time 0:00:49 master.script

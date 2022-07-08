@@ -1,0 +1,90 @@
+﻿2022-01-28 21:56:54.591 +0530	START		Running master.script
+2022-01-28 21:56:54.741 +0530	Log		Email Address	11	on_exceldata	ReusableHandlers.script
+2022-01-28 21:56:54.741 +0530	Log		dent.ecom.user+stg.admin_valid@gmail.com	13	on_exceldata	ReusableHandlers.script
+2022-01-28 21:56:54.808 +0530	typetext		[windowsKey]r	2	on_launch	ReusableHandlers.script
+2022-01-28 21:56:57.157 +0530	typetext		Chrome https://staging.dentsplysirona.com/en-us[return]	3	on_launch	ReusableHandlers.script
+2022-01-28 21:57:09.482 +0530	waitfor	Shop	found at (393, 92)	4	on_launch	ReusableHandlers.script
+2022-01-28 21:57:17.652 +0530	imagefound	(TEXT:"Do you want to change to Dentsply Sirona global site")	found at (632, 450)	2	on_globalpopup	ReusableHandlers.script
+2022-01-28 21:57:19.387 +0530	click	(TEXT:"No, stay here")	at (817, 578)	3	on_globalpopup	ReusableHandlers.script
+2022-01-28 21:57:20.257 +0530	click	UserIcon	at (1526, 97)	2	on_signin	ReusableHandlers.script
+2022-01-28 21:57:32.087 +0530	waitfor	(TEXT:"Welcome")	found at (652, 321)	3	on_signin	ReusableHandlers.script
+2022-01-28 21:57:37.559 +0530	imagelocation	(TEXT:"Email Address")	at (1006, 472)	5	on_signin	ReusableHandlers.script
+2022-01-28 21:57:37.697 +0530	click		at (1006, 472)	5	on_signin	ReusableHandlers.script
+2022-01-28 21:57:39.977 +0530	typetext		dent.ecom.user+stg.admin_valid@gmail.com[tab]	6	on_signin	ReusableHandlers.script
+2022-01-28 21:57:41.445 +0530	typetext		Password01@[return]	9	on_signin	ReusableHandlers.script
+2022-01-28 21:57:50.627 +0530	imagefound	(TEXT:"Never")	found at (1762, 333)	11	on_signin	ReusableHandlers.script
+2022-01-28 21:57:50.977 +0530	click		at (1762, 333)	12	on_signin	ReusableHandlers.script
+2022-01-28 21:57:54.351 +0530	waitfor	(TEXT:"Default")	found at (1489, 95)	15	on_signin	ReusableHandlers.script
+2022-01-28 21:57:54.720 +0530	click	Shop	at (385, 96)	3	on_search	ReusableHandlers.script
+2022-01-28 21:58:01.411 +0530	imagefound	(TEXT:"Distributors")	found at (1541, 167)	5	on_search	ReusableHandlers.script
+2022-01-28 21:58:03.361 +0530	click	(TEXT:"Distributors")	at (1614, 147)	6	on_search	ReusableHandlers.script
+2022-01-28 21:58:06.013 +0530	click	(TEXT:"SearchShop")	at (535, 186)	8	on_search	ReusableHandlers.script
+2022-01-28 21:58:06.886 +0530	typetext		endo[return]	9	on_search	ReusableHandlers.script
+2022-01-28 21:58:18.950 +0530	imagefound	(TEXT:"Sort by")	Unable to Find Image (TEXT:"Sort by"). Text not found.	10	on_search	ReusableHandlers.script
+2022-01-28 21:58:23.382 +0530	imagefound	(TEXT:"Sort by")	found at (1525, 307)	10	on_search	ReusableHandlers.script
+2022-01-28 21:58:37.233 +0530	imagefound	(TEXT:"$")	Unable to Find Image (TEXT:"$"). Text not found.	3	on_selectproduct	ReusableHandlers.script
+2022-01-28 21:58:37.296 +0530	scrollwheeldown		moved 3	4	on_selectproduct	ReusableHandlers.script
+2022-01-28 21:58:40.534 +0530	imagefound	(TEXT:"$")	found at (1108, 662)	5	on_selectproduct	ReusableHandlers.script
+2022-01-28 21:58:41.671 +0530	click		at (1158, 602)	7	on_selectproduct	ReusableHandlers.script
+2022-01-28 21:58:46.985 +0530	waitfor	(TEXT:"Add to Cart")	found at (1390, 649)	2	on_productverifications	ReusableHandlers.script
+2022-01-28 21:58:47.086 +0530	set		SEARCHRECTANGLE = [[960,0],[1920,540]]	3	on_productverifications	ReusableHandlers.script
+2022-01-28 21:58:47.831 +0530	imagefound	(TEXT:"$")	found at (1185, 448)	4	on_productverifications	ReusableHandlers.script
+2022-01-28 21:58:47.847 +0530	Log		Price of product is Visible	5	on_productverifications	ReusableHandlers.script
+2022-01-28 21:58:48.584 +0530	imagefound	(TEXT:"In Stock")	found at (1207, 507)	9	on_productverifications	ReusableHandlers.script
+2022-01-28 21:58:48.584 +0530	Log		Product is in stock	10	on_productverifications	ReusableHandlers.script
+2022-01-28 21:58:48.584 +0530	set		SEARCHRECTANGLE = 	14	on_productverifications	ReusableHandlers.script
+2022-01-28 21:58:49.332 +0530	click	(TEXT:"Add to Cart")	at (1390, 649)	2	on_addingtocart	ReusableHandlers.script
+2022-01-28 21:58:49.332 +0530	set		SEARCHRECTANGLE = [[0,0],[1920,540]]	3	on_addingtocart	ReusableHandlers.script
+2022-01-28 21:58:53.868 +0530	imagefound	(TEXT:"Proceed to Checkout")	found at (1507, 161)	4	on_addingtocart	ReusableHandlers.script
+2022-01-28 21:58:54.096 +0530	click		at (1507, 161)	5	on_addingtocart	ReusableHandlers.script
+2022-01-28 21:58:54.112 +0530	Log		Product is added to cart	6	on_addingtocart	ReusableHandlers.script
+2022-01-28 21:58:54.128 +0530	set		SEARCHRECTANGLE = 	10	on_addingtocart	ReusableHandlers.script
+2022-01-28 21:58:58.582 +0530	waitfor	(TEXT:"Place Order")	found at (1507, 284)	3	on_checkout	ReusableHandlers.script
+2022-01-28 21:58:58.598 +0530	Log		User Landed on the checkout page	4	on_checkout	ReusableHandlers.script
+2022-01-28 21:58:58.683 +0530	set		SEARCHRECTANGLE = [[0,0],[960,1080]]	5	on_checkout	ReusableHandlers.script
+2022-01-28 21:58:59.484 +0530	imagefound	(TEXT:"New York")	found at (454, 385)	6	on_checkout	ReusableHandlers.script
+2022-01-28 21:58:59.484 +0530	Log		Correct Address is prepopulated	7	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:00.286 +0530	imagefound	(TEXT:"Standard Ground")	found at (482, 585)	11	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:00.302 +0530	Log		Delivery options is verified	12	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:13.471 +0530	imagefound	(TEXT:"Order Total")	Unable to Find Image (TEXT:"Order Total"). Text not found.	16	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:13.660 +0530	scrollwheeldown		moved 3	17	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:27.883 +0530	imagefound	(TEXT:"Order Total")	Unable to Find Image (TEXT:"Order Total"). Text not found.	19	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:28.066 +0530	scrollwheeldown		moved 3	17	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:30.982 +0530	imagefound	(TEXT:"Order Total")	found at (615, 705)	19	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:31.922 +0530	imagerectangle	(TEXT:"Order Total")	at [558,698,673,713]	20	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:32.053 +0530	readtext		(678,698,773,713)	21	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:32.867 +0530	imagerectangle	(TEXT:"Payment Method")	at [426,251,560,266]	22	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:33.152 +0530	click	(TEXT:"Edit")	at (1227, 257)	23	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:37.245 +0530	imagefound	(TEXT:"1111")	found at (528, 707)	25	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:37.392 +0530	click		at (528, 707)	29	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:38.240 +0530	imagerectangle	PayButton	at [424,699,438,712]	30	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:38.409 +0530	readtext		(1124,689,1288,732)	31	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:38.606 +0530	set		SEARCHRECTANGLE = [[0,270],[1920,810]]	33	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:45.704 +0530	imagefound	(TEXT:"Save and Continue")	Unable to Find Image (TEXT:"Save and Continue"). Text not found.	34	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:45.820 +0530	scrollwheeldown		moved 3	35	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:54.156 +0530	imagefound	(TEXT:"Save and Continue")	Unable to Find Image (TEXT:"Save and Continue"). Text not found.	37	on_checkout	ReusableHandlers.script
+2022-01-28 21:59:54.257 +0530	scrollwheeldown		moved 3	35	on_checkout	ReusableHandlers.script
+2022-01-28 22:00:03.625 +0530	imagefound	(TEXT:"Save and Continue")	Unable to Find Image (TEXT:"Save and Continue"). Text not found.	37	on_checkout	ReusableHandlers.script
+2022-01-28 22:00:03.710 +0530	scrollwheeldown		moved 3	35	on_checkout	ReusableHandlers.script
+2022-01-28 22:00:11.907 +0530	imagefound	(TEXT:"Save and Continue")	Unable to Find Image (TEXT:"Save and Continue"). Text not found.	37	on_checkout	ReusableHandlers.script
+2022-01-28 22:00:12.007 +0530	scrollwheeldown		moved 3	35	on_checkout	ReusableHandlers.script
+2022-01-28 22:00:13.693 +0530	imagefound	(TEXT:"Save and Continue")	found at (1166, 541)	37	on_checkout	ReusableHandlers.script
+2022-01-28 22:00:13.847 +0530	click		at (1166, 541)	38	on_checkout	ReusableHandlers.script
+2022-01-28 22:00:23.749 +0530	imagefound	(TEXT:"Review Products")	Unable to Find Image (TEXT:"Review Products"). Text not found.	40	on_checkout	ReusableHandlers.script
+2022-01-28 22:00:24.050 +0530	scrollwheelup		moved 3	41	on_checkout	ReusableHandlers.script
+2022-01-28 22:00:26.750 +0530	imagefound	(TEXT:"Review Products")	found at (496, 387)	43	on_checkout	ReusableHandlers.script
+2022-01-28 22:00:27.558 +0530	imagefound	(TEXT:"DS Points")	found at (924, 548)	44	on_checkout	ReusableHandlers.script
+2022-01-28 22:00:27.574 +0530	Log		Loyalty points are populated	45	on_checkout	ReusableHandlers.script
+2022-01-28 22:00:28.576 +0530	imagefound	(TEXT:"Promotion")	found at (1410, 348)	49	on_checkout	ReusableHandlers.script
+2022-01-28 22:00:29.563 +0530	imagerectangle	(TEXT:"Promotion")	at [1373,343,1447,353]	50	on_checkout	ReusableHandlers.script
+2022-01-28 22:00:29.741 +0530	readtext		(1553,343,1667,353)	51	on_checkout	ReusableHandlers.script
+2022-01-28 22:00:29.741 +0530	Log		Promotional discount is -S10 00	51	on_checkout	ReusableHandlers.script
+2022-01-28 22:00:30.580 +0530	click	(TEXT:"Place Order")	at (1507, 188)	55	on_checkout	ReusableHandlers.script
+2022-01-28 22:00:30.580 +0530	set		SEARCHRECTANGLE = 	56	on_checkout	ReusableHandlers.script
+2022-01-28 22:00:30.712 +0530	set		SEARCHRECTANGLE = [[0,540],[1920,1080]]	2	on_paymentcheck	ReusableHandlers.script
+2022-01-28 22:00:51.085 +0530	imagefound	(TEXT:"11-2041")	found at (837, 585)	3	on_paymentcheck	ReusableHandlers.script
+2022-01-28 22:00:51.316 +0530	Log		payment method matches previously selected method	4	on_paymentcheck	ReusableHandlers.script
+2022-01-28 22:00:52.252 +0530	click	(TEXT:"Pay")	at (1236, 673)	8	on_paymentcheck	ReusableHandlers.script
+2022-01-28 22:00:52.268 +0530	set		SEARCHRECTANGLE = 	9	on_paymentcheck	ReusableHandlers.script
+2022-01-28 22:00:52.616 +0530	EndTestCase		(Duration:"238.019", Errors:"1", Exceptions:"0", StartTime:"2022-01-28 21:56:54 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-01-28 22:00:52.962 +0530	FAILURE	Screen_Error.png	STUnknownMessage: ERROR: No Such Command: 'orderconfirmation' -- Execution Time 0:03:58 master.script

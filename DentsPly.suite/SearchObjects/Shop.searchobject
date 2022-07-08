@@ -1,0 +1,46 @@
+{
+	"lastmodifieddate": 1643367967.7820001,
+	"lastfoundlocation": [
+		380,
+		107,
+		16,
+		14
+	],
+	"originalcapturelocation": [
+		380,
+		107,
+		16,
+		14
+	],
+	"createddate": 1643367967.7820001,
+	"lastfounddate": 1643368072.2539999,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[8,7]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Shop.png",
+				"connectionname": "81",
+				"type": 1,
+				"capturerect": [
+					380,
+					107,
+					16,
+					14
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "192.168.1.81"
+			}
+	],
+	"name": "Shop"
+}

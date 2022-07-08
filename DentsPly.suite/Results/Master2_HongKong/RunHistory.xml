@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Master2_HongKong">
+ <run>
+  <RunDate>2022-03-01 16:21:32.292 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>179.542000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_162132.292/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Error Running Script Command -- imagefound Error - Too Few Parameters, please use imagefound([TIME], image1[, ...])</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 16:35:40.213 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>135.165000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_163540.213/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>NoWebDriver -- FindElement function must be called with (or on) a WebDriver (or WebElement) object.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 16:38:27.459 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>184.180000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_163827.459/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- imagefound Error - Image Property List did not contain &quot;ImageName&quot; property  Restricted Search Rectangle ((0,0),(1920,540))
+</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 16:46:39.982 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>248.288000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_164639.982/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-01 16:52:15.811 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>244.042000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220301_165215.811/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 11:26:39.621 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>336.760000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220302_112639.621/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 11:33:45.168 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>340.878000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220302_113345.168/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 11:45:08.236 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>314.854000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220302_114508.236/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 19:00:15.815 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>298.491000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220302_190015.815/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 19:14:07.883 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>401.631000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220302_191407.883/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-02 20:06:50.646 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>340.575000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220302_200650.646/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-08 12:42:03.739 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>74.753000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220308_124203.739/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-08 12:46:33.502 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>216.322000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220308_124633.502/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-08 14:09:04.350 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>387.662000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20220308_140904.350/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2022-03-08 14:25:02.155 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>476.648000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20220308_142502.155/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

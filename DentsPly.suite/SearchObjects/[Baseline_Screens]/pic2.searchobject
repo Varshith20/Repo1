@@ -1,0 +1,49 @@
+{
+	"originalcapturelocation": [
+		384,
+		334,
+		1302,
+		511
+	],
+	"lastmodifieddate": 1646821322.6059999,
+	"createddate": 1646821178.3499999,
+	"name": "[Baseline_Screens]/pic2",
+	"lastfounddate": 1646821837.3639998,
+	"ocrcapturestring": "pular Item  5287 IX Volumax|10 x 12.5mm Sign in for Price • o o Featured Product New Product You Might Like  TruNatomy Conform Fit Gutta-Percha Points, Prime Sign in for Price Purchase Options > A1O32OOOOOOOO X-Smart Plus Sign in for Price BSTW1GG621015 WaveOne Gold Glider 6-File Sterile 21mm Sign in for Price lase Options > Purchase Options > Purchase Options >",
+	"lastfoundlocation": [
+		491,
+		334,
+		1195,
+		438
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"deleted": true,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[651,255]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "[Baseline_Screens]/pic2.png",
+				"connectionname": "171",
+				"type": 1,
+				"connectionserverid": "192.168.1.171",
+				"capturerect": [
+					384,
+					334,
+					1302,
+					511
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "pular Item  5287 IX Volumax|10 x 12.5mm Sign in for Price • o o Featured Product New Product You Might Like  TruNatomy Conform Fit Gutta-Percha Points, Prime Sign in for Price Purchase Options > A1O32OOOOOOOO X-Smart Plus Sign in for Price BSTW1GG621015 WaveOne Gold Glider 6-File Sterile 21mm Sign in for Price lase Options > Purchase Options > Purchase Options >"
+			}
+	]
+}

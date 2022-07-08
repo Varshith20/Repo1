@@ -1,0 +1,47 @@
+{
+	"originalcapturelocation": [
+		1515,
+		125,
+		24,
+		24
+	],
+	"lastmodifieddate": 1646723671.378,
+	"createddate": 1646028521.105,
+	"name": "UserIcon/UserIcon_Hongkong",
+	"lastfounddate": 1646723720.4450002,
+	"ocrcapturestring": "©",
+	"lastfoundlocation": [
+		1536,
+		482,
+		11,
+		15
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[10,14]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "UserIcon/UserIcon_Hongkong.png",
+				"connectionname": "171",
+				"type": 1,
+				"capturerect": [
+					1515,
+					125,
+					24,
+					24
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "192.168.1.171"
+			}
+	]
+}

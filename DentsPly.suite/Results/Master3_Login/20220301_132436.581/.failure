@@ -1,0 +1,1 @@
+2022-03-01 13:24:36.581 +0530,Failure,0:00:13,1,0,0,20220301_132436.581/LogFile.txt,"","SetUrlError -- com.appium.selenium code=-2 description=Response code 500 received from Selenium Server. {""error"": ""chrome not reachable"",""message"": ""chrome not reachable""}.",0

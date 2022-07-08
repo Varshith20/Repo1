@@ -1,0 +1,3 @@
+﻿2022-02-02 12:23:32.081 +0530	START		Running ReusableHandlers.script
+2022-02-02 12:23:32.097 +0530	EndTestCase		(Duration:"0", Errors:"0", Exceptions:"0", StartTime:"2022-02-02 12:23:32 +0530", Successes:"1", TestCase:"ReusableHandlers.script", Warnings:"0")
+2022-02-02 12:23:32.360 +0530	SUCCESS		Execution Time 0:00:00 ReusableHandlers.script

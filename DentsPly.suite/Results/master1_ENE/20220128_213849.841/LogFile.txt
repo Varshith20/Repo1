@@ -1,0 +1,7 @@
+﻿2022-01-28 21:38:49.847 +0530	START		Running master.script
+2022-01-28 21:38:50.066 +0530	Log			11	on_exceldata	ReusableHandlers.script
+2022-01-28 21:38:50.082 +0530	Log			13	on_exceldata	ReusableHandlers.script
+2022-01-28 21:38:50.398 +0530	typetext		[windowsKey]r	2	on_launch	ReusableHandlers.script
+2022-01-28 21:38:51.168 +0530	typetext		 [return]	3	on_launch	ReusableHandlers.script
+2022-01-28 21:39:39.251 +0530	EndTestCase		(Duration:"49.403", Errors:"1", Exceptions:"0", StartTime:"2022-01-28 21:38:49 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-01-28 21:39:39.297 +0530	ABORTED		Execution Time 0:00:49 master.script

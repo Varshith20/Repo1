@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="master_script" package="DentsPly.suite" timestamp="2022-02-02 13:36:28.880 +0530"
+ tests="1"  failures="0" errors="0" time="252.954000">
+  <properties>
+   <property name="RunDate" value="2022-02-02 13:36:28.880 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="master.script" assertions="1" status="success"  time="252.938">
+  </testcase>
+ </testsuite>
+</testsuites>

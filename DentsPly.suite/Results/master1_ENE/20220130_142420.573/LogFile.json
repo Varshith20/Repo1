@@ -1,0 +1,52 @@
+{
+	"entries": [
+		{
+				"message": "Running master.script",
+				"identifier": "START",
+				"timestamp": "2022-01-30 14:24:20.573 +0530"
+			},
+		{
+				"handlerName": "on_exceldata",
+				"timestamp": "2022-01-30 14:24:20.781 +0530",
+				"message": "E-Mail-Adresse",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 11,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_exceldata",
+				"timestamp": "2022-01-30 14:24:20.796 +0530",
+				"message": "dent.ecom.user+stg.admin_valid@gmail.com",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 13,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-30 14:24:20.875 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-01-30 14:24:22.300 +0530",
+				"message": "microsoft-edge://[return]",
+				"scriptName": "ReusableHandlers.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"1.903\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2022-01-30 14:24:20 +0530\", Successes:\"0\", TestCase:\"master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-01-30 14:24:22.476 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:01 master.script",
+				"identifier": "ABORTED",
+				"timestamp": "2022-01-30 14:24:22.576 +0530"
+			}
+	],
+	"createdTimestamp": "2022-01-30 14:24:20.573 +0530"
+}

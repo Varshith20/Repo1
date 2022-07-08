@@ -1,0 +1,17 @@
+﻿2022-01-28 17:48:50.737 +0530	START		Running master.script
+2022-01-28 17:48:50.931 +0530	typetext		[windowsKey]r	2	on_launch	ReusableHandlers.script
+2022-01-28 17:48:53.554 +0530	typetext		Chrome https://staging.dentsplysirona.com/en-us [return]	3	on_launch	ReusableHandlers.script
+2022-01-28 17:48:57.166 +0530	waitfor	Shop	found at (393, 92)	4	on_launch	ReusableHandlers.script
+2022-01-28 17:49:33.081 +0530	imagefound	(TEXT:"Do you want to change to Dentsply Sirona global site")	Unable to Find Image (TEXT:"Do you want to change to Dentsply Sirona global site"). Text not found.	2	on_globalpopup	ReusableHandlers.script
+2022-01-28 17:49:33.128 +0530	Log		Changing to Global site popup is not displaying	5	on_globalpopup	ReusableHandlers.script
+2022-01-28 17:49:33.453 +0530	click	UserIcon	at (1526, 115)	2	on_signin	ReusableHandlers.script
+2022-01-28 17:49:52.175 +0530	waitfor	(TEXT:"Welcome")	found at (670, 321)	3	on_signin	ReusableHandlers.script
+2022-01-28 17:49:52.623 +0530	imagelocation	(TEXT:"Email Address")	at (1006, 472)	4	on_signin	ReusableHandlers.script
+2022-01-28 17:49:52.761 +0530	click		at (1026, 512)	4	on_signin	ReusableHandlers.script
+2022-01-28 17:49:54.904 +0530	typetext		dent.ecom.user+stg.admin_valid@gmail.com 	5	on_signin	ReusableHandlers.script
+2022-01-28 17:49:56.936 +0530	typetext		[tab]	8	on_signin	ReusableHandlers.script
+2022-01-28 17:49:58.056 +0530	typetext		Password01@	9	on_signin	ReusableHandlers.script
+2022-01-28 17:49:58.809 +0530	typetext		[return]	10	on_signin	ReusableHandlers.script
+2022-01-28 17:50:12.348 +0530	Exception		Searching For Image: OCR Error: Operation was aborted	12	on_signin	ReusableHandlers.script
+2022-01-28 17:50:12.833 +0530	EndTestCase		(Duration:"82.096", Errors:"1", Exceptions:"1", StartTime:"2022-01-28 17:48:50 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-01-28 17:50:13.002 +0530	ABORTED		Execution Time 0:01:22 master.script

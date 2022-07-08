@@ -1,0 +1,162 @@
+{
+	"entries": [
+		{
+				"message": "Running Master_ScriptDemo.script",
+				"identifier": "START",
+				"timestamp": "2022-03-09 14:58:17.040 +0530"
+			},
+		{
+				"handlerName": "on_launchapp",
+				"timestamp": "2022-03-09 14:58:17.256 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "ScripDemo.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchapp",
+				"timestamp": "2022-03-09 14:58:30.375 +0530",
+				"scriptName": "ScripDemo.script",
+				"message": "found at (271, 773)",
+				"image": "(TEXT:\"Run\")",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_launchapp",
+				"timestamp": "2022-03-09 14:58:32.312 +0530",
+				"message": "chrome https://staging.dentsplysirona.com/en-hk/shop[return]",
+				"scriptName": "ScripDemo.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_login",
+				"timestamp": "2022-03-09 14:58:38.981 +0530",
+				"scriptName": "ScripDemo.script",
+				"message": "found at (1505, 121)",
+				"image": "(TEXT:\"Sign In\")",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_login",
+				"timestamp": "2022-03-09 14:58:41.120 +0530",
+				"message": "at (1505, 121)",
+				"scriptName": "ScripDemo.script",
+				"handlerLine": 4,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_login",
+				"timestamp": "2022-03-09 14:58:41.143 +0530",
+				"message": "SEARCHRECTANGLE = [[0,270],[1920,810]]",
+				"scriptName": "ScripDemo.script",
+				"handlerLine": 5,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_login",
+				"timestamp": "2022-03-09 14:58:46.964 +0530",
+				"scriptName": "ScripDemo.script",
+				"message": "found at (652, 353)",
+				"image": "(TEXT:\"Welcome\")",
+				"handlerLine": 6,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_login",
+				"timestamp": "2022-03-09 14:58:49.445 +0530",
+				"scriptName": "ScripDemo.script",
+				"message": "at (1006, 504)",
+				"image": "(TEXT:\"Email Address\")",
+				"handlerLine": 8,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_login",
+				"timestamp": "2022-03-09 14:58:51.048 +0530",
+				"message": "dthk-ep1@sharklasers.com[tab]",
+				"scriptName": "ScripDemo.script",
+				"handlerLine": 9,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_login",
+				"timestamp": "2022-03-09 14:58:52.168 +0530",
+				"message": "TestUser9#[return]",
+				"scriptName": "ScripDemo.script",
+				"handlerLine": 10,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_login",
+				"timestamp": "2022-03-09 14:58:52.176 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "ScripDemo.script",
+				"handlerLine": 11,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-09 14:58:52.384 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "ScripDemo.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-09 14:59:05.287 +0530",
+				"scriptName": "ScripDemo.script",
+				"message": "found at (1529, 121)",
+				"image": "(TEXT:\"Hi\")",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-09 14:59:07.350 +0530",
+				"message": "at (1529, 121)",
+				"scriptName": "ScripDemo.script",
+				"handlerLine": 6,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-09 14:59:10.615 +0530",
+				"scriptName": "ScripDemo.script",
+				"message": "found at (1494, 326)",
+				"image": "(TEXT:\"Sign Out\")",
+				"handlerLine": 7,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-09 14:59:11.044 +0530",
+				"message": "at (1494, 326)",
+				"scriptName": "ScripDemo.script",
+				"handlerLine": 8,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_logout",
+				"timestamp": "2022-03-09 14:59:11.044 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "ScripDemo.script",
+				"handlerLine": 9,
+				"identifier": "set"
+			},
+		{
+				"message": "(Duration:\"54.3\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2022-03-09 14:58:17 +0530\", Successes:\"1\", TestCase:\"Master_ScriptDemo.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-03-09 14:59:11.348 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:54 Master_ScriptDemo.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2022-03-09 14:59:11.516 +0530"
+			}
+	],
+	"createdTimestamp": "2022-03-09 14:58:17.048 +0530"
+}

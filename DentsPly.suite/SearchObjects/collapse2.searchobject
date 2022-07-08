@@ -1,0 +1,150 @@
+{
+	"lastmodifieddate": 1646726745.4759998,
+	"lastfoundlocation": [
+		101,
+		410,
+		30,
+		8
+	],
+	"originalcapturelocation": [
+		1519,
+		343,
+		30,
+		8
+	],
+	"createddate": 1646726343.3200002,
+	"lastfounddate": 1646726741.8660002,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[9,10,37,18]",
+					"Rotate": 0,
+					"Scale": "  1.1",
+					"HotSpot": "[12,5]",
+					"Tolerance": 90,
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "collapse.png",
+				"connectionname": "171",
+				"type": 1,
+				"capturerect": [
+					1519,
+					343,
+					30,
+					8
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "192.168.1.171"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[9,10,37,18]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[12,5]",
+					"Tolerance": 90,
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "collapse.png",
+				"connectionname": "171",
+				"type": 1,
+				"capturerect": [
+					1519,
+					343,
+					28,
+					8
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "192.168.1.171"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[9,10,37,18]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[12,5]",
+					"Tolerance": 95,
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "collapse.png",
+				"connectionname": "171",
+				"type": 1,
+				"capturerect": [
+					1519,
+					343,
+					28,
+					8
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "192.168.1.171"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[9,10,37,18]",
+					"Rotate": 0,
+					"Scale": "  1.1",
+					"HotSpot": "[12,5]",
+					"Tolerance": 95,
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "collapse.png",
+				"connectionname": "171",
+				"type": 1,
+				"capturerect": [
+					1519,
+					343,
+					30,
+					8
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "192.168.1.171"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[9,10,37,18]",
+					"Rotate": 0,
+					"Tolerance": "_46",
+					"HotSpot": "[12,5]",
+					"Scale": "  1.1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "collapse.png",
+				"connectionname": "171",
+				"type": 1,
+				"capturerect": [
+					1519,
+					343,
+					30,
+					8
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "192.168.1.171"
+			}
+	],
+	"name": "collapse2"
+}

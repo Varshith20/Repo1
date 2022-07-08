@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<statistics>
+ <script name="master1_ENE">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>37</NumberOfRuns>
+  <NumberOfFails>25</NumberOfFails>
+  <FirstRun>2022-01-28 13:14:06 +0530</FirstRun>
+  <LastRun>2022-02-02 15:24:36 +0530</LastRun>
+  <TotalTimeOnSuccess>2132.751000</TotalTimeOnSuccess>
+ </script>
+ <script name="HongKong_Scenario">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2022-03-04 18:46:29 +0530</FirstRun>
+  <LastRun>2022-03-04 18:46:29 +0530</LastRun>
+  <TotalTimeOnSuccess>0.033000</TotalTimeOnSuccess>
+ </script>
+ <script name="Master2_HongKong">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>8</NumberOfRuns>
+  <NumberOfFails>3</NumberOfFails>
+  <FirstRun>2022-03-01 16:21:32 +0530</FirstRun>
+  <LastRun>2022-03-08 14:25:02 +0530</LastRun>
+  <TotalTimeOnSuccess>1832.199000</TotalTimeOnSuccess>
+ </script>
+ <script name="ReusableHandlers">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2022-01-28 18:55:08 +0530</FirstRun>
+  <LastRun>2022-02-02 12:23:32 +0530</LastRun>
+  <TotalTimeOnSuccess>0.088000</TotalTimeOnSuccess>
+ </script>
+ <script name="Master3_Login">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>12</NumberOfRuns>
+  <NumberOfFails>10</NumberOfFails>
+  <FirstRun>2022-03-01 13:24:36 +0530</FirstRun>
+  <LastRun>2022-03-02 19:41:11 +0530</LastRun>
+  <TotalTimeOnSuccess>789.950000</TotalTimeOnSuccess>
+ </script>
+</statistics>

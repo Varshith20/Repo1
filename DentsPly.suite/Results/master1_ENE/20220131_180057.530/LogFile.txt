@@ -1,0 +1,7 @@
+﻿2022-01-31 18:00:57.537 +0530	START		Running master.script
+2022-01-31 18:00:57.686 +0530	Log		E-Mail-Adresse	11	on_exceldata	ReusableHandlers.script
+2022-01-31 18:00:57.692 +0530	Log		dent.ecom.user+stg.admin_valid@gmail.com	13	on_exceldata	ReusableHandlers.script
+2022-01-31 18:00:57.755 +0530	typetext		[windowsKey]r	2	on_launch	ReusableHandlers.script
+2022-01-31 18:00:59.974 +0530	typetext		https://staging.dentsplysirona.com/de-de[return]	3	on_launch	ReusableHandlers.script
+2022-01-31 18:01:06.757 +0530	EndTestCase		(Duration:"9.22", Errors:"1", Exceptions:"0", StartTime:"2022-01-31 18:00:57 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-01-31 18:01:06.826 +0530	ABORTED		Execution Time 0:00:09 master.script

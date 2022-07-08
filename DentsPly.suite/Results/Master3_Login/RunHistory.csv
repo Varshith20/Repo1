@@ -1,0 +1,34 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2022-03-01 13:23:54.816 +0530,"Aborted",0:00:26,1,0,1,"20220301_132354.816/LogFile.txt","","",0
+2022-03-01 13:24:36.581 +0530,"Failure",0:00:13,1,0,0,"20220301_132436.581/LogFile.txt","","SetUrlError -- com.appium.selenium code=-2 description=Response code 500 received from Selenium Server. {""error"": ""chrome not reachable"",""message"": ""chrome not reachable""}.",0
+2022-03-01 13:25:18.590 +0530,"Failure",0:00:12,1,0,0,"20220301_132518.590/LogFile.txt","","SetUrlError -- com.appium.selenium code=-2 description=Response code 500 received from Selenium Server. {""error"": ""chrome not reachable"",""message"": ""chrome not reachable""}.",0
+2022-03-01 13:25:51.038 +0530,"Aborted",0:02:46,1,0,1,"20220301_132551.038/LogFile.txt","","",0
+2022-03-01 13:28:41.340 +0530,"Aborted",0:02:07,1,0,0,"20220301_132841.340/LogFile.txt","","",0
+2022-03-01 13:32:16.016 +0530,"Aborted",0:03:19,1,0,1,"20220301_133216.016/LogFile.txt","","",0
+2022-03-01 13:37:58.587 +0530,"Failure",0:00:12,1,0,0,"20220301_133758.587/LogFile.txt","","SetUrlError -- com.appium.selenium code=-2 description=Response code 500 received from Selenium Server. {""error"": ""chrome not reachable"",""message"": ""chrome not reachable""}.",0
+2022-03-01 13:38:50.690 +0530,"Aborted",0:02:04,1,0,1,"20220301_133850.690/LogFile.txt","","",0
+2022-03-01 13:41:24.210 +0530,"Aborted",0:03:05,1,0,1,"20220301_134124.210/LogFile.txt","","",0
+2022-03-01 13:45:01.104 +0530,"Aborted",0:01:12,1,0,1,"20220301_134501.104/LogFile.txt","","",0
+2022-03-01 13:47:27.235 +0530,"Aborted",0:11:38,1,0,1,"20220301_134727.235/LogFile.txt","","",0
+2022-03-01 14:27:41.178 +0530,"Aborted",0:02:57,1,0,1,"20220301_142741.178/LogFile.txt","","",0
+2022-03-01 14:31:25.688 +0530,"Aborted",0:01:59,1,0,1,"20220301_143125.688/LogFile.txt","","",0
+2022-03-01 14:34:31.921 +0530,"Failure",0:02:43,1,0,0,"20220301_143431.921/LogFile.txt","","SetUrlError -- com.appium.selenium code=-2 description=Response code 500 received from Selenium Server. {""error"": ""chrome not reachable"",""message"": ""chrome not reachable""}.",0
+2022-03-01 14:42:24.644 +0530,"Aborted",0:01:46,1,0,1,"20220301_144224.644/LogFile.txt","","",0
+2022-03-01 14:45:53.343 +0530,"Aborted",0:01:06,1,0,1,"20220301_144553.343/LogFile.txt","","",0
+2022-03-01 14:47:53.126 +0530,"Failure",0:01:18,1,0,0,"20220301_144753.126/LogFile.txt","","FailedToFindElement -- Couldn't find element identified by {webCssSelector:""body > header > div > div > div:nth-child(1) > div > div.ds-navbar-nav > div:nth-child(2) > div > div:nth-child(2) > div > a > span""} -- Response code 500 received from Selenium Server. {""error"": ""chrome not reachable"",""message"": ""chrome not reachable""}.",0
+2022-03-01 14:51:20.149 +0530,"Failure",0:01:08,1,0,0,"20220301_145120.149/LogFile.txt","","FailedToFindElement -- Couldn't find element identified by {webCssSelector:""body > header > div > div > div:nth-child(1) > div > div.ds-navbar-nav > div:nth-child(2) > div > div:nth-child(2) > div > a > span""} -- Response code 404 received from Selenium Server. {""error"": ""invalid session id"",""message"": ""No active session with ID baf3d6bce5d9c4d32df5e829ea7c1931""}.",0
+2022-03-01 14:54:44.742 +0530,"Failure",0:00:07,1,0,0,"20220301_145444.742/LogFile.txt","","SetUrlError -- com.appium.selenium code=-2 description=Response code 404 received from Selenium Server. {""error"": ""invalid session id"",""message"": ""No active session with ID baf3d6bce5d9c4d32df5e829ea7c1931""}.",0
+2022-03-01 14:55:14.717 +0530,"Failure",0:01:13,1,0,0,"20220301_145514.717/LogFile.txt","","FailedToFindElement -- Couldn't find element identified by {webCssSelector:""body > header > div > div > div:nth-child(1) > div > div.ds-navbar-nav > div:nth-child(2) > div > div:nth-child(2) > div > a > span""} -- Response code 404 received from Selenium Server. {""error"": ""no such element"",""message"": ""no such element: Unable to locate element: {""method"":""css selector"",""selector"":""body > header > div > div > div:nth-child(1) > div > div.ds-navbar-nav > div:nth-child(2) > div > div:nth-child(2) > div > a > span""}""}.",0
+2022-03-01 14:57:00.690 +0530,"Aborted",0:02:48,1,0,1,"20220301_145700.690/LogFile.txt","","",0
+2022-03-01 15:01:23.127 +0530,"Aborted",0:01:55,1,0,1,"20220301_150123.127/LogFile.txt","","",0
+2022-03-01 15:05:52.395 +0530,"Aborted",0:01:00,1,0,0,"20220301_150552.395/LogFile.txt","","",0
+2022-03-01 15:26:05.891 +0530,"Aborted",0:02:12,1,0,0,"20220301_152605.891/LogFile.txt","","",0
+2022-03-01 15:31:50.463 +0530,"Aborted",0:03:03,1,0,0,"20220301_153150.463/LogFile.txt","","",0
+2022-03-02 11:59:47.622 +0530,"Aborted",0:01:33,1,0,1,"20220302_115947.622/LogFile.txt","","",0
+2022-03-02 12:02:02.570 +0530,"Failure",0:00:12,1,0,0,"20220302_120202.570/LogFile.txt","","SetUrlError -- com.appium.selenium code=-2 description=Response code 500 received from Selenium Server. {""error"": ""chrome not reachable"",""message"": ""chrome not reachable""}.",0
+2022-03-02 12:03:54.084 +0530,"Aborted",0:03:38,1,0,1,"20220302_120354.084/LogFile.txt","","",0
+2022-03-02 12:16:47.119 +0530,"Aborted",0:03:02,1,0,0,"20220302_121647.119/LogFile.txt","","",0
+2022-03-02 12:21:09.362 +0530,"Failure",0:00:12,1,0,0,"20220302_122109.362/LogFile.txt","","SetUrlError -- com.appium.selenium code=-2 description=Response code 500 received from Selenium Server. {""error"": ""chrome not reachable"",""message"": ""chrome not reachable""}.",0
+2022-03-02 12:22:06.369 +0530,"Aborted",0:00:10,1,0,0,"20220302_122206.369/LogFile.txt","","",0
+2022-03-02 12:22:44.650 +0530,"Success",0:06:54,0,0,0,"20220302_122244.650/LogFile.txt","","",1
+2022-03-02 19:41:11.947 +0530,"Success",0:06:15,0,0,0,"20220302_194111.947/LogFile.txt","","",1

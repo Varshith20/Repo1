@@ -1,0 +1,22 @@
+﻿2022-01-28 18:18:01.892 +0530	START		Running master.script
+2022-01-28 18:18:02.085 +0530	Log		Email Address	11	on_exceldata	ReusableHandlers.script
+2022-01-28 18:18:02.091 +0530	Log		dent.ecom.user+stg.admin_valid@gmail.com	13	on_exceldata	ReusableHandlers.script
+2022-01-28 18:18:02.153 +0530	typetext		[windowsKey]r	2	on_launch	ReusableHandlers.script
+2022-01-28 18:18:04.625 +0530	typetext		Chrome https://staging.dentsplysirona.com/en-us[return]	3	on_launch	ReusableHandlers.script
+2022-01-28 18:18:09.118 +0530	waitfor	Shop	found at (393, 92)	4	on_launch	ReusableHandlers.script
+2022-01-28 18:18:44.694 +0530	imagefound	(TEXT:"Do you want to change to Dentsply Sirona global site")	Unable to Find Image (TEXT:"Do you want to change to Dentsply Sirona global site"). Text not found.	2	on_globalpopup	ReusableHandlers.script
+2022-01-28 18:18:44.741 +0530	Log		Changing to Global site popup is not displaying	5	on_globalpopup	ReusableHandlers.script
+2022-01-28 18:18:44.942 +0530	click	UserIcon	at (1526, 115)	2	on_signin	ReusableHandlers.script
+2022-01-28 18:18:58.210 +0530	waitfor	(TEXT:"Welcome")	found at (670, 321)	3	on_signin	ReusableHandlers.script
+2022-01-28 18:19:03.719 +0530	imagelocation	(TEXT:"Email Address")	at (1006, 472)	5	on_signin	ReusableHandlers.script
+2022-01-28 18:19:03.835 +0530	click		at (1006, 472)	5	on_signin	ReusableHandlers.script
+2022-01-28 18:19:06.118 +0530	typetext		dent.ecom.user+stg.admin_valid@gmail.com[tab]	6	on_signin	ReusableHandlers.script
+2022-01-28 18:19:07.573 +0530	typetext		Password01@[return]	9	on_signin	ReusableHandlers.script
+2022-01-28 18:19:21.760 +0530	waitfor	(TEXT:"Default")	found at (1487, 95)	11	on_signin	ReusableHandlers.script
+2022-01-28 18:19:22.038 +0530	click	Shop	at (385, 96)	2	on_search	ReusableHandlers.script
+2022-01-28 18:19:34.589 +0530	click	(TEXT:"SearchShop")	at (535, 186)	3	on_search	ReusableHandlers.script
+2022-01-28 18:19:35.706 +0530	typetext		endo[return]	4	on_search	ReusableHandlers.script
+2022-01-28 18:19:52.718 +0530	imagefound	(TEXT:"Sort by")	Unable to Find Image (TEXT:"Sort by"). Text not found.	5	on_search	ReusableHandlers.script
+2022-01-28 18:19:57.940 +0530	Exception		Searching For Image: OCR Error: Operation was aborted	5	on_search	ReusableHandlers.script
+2022-01-28 18:19:58.325 +0530	EndTestCase		(Duration:"116.433", Errors:"1", Exceptions:"1", StartTime:"2022-01-28 18:18:01 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-01-28 18:19:58.441 +0530	ABORTED		Execution Time 0:01:56 master.script

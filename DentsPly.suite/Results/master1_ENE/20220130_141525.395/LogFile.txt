@@ -1,0 +1,19 @@
+﻿2022-01-30 14:15:25.403 +0530	START		Running master.script
+2022-01-30 14:15:25.544 +0530	Log		E-Mail-Adresse	11	on_exceldata	ReusableHandlers.script
+2022-01-30 14:15:25.544 +0530	Log		dent.ecom.user+stg.admin_valid@gmail.com	13	on_exceldata	ReusableHandlers.script
+2022-01-30 14:15:25.622 +0530	typetext		[windowsKey]r	2	on_launch	ReusableHandlers.script
+2022-01-30 14:15:28.028 +0530	typetext		Chrome https://staging.dentsplysirona.com/de-de[return]	3	on_launch	ReusableHandlers.script
+2022-01-30 14:15:40.884 +0530	waitfor	Shop	found at (406, 92)	4	on_launch	ReusableHandlers.script
+2022-01-30 14:15:54.918 +0530	imagefound	(TEXT:"Do you want to change to Dentsply Sirona global site")	found at (632, 450)	2	on_globalpopup	ReusableHandlers.script
+2022-01-30 14:15:57.941 +0530	click	(TEXT:"No, stay here")	at (817, 578)	3	on_globalpopup	ReusableHandlers.script
+2022-01-30 14:16:00.678 +0530	click	UserIcon	at (1478, 97)	2	on_signin	ReusableHandlers.script
+2022-01-30 14:16:18.816 +0530	waitfor	(TEXT:"Willkommen")	found at (702, 321)	3	on_signin	ReusableHandlers.script
+2022-01-30 14:16:24.539 +0530	imagelocation	(TEXT:"E-Mail-Adresse")	at (1008, 472)	5	on_signin	ReusableHandlers.script
+2022-01-30 14:16:24.671 +0530	click		at (1008, 472)	5	on_signin	ReusableHandlers.script
+2022-01-30 14:16:26.990 +0530	typetext		dent.ecom.user+stg.admin_valid@gmail.com[tab]	6	on_signin	ReusableHandlers.script
+2022-01-30 14:16:28.445 +0530	typetext		Password01@[return]	9	on_signin	ReusableHandlers.script
+2022-01-30 14:16:37.702 +0530	imagefound	(TEXT:"Never")	found at (1762, 333)	11	on_signin	ReusableHandlers.script
+2022-01-30 14:16:37.987 +0530	click		at (1762, 333)	12	on_signin	ReusableHandlers.script
+2022-01-30 14:16:51.920 +0530	Exception		Searching For Image: OCR Error: Operation was aborted	15	on_signin	ReusableHandlers.script
+2022-01-30 14:16:52.064 +0530	EndTestCase		(Duration:"86.661", Errors:"1", Exceptions:"1", StartTime:"2022-01-30 14:15:25 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-01-30 14:16:52.137 +0530	ABORTED		Execution Time 0:01:26 master.script

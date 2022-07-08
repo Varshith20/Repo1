@@ -1,0 +1,8 @@
+﻿2022-01-28 21:46:59.029 +0530	START		Running master.script
+2022-01-28 21:46:59.198 +0530	Log		E-Mail-Adresse	11	on_exceldata	ReusableHandlers.script
+2022-01-28 21:46:59.198 +0530	Log		dent.ecom.user+stg.admin_valid@gmail.com	13	on_exceldata	ReusableHandlers.script
+2022-01-28 21:46:59.286 +0530	typetext		[windowsKey]r	2	on_launch	ReusableHandlers.script
+2022-01-28 21:47:01.705 +0530	typetext		Chrome https://staging.dentsplysirona.com/de-de[return]	3	on_launch	ReusableHandlers.script
+2022-01-28 21:47:05.613 +0530	waitfor	Shop	found at (406, 92)	4	on_launch	ReusableHandlers.script
+2022-01-28 21:47:06.483 +0530	EndTestCase		(Duration:"7.454", Errors:"1", Exceptions:"0", StartTime:"2022-01-28 21:46:59 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-01-28 21:47:06.546 +0530	ABORTED		Execution Time 0:00:07 master.script

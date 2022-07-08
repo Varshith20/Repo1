@@ -1,0 +1,102 @@
+{
+	"entries": [
+		{
+				"message": "Running Master3_Login.script",
+				"identifier": "START",
+				"timestamp": "2022-03-01 14:55:14.725 +0530"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 14:55:21.029 +0530",
+				"message": "{browser:\"Chrome\", host:\"192.168.1.171\", url:\"https://staging.dentsplysirona.com/en-us\"}",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 3,
+				"identifier": "WebConnect"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 14:55:28.314 +0530",
+				"message": "https://staging.dentsplysirona.com/en-us on {Browser:\"Chrome\", host:\"192.168.1.171\", Name:\"\", port:4444, temporary:\"True\", type:\"WebDriver\", url:\"https://staging.dentsplysirona.com/en-us\"}",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 3,
+				"identifier": "Set URL"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 14:55:54.292 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Yes, I am\"). Text not found.",
+				"image": "(TEXT:\"Yes, I am\")",
+				"handlerLine": 9,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 14:55:54.333 +0530",
+				"message": "Changing to Global site popup is not displaying",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 12,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 14:55:54.339 +0530",
+				"message": "SEARCHRECTANGLE = [[960,0],[1920,540]]",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 15,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 14:56:05.595 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Google Translate\"). Text not found.",
+				"image": "(TEXT:\"Google Translate\")",
+				"handlerLine": 16,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 14:56:05.611 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 23,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-03-01 14:56:27.617 +0530",
+				"scriptName": "LoginCheck.script",
+				"message": "Unable to Find Image (TEXT:\"Do you want to change to Dentsply Sirona global site\"). Text not found.",
+				"image": "(TEXT:\"Do you want to change to Dentsply Sirona global site\")",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_globalpopup",
+				"timestamp": "2022-03-01 14:56:27.686 +0530",
+				"message": "Changing to Global site popup is not displaying",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"73.527\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2022-03-01 14:55:14 +0530\", Successes:\"0\", TestCase:\"Master3_Login.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-03-01 14:56:28.256 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "FailedToFindElement: Couldn't find element identified by {webCssSelector:\"body > header > div > div > div:nth-child(1) > div > div.ds-navbar-nav > div:nth-child(2) > div > div:nth-child(2) > div > a > span\"} -- Response code 404 received from Selenium Server. {\"error\": \"no such element\",\"message\": \"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > header > div > div > div:nth-child(1) > div > div.ds-navbar-nav > div:nth-child(2) > div > div:nth-child(2) > div > a > span\"}\"}. -- Execution Time 0:01:13 Master3_Login.script",
+				"identifier": "FAILURE",
+				"timestamp": "2022-03-01 14:56:28.504 +0530"
+			},
+		{
+				"image": "Screen_Error_Web.png",
+				"message": "FailedToFindElement: Couldn't find element identified by {webCssSelector:\"body > header > div > div > div:nth-child(1) > div > div.ds-navbar-nav > div:nth-child(2) > div > div:nth-child(2) > div > a > span\"} -- Response code 404 received from Selenium Server. {\"error\": \"no such element\",\"message\": \"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body > header > div > div > div:nth-child(1) > div > div.ds-navbar-nav > div:nth-child(2) > div > div:nth-child(2) > div > a > span\"}\"}. -- Execution Time 0:01:13 Master3_Login.script",
+				"identifier": "FAILURE",
+				"timestamp": "2022-03-01 14:56:29.085 +0530"
+			}
+	],
+	"createdTimestamp": "2022-03-01 14:55:14.729 +0530"
+}

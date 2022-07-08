@@ -1,0 +1,21 @@
+﻿2022-03-01 14:57:00.696 +0530	START		Running Master3_Login.script
+2022-03-01 14:57:04.932 +0530	WebConnect		{browser:"Chrome", host:"192.168.1.171", url:"https://staging.dentsplysirona.com/en-us"}	3	on_launch	LoginCheck.script
+2022-03-01 14:57:12.773 +0530	Set URL		https://staging.dentsplysirona.com/en-us on {Browser:"Chrome", host:"192.168.1.171", Name:"", port:4444, temporary:"True", type:"WebDriver", url:"https://staging.dentsplysirona.com/en-us"}	3	on_launch	LoginCheck.script
+2022-03-01 14:57:40.570 +0530	imagefound	(TEXT:"Yes, I am")	Unable to Find Image (TEXT:"Yes, I am"). Text not found.	9	on_launch	LoginCheck.script
+2022-03-01 14:57:40.601 +0530	Log		Changing to Global site popup is not displaying	12	on_launch	LoginCheck.script
+2022-03-01 14:57:40.617 +0530	set		SEARCHRECTANGLE = [[960,0],[1920,540]]	15	on_launch	LoginCheck.script
+2022-03-01 14:57:51.961 +0530	imagefound	(TEXT:"Google Translate")	Unable to Find Image (TEXT:"Google Translate"). Text not found.	16	on_launch	LoginCheck.script
+2022-03-01 14:57:51.996 +0530	set		SEARCHRECTANGLE = 	23	on_launch	LoginCheck.script
+2022-03-01 14:58:13.263 +0530	imagefound	(TEXT:"Do you want to change to Dentsply Sirona global site")	Unable to Find Image (TEXT:"Do you want to change to Dentsply Sirona global site"). Text not found.	2	on_globalpopup	LoginCheck.script
+2022-03-01 14:58:13.323 +0530	Log		Changing to Global site popup is not displaying	5	on_globalpopup	LoginCheck.script
+2022-03-01 14:58:29.972 +0530	click	<WebElement with TagName:"span", ID:"", Name:"", Text:"Sign In/Register", Class:"ds-navbar-link-text", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[1544.640625,36,1653.640625,51]>	at (1598, 43)	4	on_signin	LoginCheck.script
+2022-03-01 14:58:34.305 +0530	waitfor	(TEXT:"Welcome")	found at (652, 366)	5	on_signin	LoginCheck.script
+2022-03-01 14:58:41.014 +0530	click	<WebElement with TagName:"input", ID:"signInName", Name:"Sign in name", Text:"", Class:"", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[940,384,1325,422]>	at (1132, 403)	7	on_signin	LoginCheck.script
+2022-03-01 14:58:43.180 +0530	typetext		dent.ecom.user+stg.admin_valid@gmail.com[tab]	9	on_signin	LoginCheck.script
+2022-03-01 14:58:44.599 +0530	typetext		Password01[return]	11	on_signin	LoginCheck.script
+2022-03-01 14:59:00.502 +0530	imagefound	(TEXT:"Never")	Unable to Find Image (TEXT:"Never"). Text not found.	12	on_signin	LoginCheck.script
+2022-03-01 14:59:00.555 +0530	set		SEARCHRECTANGLE = [[960,0],[1920,540]]	16	on_signin	LoginCheck.script
+2022-03-01 14:59:08.085 +0530	imagefound	(TEXT:"Google Translate")	Unable to Find Image (TEXT:"Google Translate"). Text not found.	17	on_signin	LoginCheck.script
+2022-03-01 14:59:49.298 +0530	Exception		Searching For Image: OCR Error: Operation was aborted	24	on_signin	LoginCheck.script
+2022-03-01 14:59:49.552 +0530	EndTestCase		(Duration:"168.848", Errors:"1", Exceptions:"1", StartTime:"2022-03-01 14:57:00 +0530", Successes:"0", TestCase:"Master3_Login.script", Warnings:"0")
+2022-03-01 14:59:49.646 +0530	ABORTED		Execution Time 0:02:48 Master3_Login.script

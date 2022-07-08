@@ -1,0 +1,17 @@
+﻿2022-01-28 18:12:30.606 +0530	START		Running master.script
+2022-01-28 18:12:30.787 +0530	Log		Email Address	11	on_exceldata	ReusableHandlers.script
+2022-01-28 18:12:30.796 +0530	Log		dent.ecom.user+stg.admin_valid@gmail.com	13	on_exceldata	ReusableHandlers.script
+2022-01-28 18:12:30.865 +0530	typetext		[windowsKey]r	2	on_launch	ReusableHandlers.script
+2022-01-28 18:12:33.106 +0530	typetext		Chrome https://staging.dentsplysirona.com/en-us[return]	3	on_launch	ReusableHandlers.script
+2022-01-28 18:12:46.203 +0530	waitfor	Shop	found at (393, 92)	4	on_launch	ReusableHandlers.script
+2022-01-28 18:12:53.150 +0530	imagefound	(TEXT:"Do you want to change to Dentsply Sirona global site")	found at (632, 450)	2	on_globalpopup	ReusableHandlers.script
+2022-01-28 18:12:55.075 +0530	click	(TEXT:"No, stay here")	at (817, 578)	3	on_globalpopup	ReusableHandlers.script
+2022-01-28 18:12:59.350 +0530	click	UserIcon	at (1526, 115)	2	on_signin	ReusableHandlers.script
+2022-01-28 18:13:19.718 +0530	waitfor	(TEXT:"Welcome")	found at (670, 321)	3	on_signin	ReusableHandlers.script
+2022-01-28 18:13:25.158 +0530	imagelocation	(TEXT:"Email Address")	at (1006, 472)	5	on_signin	ReusableHandlers.script
+2022-01-28 18:13:25.292 +0530	click		at (1006, 472)	5	on_signin	ReusableHandlers.script
+2022-01-28 18:13:27.417 +0530	typetext		dent.ecom.user+stg.admin_valid@gmail.com[tab]	6	on_signin	ReusableHandlers.script
+2022-01-28 18:13:28.839 +0530	typetext		Password01@[return]	9	on_signin	ReusableHandlers.script
+2022-01-28 18:14:30.928 +0530	Exception	(TEXT:"Default")	Unable To Find Any Image On Screen "(TEXT:"Default")" within 60.00 seconds. Text not found.	11	on_signin	ReusableHandlers.script
+2022-01-28 18:14:31.486 +0530	EndTestCase		(Duration:"120.873", Errors:"1", Exceptions:"1", StartTime:"2022-01-28 18:12:30 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-01-28 18:14:31.845 +0530	FAILURE	Screen_Error.png	Image Not Found: waitfor Error - Unable To Find Any Image On Screen "(TEXT:"Default")" within 60.00 seconds. Text not found.  Restricted Search Rectangle ((960,0),(1920,540))\n -- Execution Time 0:02:00 master.script

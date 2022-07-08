@@ -1,0 +1,5 @@
+﻿2022-03-01 13:24:36.591 +0530	START		Running Master3_Login.script
+2022-03-01 13:24:36.848 +0530	WebConnect		{browser:"Chrome", host:"192.168.1.171", url:"https://staging.dentsplysirona.com/en-us"}	3	on_launch	LoginCheck.script
+2022-03-01 13:24:49.886 +0530	EndTestCase		(Duration:"13.289", Errors:"1", Exceptions:"0", StartTime:"2022-03-01 13:24:36 +0530", Successes:"0", TestCase:"Master3_Login.script", Warnings:"0")
+2022-03-01 13:24:50.859 +0530	FAILURE	Screen_Error.png	SetUrlError: com.appium.selenium code=-2 description=Response code 500 received from Selenium Server. {"error": "chrome not reachable","message": "chrome not reachable"}. -- Execution Time 0:00:13 Master3_Login.script
+2022-03-01 13:25:01.205 +0530	FAILURE		SetUrlError: com.appium.selenium code=-2 description=Response code 500 received from Selenium Server. {"error": "chrome not reachable","message": "chrome not reachable"}. -- Screenshot unavailable -- Execution Time 0:00:13 Master3_Login.script

@@ -1,0 +1,14 @@
+﻿put {"German","English","HongKong"} into list
+repeat with each item of list
+	put it into Global Language
+	
+	LoginCheck.ExcelData
+	LoginCheck.launch
+	LoginCheck.signin
+	LoginCheck.globalpopup
+	LoginCheck.logout
+	LoginCheck.CleanUpBrowser
+end repeat
+
+
+

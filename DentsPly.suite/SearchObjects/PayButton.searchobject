@@ -1,0 +1,46 @@
+{
+	"lastmodifieddate": 1643366966.5349998,
+	"lastfoundlocation": [
+		424,
+		310,
+		14,
+		13
+	],
+	"originalcapturelocation": [
+		422,
+		495,
+		18,
+		19
+	],
+	"createddate": 1643366914.4190001,
+	"lastfounddate": 1644924309.224,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[9,9]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "PayButton.png",
+				"connectionname": "81",
+				"type": 1,
+				"capturerect": [
+					422,
+					495,
+					18,
+					19
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "192.168.1.81"
+			}
+	],
+	"name": "PayButton"
+}

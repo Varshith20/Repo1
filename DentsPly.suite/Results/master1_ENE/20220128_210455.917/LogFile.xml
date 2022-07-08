@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="master_script" package="DentsPly.suite" timestamp="2022-01-28 21:04:55.917 +0530"
+ tests="1"  failures="1" errors="1" time="0.631000">
+  <properties>
+   <property name="RunDate" value="2022-01-28 21:04:55.917 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="master.script" assertions="1" status="error"  time="0.627">
+    <failure type="FAILURE" message="Error Running Script Command: click Error - Image Property List did not contain &quot;ImageName&quot; property -- Execution Time 0:00:00 master.script" />
+    <error type="Exception" message="Image Property List did not contain &quot;ImageName&quot; property" />
+  </testcase>
+ </testsuite>
+</testsuites>

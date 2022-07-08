@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="master_script" package="DentsPly.suite" timestamp="2022-01-28 21:34:18.220 +0530"
+ tests="1"  failures="0" errors="0" time="196.987000">
+  <properties>
+   <property name="RunDate" value="2022-01-28 21:34:18.220 +0530"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="master.script" assertions="1" status="error"  time="196.981">
+    <error type="Exception" message="Unable To Find Any Image On Screen &quot;Shop&quot; within 60.00 seconds" />
+  </testcase>
+ </testsuite>
+</testsuites>

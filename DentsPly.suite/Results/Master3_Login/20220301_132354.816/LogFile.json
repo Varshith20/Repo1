@@ -1,0 +1,44 @@
+{
+	"entries": [
+		{
+				"message": "Running Master3_Login.script",
+				"identifier": "START",
+				"timestamp": "2022-03-01 13:23:54.826 +0530"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 13:23:57.505 +0530",
+				"message": "{browser:\"Chrome\", host:\"192.168.1.171\", temporary:True, url:\"https://staging.dentsplysirona.com/en-us\"}",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 3,
+				"identifier": "WebConnect"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 13:24:07.641 +0530",
+				"message": "https://staging.dentsplysirona.com/en-us on {Browser:\"Chrome\", Host:\"192.168.1.171\", Name:\"\", port:4444, temporary:\"True\", type:\"WebDriver\"}",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 3,
+				"identifier": "Set URL"
+			},
+		{
+				"handlerName": "on_launch",
+				"timestamp": "2022-03-01 13:24:21.066 +0530",
+				"message": "Searching For Image: OCR Error: Operation was aborted",
+				"scriptName": "LoginCheck.script",
+				"handlerLine": 6,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"26.435\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2022-03-01 13:23:54 +0530\", Successes:\"0\", TestCase:\"Master3_Login.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-03-01 13:24:21.266 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:26 Master3_Login.script",
+				"identifier": "ABORTED",
+				"timestamp": "2022-03-01 13:24:21.313 +0530"
+			}
+	],
+	"createdTimestamp": "2022-03-01 13:23:54.830 +0530"
+}

@@ -1,0 +1,26 @@
+﻿2022-03-01 13:32:16.017 +0530	START		Running Master3_Login.script
+2022-03-01 13:32:20.013 +0530	WebConnect		{browser:"Chrome", host:"192.168.1.171", url:"https://staging.dentsplysirona.com/en-us"}	3	on_launch	LoginCheck.script
+2022-03-01 13:32:51.375 +0530	Set URL		https://staging.dentsplysirona.com/en-us on {Browser:"Chrome", host:"192.168.1.171", Name:"", port:4444, temporary:"True", type:"WebDriver", url:"https://staging.dentsplysirona.com/en-us"}	3	on_launch	LoginCheck.script
+2022-03-01 13:33:13.139 +0530	imagefound	(TEXT:"Yes, I am")	Unable to Find Image (TEXT:"Yes, I am"). Text not found.	6	on_launch	LoginCheck.script
+2022-03-01 13:33:13.170 +0530	Log		Changing to Global site popup is not displaying	9	on_launch	LoginCheck.script
+2022-03-01 13:33:13.186 +0530	set		SEARCHRECTANGLE = [[960,0],[1920,540]]	12	on_launch	LoginCheck.script
+2022-03-01 13:33:24.735 +0530	imagefound	(TEXT:"Google Translate")	Unable to Find Image (TEXT:"Google Translate"). Text not found.	13	on_launch	LoginCheck.script
+2022-03-01 13:33:24.766 +0530	set		SEARCHRECTANGLE = 	20	on_launch	LoginCheck.script
+2022-03-01 13:33:52.780 +0530	imagefound	(TEXT:"Do you want to change to Dentsply Sirona global site")	Unable to Find Image (TEXT:"Do you want to change to Dentsply Sirona global site"). Text not found.	2	on_globalpopup	LoginCheck.script
+2022-03-01 13:33:52.887 +0530	Log		Changing to Global site popup is not displaying	5	on_globalpopup	LoginCheck.script
+2022-03-01 13:33:53.119 +0530	click	UserIcon	at (1526, 160)	2	on_signin	LoginCheck.script
+2022-03-01 13:34:20.421 +0530	waitfor	(TEXT:"Welcome")	found at (670, 366)	3	on_signin	LoginCheck.script
+2022-03-01 13:34:29.587 +0530	click	<WebElement with TagName:"input", ID:"signInName", Name:"Sign in name", Text:"", Class:"", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[940,384,1325,422]>	at (1132, 403)	6	on_signin	LoginCheck.script
+2022-03-01 13:34:31.730 +0530	typetext		dent.ecom.user+stg.admin_valid@gmail.com[tab]	8	on_signin	LoginCheck.script
+2022-03-01 13:34:33.118 +0530	typetext		Password01[return]	10	on_signin	LoginCheck.script
+2022-03-01 13:34:48.976 +0530	imagefound	(TEXT:"Never")	Unable to Find Image (TEXT:"Never"). Text not found.	11	on_signin	LoginCheck.script
+2022-03-01 13:34:49.006 +0530	set		SEARCHRECTANGLE = [[960,0],[1920,540]]	15	on_signin	LoginCheck.script
+2022-03-01 13:34:56.904 +0530	imagefound	(TEXT:"Google Translate")	Unable to Find Image (TEXT:"Google Translate"). Text not found.	16	on_signin	LoginCheck.script
+2022-03-01 13:34:57.374 +0530	waitfor	(TEXT:"Default")	found at (1485, 158)	23	on_signin	LoginCheck.script
+2022-03-01 13:34:57.374 +0530	set		SEARCHRECTANGLE = 	24	on_signin	LoginCheck.script
+2022-03-01 13:34:58.555 +0530	imagefound	(TEXT:"Do you want to change to Dentsply Sirona global site")	found at (632, 481)	2	on_globalpopup	LoginCheck.script
+2022-03-01 13:34:58.909 +0530	click		at (632, 481)	3	on_globalpopup	LoginCheck.script
+2022-03-01 13:34:58.971 +0530	set		SEARCHRECTANGLE = [[960,0],[1920,540]]	2	on_logout	LoginCheck.script
+2022-03-01 13:35:34.955 +0530	Exception	UserIcon	No Image Found On Screen: "UserIcon"	3	on_logout	LoginCheck.script
+2022-03-01 13:35:35.165 +0530	EndTestCase		(Duration:"199.148", Errors:"1", Exceptions:"1", StartTime:"2022-03-01 13:32:16 +0530", Successes:"0", TestCase:"Master3_Login.script", Warnings:"0")
+2022-03-01 13:35:35.255 +0530	ABORTED		Execution Time 0:03:19 Master3_Login.script

@@ -1,0 +1,8 @@
+﻿2022-01-31 10:17:35.038 +0530	START		Running master.script
+2022-01-31 10:17:35.198 +0530	Log		Email Address	11	on_exceldata	ReusableHandlers.script
+2022-01-31 10:17:35.203 +0530	Log		dent.ecom.user+stg.admin_valid@gmail.com	13	on_exceldata	ReusableHandlers.script
+2022-01-31 10:17:35.267 +0530	typetext		[windowsKey]r	2	on_launch	ReusableHandlers.script
+2022-01-31 10:17:36.260 +0530	typetext		Chrome[return]	3	on_launch	ReusableHandlers.script
+2022-01-31 10:17:36.794 +0530	Exception		Searching For Image: OCR Error: Operation was aborted	4	on_launch	ReusableHandlers.script
+2022-01-31 10:17:37.011 +0530	EndTestCase		(Duration:"1.966", Errors:"1", Exceptions:"1", StartTime:"2022-01-31 10:17:35 +0530", Successes:"0", TestCase:"master.script", Warnings:"0")
+2022-01-31 10:17:37.070 +0530	ABORTED		Execution Time 0:00:01 master.script

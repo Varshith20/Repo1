@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Master2_HongKong_script" package="DentsPly.suite" timestamp="2022-03-01 16:35:40.213 +0530"
+ tests="1"  failures="1" errors="0" time="135.165000">
+  <properties>
+   <property name="RunDate" value="2022-03-01 16:35:40.213 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Master2_HongKong.script" assertions="1" status="failure"  time="135.159">
+    <failure type="FAILURE" message="NoWebDriver: FindElement function must be called with (or on) a WebDriver (or WebElement) object. -- Execution Time 0:02:15 Master2_HongKong.script" />
+  </testcase>
+ </testsuite>
+</testsuites>
